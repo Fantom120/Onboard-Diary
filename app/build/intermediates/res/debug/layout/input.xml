@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTheme"
+        android:hint="тема"
+        android:background="#e7e983"
+        android:textColor="#0d0c0c" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editDate"
+        android:hint="data"
+        android:textColor="#0d0c0c"
+        android:background="#e7e983" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:id="@+id/editDescription"
+        android:hint="Описание"
+        android:background="#e7e983"
+        android:textColor="#020000" />
+
+</LinearLayout>
+<!-- From: file:/E:/Android/Onboard%20diary/app/src/main/res/layout/input.xml -->

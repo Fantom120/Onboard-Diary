@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="diarytheme_color">#6abab3</color>
+    <dimen name="twodp">2dp</dimen>
+</resources>

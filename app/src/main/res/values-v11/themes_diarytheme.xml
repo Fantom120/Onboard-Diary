@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="DiaryTheme" parent="@style/_DiaryTheme"/>
+
+  <style name="_DiaryTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="android:editTextBackground">@drawable/diarytheme_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#996abab3</item>
+    <item name="android:textSelectHandleLeft">@drawable/diarytheme_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/diarytheme_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/diarytheme_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewDiaryTheme</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/diarytheme_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

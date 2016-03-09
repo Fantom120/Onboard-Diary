@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/input_add"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="always"
+        android:title="@string/action">
+    </item>
+</menu><!-- From: file:/E:/Android/Onboard%20diary/app/src/main/res/menu/main_menu.xml -->

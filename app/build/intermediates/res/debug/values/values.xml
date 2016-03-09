@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/Android/Onboard%20diary/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Change">Изменить</string>
+    <string name="action">Добавить</string>
+    <string name="aim">icon</string>
+    <string name="app_name">Onboard diary</string>
+    <string name="number_of_clicks">1</string>
+</resources>

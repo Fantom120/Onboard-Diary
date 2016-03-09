@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="DiaryTheme" parent="@style/_DiaryTheme"/>
+
+  <style name="_DiaryTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="android:editTextStyle">@style/EditTextDiaryTheme</item>
+
+    <item name="android:textColorHighlight">#996abab3</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewDiaryTheme</item>
+
+  </style>
+
+</resources>

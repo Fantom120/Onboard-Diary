@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/input">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTheme"
+        android:hint="@string/theme"
+        android:textColor="#0d0c0c"
+        style="@style/Base.V12.Widget.AppCompat.EditText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editDate"
+        android:textColor="#0d0c0c"
+        android:onClick="showDatePickerDialog"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/editDescription"
+        android:hint="@string/description"
+        android:textColor="#020000"
+        android:gravity="start|top"
+        style="@style/Base.V12.Widget.AppCompat.EditText"
+        android:inputType="text|textMultiLine|textLongMessage"
+         />
+
+</LinearLayout>

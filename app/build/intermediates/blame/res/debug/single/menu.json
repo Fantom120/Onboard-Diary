@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_menu.xml",
+        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\edit_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\main_menu.xml"
+    }
+]

@@ -1,0 +1,88 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\Android\Onboard diary
+                  -     
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* Onboard diary.iml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\Onboard diary\
+* out\production\Onboard diary\Onboard diary.apk
+* out\production\Onboard diary\Onboard diary.unaligned.apk
+* out\production\Onboard diary\com\
+* out\production\Onboard diary\com\example\
+* out\production\Onboard diary\com\example\Onboard_diary\
+* out\production\Onboard diary\com\example\Onboard_diary\AdapterMlist.class
+* out\production\Onboard diary\com\example\Onboard_diary\AddActivity$DownloadTask.class
+* out\production\Onboard diary\com\example\Onboard_diary\AddActivity.class
+* out\production\Onboard diary\com\example\Onboard_diary\BuildConfig.class
+* out\production\Onboard diary\com\example\Onboard_diary\DataItem.class
+* out\production\Onboard diary\com\example\Onboard_diary\Db_Main.class
+* out\production\Onboard diary\com\example\Onboard_diary\EditProductFragment$UpdateTask.class
+* out\production\Onboard diary\com\example\Onboard_diary\EditProductFragment.class
+* out\production\Onboard diary\com\example\Onboard_diary\ListViewItem.class
+* out\production\Onboard diary\com\example\Onboard_diary\MainActivity.class
+* out\production\Onboard diary\com\example\Onboard_diary\MainList$1.class
+* out\production\Onboard diary\com\example\Onboard_diary\MainList.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$attr.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$drawable.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$id.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$layout.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$menu.class
+* out\production\Onboard diary\com\example\Onboard_diary\R$string.class
+* out\production\Onboard diary\com\example\Onboard_diary\R.class
+* out\production\Onboard diary\com\example\Onboard_diary\ViewHolder.class
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
