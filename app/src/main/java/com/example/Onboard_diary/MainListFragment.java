@@ -25,8 +25,10 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.List;
+
+import static java.util.Collections.sort;
 
 public class MainListFragment extends ListFragment {
 
@@ -46,35 +48,14 @@ public class MainListFragment extends ListFragment {
     private ListView mlistView;
 
 
-
-
-//    @Override
-//    public void onAttach(Activity activity) {
-//        super.onAttach(activity);
-//        final ActionBar actionBar = activity.getActionBar();
-//
-//        actionBar.setTitle(R.string.app_name);
-//        setHasOptionsMenu(true);
-//
-//    }
 @Override
 public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     db = new Db_Main(getActivity());
 
-    data_itemList = new ArrayList<DataItem>();
+    data_itemList = new ArrayList<>();
 
     loader.execute();
-
-//     getListView().setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-//         @Override
-//         public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-//             db.deleteItem(data_itemList.get(position));
-//             data_itemList.remove(position);
-//             mAdapter.notifyDataSetChanged();
-//             return true;
-//         }
-//     });
 }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -99,14 +80,14 @@ public void onCreate(Bundle savedInstanceState) {
 
         }
 
+        sort(data_itemList);
         mAdapter = new AdapterMlist(getActivity(),android.R.id.list,data_itemList);
-        // setListAdapter(mAdapter);
         mlistView.setAdapter(mAdapter);
 
 
         //      Set<String> set = iconsMap.keySet();
 
-     //   Collections.sort(data_itemList);
+
 
         Log.d(LOG_TAG, "Oncreate");
 
@@ -164,12 +145,6 @@ public void onCreate(Bundle savedInstanceState) {
             }
         }
     };
-//    @Override
-//    public void onViewCreated(final View view, Bundle savedInstanceState) {
-//        super.onViewCreated(view, savedInstanceState);
-//      //  getListView().setDivider(null);
-//        Log.d(LOG_TAG, "onViewCreated");
-//    }
 
     @Override
         public void onListItemClick(ListView l, View v, int position, long id) {

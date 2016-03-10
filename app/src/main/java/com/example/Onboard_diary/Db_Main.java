@@ -15,7 +15,7 @@ import javax.crypto.spec.DESedeKeySpec;
 
 public class Db_Main extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "diary";
     private static final String TABLE_DATA = "data";
     private static final String COLUMN_ID = "_id";
@@ -42,7 +42,7 @@ public class Db_Main extends SQLiteOpenHelper {
                 + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + COLUMN_THEME + " TEXT,"
                 + COLUMN_DESCRIPTION + " TEXT,"
-                + COLUMN_DATE + " TEXT" + ")";
+                + COLUMN_DATE + " LONG" + ")";
         db.execSQL(CREATE_DATA_TABLE);
     }
 
@@ -113,7 +113,7 @@ public class Db_Main extends SQLiteOpenHelper {
 
                     item.setTheme(cursor.getString(cursor.getColumnIndex(COLUMN_THEME)));
                     item.setDescription(cursor.getString(cursor.getColumnIndex(COLUMN_DESCRIPTION)));
-                    item.setDate(cursor.getString(cursor.getColumnIndex(COLUMN_DATE)));
+                    item.setDate(cursor.getLong(cursor.getColumnIndex(COLUMN_DATE)));
 
 
 
@@ -134,7 +134,7 @@ public class Db_Main extends SQLiteOpenHelper {
 
     public List<DataItem> getAllData(){
 
-        List<DataItem> itemList = new ArrayList<DataItem>();
+        List<DataItem> itemList = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_DATA;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery,null);
@@ -145,7 +145,7 @@ public class Db_Main extends SQLiteOpenHelper {
                 item.set_id(Integer.parseInt(cursor.getString(0)));
                 item.setTheme(cursor.getString(1));
                 item.setDescription(cursor.getString(2));
-                item.setDate(cursor.getString(3));
+                item.setDate(cursor.getLong(3));
                 itemList.add(item);
             } while(cursor.moveToNext());
         }

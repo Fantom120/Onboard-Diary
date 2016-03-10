@@ -1,8 +1,11 @@
 package com.example.Onboard_diary;
 
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 
 
 import java.text.ParseException;
@@ -17,11 +20,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
     private long _id;
     private String theme;
     private String description;
-
-
-    private String date;
-
-    static SimpleDateFormat FORMATTER = new SimpleDateFormat("E, dd MMM yyyy HH:mm:ss ", Locale.getDefault());
+    private long date;
 
     public DataItem() {
 
@@ -34,7 +33,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
 
     }
 
-    public DataItem(long _id, String theme, String description, String date) {
+    public DataItem(long _id, String theme, String description, Long date) {
         this._id = _id;
         this.theme = theme;
         this.description = description;
@@ -47,7 +46,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
 
     }
 
-    public DataItem(String date, String theme, String description) {
+    public DataItem(long date, String theme, String description) {
         this.date = date;
         this.theme = theme;
         this.description = description;
@@ -66,7 +65,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
         _id = in.readLong();
         theme = in.readString();
         description = in.readString();
-        date = in.readString();
+        date = in.readLong();
     }
 
 
@@ -95,13 +94,16 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
         this.description = description;
     }
 
-    public void setDate(String date) {
+    public void setDate(long date) {
+
         this.date = date;
 
     }
-    public String getDate() {
-        return date;
+    public long getDate() {
+         return date;
+
     }
+
 
     @Override
     public boolean equals(Object o) {
@@ -119,13 +121,15 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
         return (int) (_id ^ (_id >>> 32));
     }
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
-    public int compareTo(DataItem another) {
-        int dtCompare = this.date.compareTo(another.date);
-        if (dtCompare != 0)
-            return dtCompare;
+    public int compareTo(@NonNull DataItem another) {
 
-        return 0;
+ //       if(this.date == another.date){}
+//        int dtCompare = this.date (another.date);
+//        if (dtCompare != 0)
+//            return dtCompare;
+        return Long.compare(this.date,another.date);
     }
 
     @Override
@@ -138,7 +142,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
         dest.writeLong(_id);
         dest.writeString(theme);
         dest.writeString(description);
-        dest.writeString(date);
+        dest.writeLong(date);
     }
     public static final Parcelable.Creator<DataItem> CREATOR = new Parcelable.Creator<DataItem>() {   // Статический метод с помощью которого создаем обьект
         public DataItem createFromParcel(Parcel in) {

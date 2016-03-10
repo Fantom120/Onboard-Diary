@@ -1,2 +1,3 @@
-# onboard_diary 
+# onboard_diary
+
 Проэкт находится на стадии разработки

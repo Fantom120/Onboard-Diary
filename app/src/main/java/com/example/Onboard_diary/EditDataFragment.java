@@ -41,10 +41,10 @@ public class EditDataFragment extends Fragment {
     private int day;
     private int month;
     private int year;
-   private  String date;
+   private  long date;
     boolean isAdd = false;
     static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
-    static SimpleDateFormat FORMATTERFORBD = new SimpleDateFormat("d M yyyy", Locale.getDefault());
+    static SimpleDateFormat FORMATTERFORDB = new SimpleDateFormat("d M yyyy", Locale.getDefault());
     Calendar calendar = Calendar.getInstance();
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -62,16 +62,14 @@ public class EditDataFragment extends Fragment {
         if(item.getTheme() != null)
         {
 
-            String[] ardate = item.getDate().split(" ");
-            day = Integer.parseInt(ardate[0]);
-            month = Integer.parseInt(ardate[1]);
-            year = Integer.parseInt(ardate[2]);
-            calendar.set(year, month, day);
-            date = FORMATTER.format(calendar.getTime());
-
-            editDate.setText(date);
+            editDate.setText(FORMATTER.format(item.getDate()));
             editTheme.setText(item.getTheme());
             editDiscription.setText(item.getDescription());
+
+            calendar.setTimeInMillis(item.getDate());
+            year = calendar.get(Calendar.YEAR);
+            month = calendar.get(Calendar.MONTH);
+            day = calendar.get(Calendar.DAY_OF_MONTH);
 
 
         }
@@ -79,13 +77,11 @@ public class EditDataFragment extends Fragment {
         {
             isAdd = true;
 
-            final Calendar c = Calendar.getInstance();
-            year = c.get(Calendar.YEAR);
-            month = c.get(Calendar.MONTH);
-            day = c.get(Calendar.DAY_OF_MONTH);
 
-            Date currentDate = new Date();
-            editDate.setText(FORMATTER.format(currentDate));
+            year = calendar.get(Calendar.YEAR);
+            month = calendar.get(Calendar.MONTH);
+            day = calendar.get(Calendar.DAY_OF_MONTH);
+            editDate.setText(FORMATTER.format(calendar.getTime()));
 
         }
 
@@ -120,10 +116,11 @@ public class EditDataFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem menu_item) {
         switch (menu_item.getItemId()){
             case R.id.input_add:{
-                if(isEmpty(editTheme) && isEmpty(editDiscription)) {
+                if(notEmpty(editTheme) && notEmpty(editDiscription)) {
                     item.setTheme(editTheme.getText().toString());
                     item.setDescription(editDiscription.getText().toString());
-                    item.setDate(date);
+                   // date = FORMATTERFORDB.format(calendar.getTime());
+                    item.setDate(calendar.getTimeInMillis());
                    if(isAdd){
 
                        new DownloadTask().execute(item);
@@ -200,21 +197,18 @@ public class EditDataFragment extends Fragment {
 //            Locale locale = new Locale("ru", "RU");
 //            SimpleDateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy", locale);
 
-
             calendar.set(newyear, monthOfYear, dayOfMonth, 13, 15);
-           date = FORMATTER.format(calendar.getTime());
-            editDate.setText(date);
-          date = FORMATTERFORBD.format(calendar.getTime());
+         //  date = FORMATTER.format(calendar.getTime());
+            editDate.setText(FORMATTER.format(calendar.getTime()));
 
             Log.d("log", "ondate");
-
             year = newyear;
             month = monthOfYear;
             day  = dayOfMonth;
 
         }
     };
-    private boolean isEmpty(EditText etText) {
+    private boolean notEmpty(EditText etText) {
         return etText.getText().toString().trim().length() != 0;
     }
 }

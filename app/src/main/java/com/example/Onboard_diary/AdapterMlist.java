@@ -35,7 +35,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
 
     public AdapterMlist(Context context, List<DataItem> itemList) {
         super(context,R.layout.item);
-      ;
+
     //    this.itemList = itemList;
      //   mIconsMap = iconsMap;
     }
@@ -98,15 +98,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
          //   viewHolder.personImageView.setImageDrawable(item.icon);
             viewHolder.personImageView.setImageResource(R.drawable.ic_launcher);
             viewHolder.nameTextView.setText(dataItem.getTheme());
-
-        String[] ardate = dataItem.getDate().split(" ");
-        day = Integer.parseInt(ardate[0]);
-        month = Integer.parseInt(ardate[1]);
-        year = Integer.parseInt(ardate[2]);
-        calendar.set(year, month, day);
-        String date = FORMATTER.format(calendar.getTime());
-
-        viewHolder.date.setText(date);
+            viewHolder.date.setText(FORMATTER.format(dataItem.getDate()));
 
 
         return convertView;
