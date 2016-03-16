@@ -24,6 +24,10 @@
         "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog.xml",
+        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
         "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\my_toolbar.xml",
         "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\layout\\my_toolbar.xml"
     },

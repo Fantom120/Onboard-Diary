@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.Onboard_diary"
-        minSdkVersion 10
+        minSdkVersion 11
         targetSdkVersion 23
     }
 

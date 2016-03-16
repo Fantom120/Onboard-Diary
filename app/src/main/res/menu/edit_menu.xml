@@ -4,9 +4,15 @@
 
 
     <item
-        android:id="@+id/input_add"
+        android:id="@+id/editNote"
         android:icon="@android:drawable/ic_menu_edit"
         android:title="@string/action"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/deleteItem"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete_item"
+        app:showAsAction="never"/>
+
 
 </menu>

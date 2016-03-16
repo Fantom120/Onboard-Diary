@@ -189,6 +189,8 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="Change">Изменить</string>
+    <string name="No"> Нет </string>
+    <string name="Yes"> Да </string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -209,10 +211,10 @@
     <string name="action">Добавить</string>
     <string name="aim">icon</string>
     <string name="app_name">Onboard diary</string>
+    <string name="delete_item">Удалить запись?</string>
     <string name="description">Описание</string>
     <string name="emptyLine"> Заполните пустое поле </string>
     <string name="note">Сделать запись</string>
-    <string name="number_of_clicks">1</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="theme">Тема</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

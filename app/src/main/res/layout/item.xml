@@ -4,7 +4,9 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:id="@+id/item"
-    style="@style/_DiaryTheme">
+    style="@style/_DiaryTheme"
+    android:clickable="false"
+   >
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -12,7 +14,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        style="@style/_DiaryTheme">
+        android:id="@+id/itemLayout"
+        style="@style/_DiaryTheme"
+        android:clickable="false">
 
         <ImageView
             android:layout_width="wrap_content"
