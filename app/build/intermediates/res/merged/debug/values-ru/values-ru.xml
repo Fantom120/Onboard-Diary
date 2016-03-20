@@ -18,4 +18,11 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <string name="vk_enter_captcha_text">Введите текст с картинки</string>
+    <string name="vk_name">ВКонтакте</string>
+    <string name="vk_new_message_text">Введите текст сообщения..</string>
+    <string name="vk_new_post_settings">Настройки записи</string>
+    <string name="vk_retry">Повторить</string>
+    <string name="vk_send">ОТПРАВИТЬ</string>
+    <string name="vk_share">Поделиться</string>
 </resources>

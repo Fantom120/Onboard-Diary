@@ -11,4 +11,6 @@
     <string name="delete_item">Удалить запись?</string>
     <string name="Yes"> Да </string>
     <string name="No"> Нет </string>
+    <string name="vk_share">Поделится</string>
+    <integer name="com_vk_sdk_AppId">5359259</integer>
 </resources>

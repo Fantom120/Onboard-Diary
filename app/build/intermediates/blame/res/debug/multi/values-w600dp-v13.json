@@ -26,8 +26,27 @@
                     "startLine": 3,
                     "startColumn": 4,
                     "startOffset": 119,
+                    "endColumn": 60,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 201,
+                        "endColumn": 60,
+                        "endOffset": 257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 180,
                     "endColumn": 54,
-                    "endOffset": 169
+                    "endOffset": 230
                 },
                 "from": {
                     "file": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-w600dp\\values-w600dp.xml",

@@ -1673,6 +1673,27 @@
                         "endOffset": 20937
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 17927,
+                    "endLine": 248,
+                    "endColumn": 12,
+                    "endOffset": 18389
+                },
+                "from": {
+                    "file": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 661
+                    }
+                }
             }
         ]
     }

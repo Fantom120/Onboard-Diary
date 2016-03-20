@@ -13,6 +13,11 @@
         android:icon="@android:drawable/ic_menu_delete"
         android:title="@string/delete_item"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/shareToVK"
+        android:icon="@android:drawable/ic_menu_upload_you_tube"
+        android:title="@string/vk_share"
+        app:showAsAction="ifRoom"/>
 
 
 </menu>

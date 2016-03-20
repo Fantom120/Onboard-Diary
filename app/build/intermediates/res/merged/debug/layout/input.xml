@@ -18,7 +18,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/editDate"
         android:textColor="#0d0c0c"
-        android:onClick="showDatePickerDialog"
         style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
 
     <EditText

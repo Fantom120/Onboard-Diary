@@ -5,10 +5,14 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="10"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
+        android:name="com.example.Onboard_diary.VkInit"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/_DiaryTheme" >
@@ -21,6 +25,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.vk.sdk.VKServiceActivity"
+            android:label="ServiceActivity"
+            android:theme="@style/VK.Transparent" />
+        <activity
+            android:name="com.example.Onboard_diary.VkShare"
+            android:label="@string/app_name" />
     </application>
 
 </manifest>
