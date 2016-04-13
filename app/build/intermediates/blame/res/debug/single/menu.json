@@ -4,7 +4,31 @@
         "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\edit_menu.xml"
     },
     {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
         "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
         "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_menu.xml",
+        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\menu\\edit_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_menu.xml",
+        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\edit_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\edit_menu.xml",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\menu\\edit_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\menu\\main_menu.xml"
     }
 ]

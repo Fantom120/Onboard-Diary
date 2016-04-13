@@ -7,15 +7,10 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
 
-public class DataItem implements Parcelable, Comparable<DataItem>{
+
+public class DataItem implements Parcelable, Comparable{
 
     private long _id;
     private String theme;
@@ -121,16 +116,7 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
         return (int) (_id ^ (_id >>> 32));
     }
 
-    @TargetApi(Build.VERSION_CODES.KITKAT)
-    @Override
-    public int compareTo(@NonNull DataItem another) {
 
- //       if(this.date == another.date){}
-//        int dtCompare = this.date (another.date);
-//        if (dtCompare != 0)
-//            return dtCompare;
-        return Long.compare(this.date,another.date);
-    }
 
     @Override
     public int describeContents() {
@@ -153,5 +139,22 @@ public class DataItem implements Parcelable, Comparable<DataItem>{
             return new DataItem[size];
         }
     };
+
+    @Override
+    public int compareTo(@NonNull Object another) {
+        DataItem tmp = (DataItem)another;
+        if(this.date > tmp.date)
+        {
+      /* текущее меньше полученного */
+            return -1;
+        }
+        else if(this.date < tmp.date)
+        {
+      /* текущее больше полученного */
+            return 1;
+        }
+    /* текущее равно полученному */
+        return 0;
+    }
 }
 

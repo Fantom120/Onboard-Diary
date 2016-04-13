@@ -30,10 +30,6 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
     private Map<String, Drawable> mIconsMap;
     DataItem dataItem;
     Context context;
-    private int day;
-    private int month;
-    private int year;
-    String LOG_TAG = "log";
     static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
     private Calendar calendar = Calendar.getInstance();
 
@@ -56,23 +52,6 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
         return itemList.size();
     }
 
-//    @Override
-//    public ListViewItem getItem(int position) {
-//
-//      DataItem item = itemList.get(position);
-//        String title = item.getTheme();
-//        return new ListViewItem(mIconsMap.get(title),title,getContext()
-//                .getString(R.string.number_of_clicks, item.getNumClicks()));
-//
-//    }
-//  @Override
-//    public ListViewItem getItem(int position) {
-//      DataItem item = itemList.get(position);
-//      String title = item.getTheme();
-//      String date = item.getDate();
-//      return new ListViewItem(title,date);
-//
-//    }
 
 
     @Override

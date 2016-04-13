@@ -1,9 +1,8 @@
 package com.example.Onboard_diary;
 
 
-import android.content.DialogInterface;
 import android.os.AsyncTask;
-import android.os.Build;
+
 import android.os.Bundle;
 
 
@@ -17,12 +16,16 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import static java.util.Collections.sort;
@@ -31,17 +34,18 @@ public class MainListFragment extends ListFragment  {
 
 
     String LOG_TAG = "log";
-    List<DataItem> data_itemList;
+   private  List<DataItem> data_itemList;
     private Db_Main db;
-    AdapterMlist mAdapter;
-    public static final int RESULT_OK = -1;
-    int MAINACTIVITY_REQUEST_CODE = 101;
-    int UPDATE_ITEM = 102;
-    private static final String TAG = "AddItem";
+    private  AdapterMlist mAdapter;
+
     private MainActivity activity;
     private ListView mlistView;
-    private MenuItem addMenuItem;
-    boolean isLongClick = true;
+    private View view;
+
+    public MainListFragment(){
+        this.setRetainInstance(true);
+    }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -58,16 +62,17 @@ public class MainListFragment extends ListFragment  {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+        // Проверяем, создано ли представление фрагмента
+        if(view == null) {
+            // Если представления нет, создаем его
+            view = inflater.inflate(R.layout.mfragment, container, false);
+        } else {
+            // Если представление есть, удаляем его из разметки,
+            // иначе возникнет ошибка при его добавлении
+            ((ViewGroup) view.getParent()).removeView(view);
+        }
 
-        View view = inflater.inflate(R.layout.mfragment, container, false);
         mlistView = (ListView) view.findViewById(android.R.id.list);
-//        Map<String, Drawable> iconsMap = new HashMap<String, Drawable>();
-//        Resources resources = getResources();
-//        iconsMap.put(getString(R.string.aim), resources.getDrawable(R.drawable.ic_launcher));
-//
-//        iconsMap.put(getString(R.string.aim), resources.getDrawable(R.drawable.ic_launcher));
-
-        //  initialize the items list
 
 
         if (getActivity() != null) {
@@ -77,8 +82,9 @@ public class MainListFragment extends ListFragment  {
 
         }
 
-        sort(data_itemList);
-        mAdapter = new AdapterMlist(getActivity(), android.R.id.list, data_itemList);
+
+
+       mAdapter = new AdapterMlist(getActivity(), android.R.id.list, data_itemList);
         mlistView.setAdapter(mAdapter);
 
         mlistView.setLongClickable(true);
@@ -90,7 +96,7 @@ public class MainListFragment extends ListFragment  {
                 return true;
             }
         });
-        Log.d(LOG_TAG, "Oncreate");
+        Log.d(LOG_TAG, "Oncreate View");
 
         mlistView.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
          @Override
@@ -119,9 +125,10 @@ public class MainListFragment extends ListFragment  {
             Log.d(LOG_TAG, "onListItemClick");
             Bundle bundle = new Bundle();
             bundle.putParcelable("edit", item);
-            edit.setArguments(bundle);
 
-            activity.onEditItem(edit);
+            edit.setArguments(bundle);
+           activity.onEditItem(edit);
+
 
     }
 
@@ -130,10 +137,6 @@ public class MainListFragment extends ListFragment  {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         getActivity().getMenuInflater().inflate(R.menu.main_menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
-        addMenuItem = menu.findItem(R.id.input_add);
-
-
-
 
     }
 
@@ -141,13 +144,8 @@ public class MainListFragment extends ListFragment  {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.input_add:
-                DataItem addItem = new DataItem();
-                EditDataFragment edit = new EditDataFragment();
-                Bundle bundle = new Bundle();
-                bundle.putParcelable("edit", addItem);
-                edit.setArguments(bundle);
-
-                activity.onEditItem(edit);
+                AddDataFragment addDataFragment = new AddDataFragment();
+                activity.onAddItem(addDataFragment);
 
         }
 
@@ -159,25 +157,18 @@ public class MainListFragment extends ListFragment  {
 
         @Override
         protected List<DataItem> doInBackground(String... params) {
+            return db.getAllData();
 
-            List<DataItem> items = db.getAllData();
-
-            if (items.size() == 0) {
-                for (String title : params) {
-                    items.add(new DataItem(title));
-                }
-                db.addItems(items);
-            }
-
-            return items;
         }
 
         @Override
         protected void onPostExecute(List<DataItem> items) {
             for (DataItem item : items) {
                 data_itemList.add(item);
-                mAdapter.notifyDataSetChanged();
+
             }
+       Collections.sort(data_itemList);
+            mAdapter.notifyDataSetChanged();
         }
     };
 

@@ -2,8 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:id="@+id/input">
+
 
     <EditText
         android:layout_width="match_parent"
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/editDate"
         android:textColor="#0d0c0c"
+
         style="@style/Widget.AppCompat.Light.AutoCompleteTextView" />
 
     <EditText

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,12 +55,13 @@ public class Db_Main extends SQLiteOpenHelper {
     }
 
 
-    public void addItem(DataItem item) {
+    public synchronized void  addItem(DataItem item) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(COLUMN_THEME, item.getTheme());
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
+
         db.insert(TABLE_DATA, null, values);
         db.close();
     }
@@ -77,7 +79,7 @@ public class Db_Main extends SQLiteOpenHelper {
         }
     }
 
-    public void deleteItem(DataItem item) {
+    public synchronized void deleteItem(DataItem item) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_DATA, COLUMN_ID + " = ?", new String[]{String.valueOf(item.get_id())});
         db.close();
@@ -90,7 +92,7 @@ public class Db_Main extends SQLiteOpenHelper {
         db.close();
     }
 
-    public int updateItem(DataItem item) {
+    public synchronized void updateItem(DataItem item) {
 
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -98,11 +100,12 @@ public class Db_Main extends SQLiteOpenHelper {
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
 
-        return db.update(TABLE_DATA, values, COLUMN_ID + " = ?",
-                new String[]{String.valueOf(item.get_id())});
+         db.update(TABLE_DATA, values, COLUMN_ID + " = ?",
+                 new String[]{String.valueOf(item.get_id())});
+        db.close();
     }
 
-    public DataItem getProductDetails(long id) {
+    public DataItem getItemDetails(long id) {
         SQLiteDatabase db = this.getReadableDatabase();
         DataItem item = new DataItem();
         Cursor cursor = db.query(TABLE_DATA, new String[]{COLUMN_THEME, COLUMN_DESCRIPTION, COLUMN_DATE},
