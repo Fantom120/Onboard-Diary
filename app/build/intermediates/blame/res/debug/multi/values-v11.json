@@ -1,5 +1,1538 @@
 [
     {
+        "outputFile": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 10,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\values-v11\\styles_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endLine": 8,
+                        "endColumn": 10,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 769
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 774,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1194
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 1129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1199,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1622
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1134,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1557
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1627,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1562,
+                        "endLine": 27,
+                        "endColumn": 12,
+                        "endOffset": 1983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2053,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1988,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 2410
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2900
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2415,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 2835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2905,
+                    "endColumn": 88,
+                    "endOffset": 2989
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 3070,
+                        "endColumn": 88,
+                        "endOffset": 3154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2994,
+                    "endColumn": 100,
+                    "endOffset": 3090
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 3159,
+                        "endColumn": 100,
+                        "endOffset": 3255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3095,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3498
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3260,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 3663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3503,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3918
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3668,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 4083
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3923,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 4025
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4318,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4030,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4154
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4425,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 4549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4159,
+                    "endColumn": 58,
+                    "endOffset": 4213
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endColumn": 56,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4218,
+                    "endColumn": 70,
+                    "endOffset": 4284
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4784,
+                        "endColumn": 70,
+                        "endOffset": 4850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4289,
+                    "endColumn": 82,
+                    "endOffset": 4367
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 4855,
+                        "endColumn": 82,
+                        "endOffset": 4933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4372,
+                    "endLine": 111,
+                    "endColumn": 12,
+                    "endOffset": 8075
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 4938,
+                        "endLine": 114,
+                        "endColumn": 12,
+                        "endOffset": 8641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 8080,
+                    "endLine": 163,
+                    "endColumn": 12,
+                    "endOffset": 11923
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 8646,
+                        "endLine": 166,
+                        "endColumn": 12,
+                        "endOffset": 12489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 11928,
+                    "endColumn": 90,
+                    "endOffset": 12014
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 169,
+                        "startColumn": 4,
+                        "startOffset": 12724,
+                        "endColumn": 90,
+                        "endOffset": 12810
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 12019,
+                    "endLine": 171,
+                    "endColumn": 12,
+                    "endOffset": 12412
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 12417,
+                    "endLine": 177,
+                    "endColumn": 12,
+                    "endOffset": 12789
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 12794,
+                    "endLine": 191,
+                    "endColumn": 10,
+                    "endOffset": 13522
+                },
+                "from": {
+                    "file": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 227,
+                        "endLine": 20,
+                        "endColumn": 10,
+                        "endOffset": 955
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 10,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\values-v11\\styles_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endLine": 8,
+                        "endColumn": 10,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 769
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 774,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1194
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1199,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1622
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1627,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2053,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1753,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2900
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2180,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2905,
+                    "endColumn": 88,
+                    "endOffset": 2989
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2605,
+                        "endColumn": 88,
+                        "endOffset": 2689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2994,
+                    "endColumn": 100,
+                    "endOffset": 3090
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endColumn": 100,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3095,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3498
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 3198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3503,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3918
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3203,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 3618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3923,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 4025
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3623,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 3725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4030,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4154
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3730,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4159,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4664
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4669,
+                    "endLine": 73,
+                    "endColumn": 12,
+                    "endOffset": 5180
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 5185,
+                    "endColumn": 58,
+                    "endOffset": 5239
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endColumn": 56,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5244,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 5401
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5406,
+                    "endLine": 82,
+                    "endColumn": 12,
+                    "endOffset": 5666
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5671,
+                    "endColumn": 70,
+                    "endOffset": 5737
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3859,
+                        "endColumn": 70,
+                        "endOffset": 3925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5742,
+                    "endColumn": 82,
+                    "endOffset": 5820
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3930,
+                        "endColumn": 82,
+                        "endOffset": 4008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5825,
+                    "endLine": 135,
+                    "endColumn": 12,
+                    "endOffset": 9528
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4013,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 7716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 9533,
+                    "endLine": 187,
+                    "endColumn": 12,
+                    "endOffset": 13376
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 7721,
+                        "endLine": 158,
+                        "endColumn": 12,
+                        "endOffset": 11564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 13381,
+                    "endColumn": 90,
+                    "endOffset": 13467
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 11569,
+                        "endColumn": 90,
+                        "endOffset": 11655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 13472,
+                    "endLine": 195,
+                    "endColumn": 12,
+                    "endOffset": 13865
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 13870,
+                    "endLine": 201,
+                    "endColumn": 12,
+                    "endOffset": 14242
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 14247,
+                    "endLine": 215,
+                    "endColumn": 10,
+                    "endOffset": 14975
+                },
+                "from": {
+                    "file": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 227,
+                        "endLine": 20,
+                        "endColumn": 10,
+                        "endOffset": 955
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 10,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\values-v11\\styles_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endLine": 8,
+                        "endColumn": 10,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 769
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 774,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1194
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1199,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1622
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1627,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 2048
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2053,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2475
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1753,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2480,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2900
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2180,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2905,
+                    "endColumn": 88,
+                    "endOffset": 2989
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2605,
+                        "endColumn": 88,
+                        "endOffset": 2689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2994,
+                    "endColumn": 100,
+                    "endOffset": 3090
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endColumn": 100,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3095,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 3498
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 3198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3503,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3918
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3203,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 3618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3923,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 4025
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3623,
+                        "endLine": 51,
+                        "endColumn": 12,
+                        "endOffset": 3725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4030,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 4154
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3730,
+                        "endLine": 53,
+                        "endColumn": 12,
+                        "endOffset": 3854
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4159,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4664
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 236,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4669,
+                    "endLine": 73,
+                    "endColumn": 12,
+                    "endOffset": 5180
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 5185,
+                    "endColumn": 58,
+                    "endOffset": 5239
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 169,
+                        "endColumn": 56,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 75,
+                    "startColumn": 4,
+                    "startOffset": 5244,
+                    "endLine": 77,
+                    "endColumn": 12,
+                    "endOffset": 5401
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 227,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5406,
+                    "endLine": 82,
+                    "endColumn": 12,
+                    "endOffset": 5666
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5671,
+                    "endColumn": 70,
+                    "endOffset": 5737
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3859,
+                        "endColumn": 70,
+                        "endOffset": 3925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5742,
+                    "endColumn": 82,
+                    "endOffset": 5820
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3930,
+                        "endColumn": 82,
+                        "endOffset": 4008
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5825,
+                    "endLine": 135,
+                    "endColumn": 12,
+                    "endOffset": 9528
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4013,
+                        "endLine": 106,
+                        "endColumn": 12,
+                        "endOffset": 7716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 9533,
+                    "endLine": 187,
+                    "endColumn": 12,
+                    "endOffset": 13376
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 7721,
+                        "endLine": 158,
+                        "endColumn": 12,
+                        "endOffset": 11564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 188,
+                    "startColumn": 4,
+                    "startOffset": 13381,
+                    "endColumn": 90,
+                    "endOffset": 13467
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 159,
+                        "startColumn": 4,
+                        "startOffset": 11569,
+                        "endColumn": 90,
+                        "endOffset": 11655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 13472,
+                    "endLine": 195,
+                    "endColumn": 12,
+                    "endOffset": 13865
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 199,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 196,
+                    "startColumn": 4,
+                    "startOffset": 13870,
+                    "endLine": 201,
+                    "endColumn": 12,
+                    "endOffset": 14242
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 597,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 14247,
+                    "endLine": 215,
+                    "endColumn": 10,
+                    "endOffset": 14975
+                },
+                "from": {
+                    "file": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\values-v11\\themes_diarytheme.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 2,
+                        "startOffset": 227,
+                        "endLine": 20,
+                        "endColumn": 10,
+                        "endOffset": 955
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
         "map": [
             {
