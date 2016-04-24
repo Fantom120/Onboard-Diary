@@ -1,12 +1,9 @@
 package com.example.Onboard_diary;
 
-import android.content.Context;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 
 import android.support.annotation.Nullable;
-import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -17,15 +14,9 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.DatePicker;
-import android.widget.EditText;
+import android.widget.*;
 import android.app.DatePickerDialog.OnDateSetListener;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.vk.sdk.VKSdk;
-import com.vk.sdk.dialogs.VKShareDialogBuilder;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -43,23 +34,32 @@ public class EditDataFragment extends Fragment {
     private int month;
     private int year;
 
-    static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
-    Calendar calendar = Calendar.getInstance();
+    private static final SimpleDateFormat FORMAT_TITLE = new SimpleDateFormat("dd MMMM yyyy", Locale.getDefault());
+    private static final SimpleDateFormat FORMAT_SUBTITLE = new SimpleDateFormat("EEEE", Locale.getDefault());
+    private Calendar calendar = Calendar.getInstance();
     private View view;
 
-   public EditDataFragment(){
-       this.setRetainInstance(true);
+    public EditDataFragment() {
+        this.setRetainInstance(true);
     }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+    }
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Проверяем, создано ли представление фрагмента
-        if(view == null) {
-            // Если представления нет, создаем его
+
+        if (view == null) {
+
             view = inflater.inflate(R.layout.input, container, false);
         } else {
-   //          Если представление есть, удаляем его из разметки,
-     //        иначе возникнет ошибка при его добавлении
+
             ((ViewGroup) view.getParent()).removeView(view);
         }
 
@@ -69,34 +69,27 @@ public class EditDataFragment extends Fragment {
 
         }
 
-
         editTheme = (EditText) view.findViewById(R.id.editTheme);
         editDate = (TextView) view.findViewById(R.id.editDate);
-
-
 
         editDiscription = (EditText) view.findViewById(R.id.editDescription);
         editDiscription.addTextChangedListener(watcher);
 
+        if (getArguments() != null) {
+            item = getArguments().getParcelable("edit");
+            if (item != null) {
 
-           if(getArguments()!= null) {
-               item = getArguments().getParcelable("edit");
-                if(item != null) {
+                editDate.setText(FORMAT_TITLE.format(item.getDate()));
+                editTheme.setText(item.getTheme());
+                editDiscription.setText(item.getDescription());
 
-
-                    editDate.setText(FORMATTER.format(item.getDate()));
-                    editTheme.setText(item.getTheme());
-                    editDiscription.setText(item.getDescription());
-
-                    calendar.setTimeInMillis(item.getDate());
-                    year = calendar.get(Calendar.YEAR);
-                    month = calendar.get(Calendar.MONTH);
-                    day = calendar.get(Calendar.DAY_OF_MONTH);
-                }
-           }
+                calendar.setTimeInMillis(item.getDate());
+                year = calendar.get(Calendar.YEAR);
+                month = calendar.get(Calendar.MONTH);
+                day = calendar.get(Calendar.DAY_OF_MONTH);
+            }
+        }
         setHasOptionsMenu(true);
-        activity.mToolBar.setTitle(FORMATTER.format(item.getDate()));
-
 
 
         editDate.setOnClickListener(new View.OnClickListener() {
@@ -109,6 +102,13 @@ public class EditDataFragment extends Fragment {
         Log.d("log", "onCreateView in EditDataFragment");
         return view;
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        activity.getmToolBar().setTitle(FORMAT_TITLE.format(item.getDate()));
+        activity.getmToolBar().setSubtitle(FORMAT_SUBTITLE.format(item.getDate()));
     }
 
 
@@ -143,10 +143,9 @@ public class EditDataFragment extends Fragment {
                     }).run();
 
                     Log.d("log", item.getDescription());
-                    activity.count.setText("");
+
 
                     activity.onItemCreated(new MainListFragment());
-
                 }
                 break;
             }
@@ -162,18 +161,13 @@ public class EditDataFragment extends Fragment {
             }
 
             case R.id.share:
-                if (activity.isEmpty(editDiscription)) {
-                    editDiscription.requestFocus();
-                    Toast.makeText(activity, "Заполните поле", Toast.LENGTH_SHORT).show();
-                }
-                setItem();
-              ShareDialog shareDialog = new ShareDialog();
-                Bundle args = new Bundle();
-                args.putParcelable("share", item);
-                shareDialog.setArguments(args);
-                shareDialog.show(activity.getSupportFragmentManager(), "Share");
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.putExtra(Intent.EXTRA_TEXT, item.getDescription());
+                sendIntent.setType("text/plain");
+                startActivity(Intent.createChooser(sendIntent, getResources().getText(R.string.send_to)));
 
-             break;
+                break;
             default:
                 break;
         }
@@ -200,13 +194,13 @@ public class EditDataFragment extends Fragment {
         date.show(activity.getSupportFragmentManager(), "Date Picker");
     }
 
-    OnDateSetListener ondate = new OnDateSetListener() {
+    private OnDateSetListener ondate = new OnDateSetListener() {
         @Override
         public void onDateSet(DatePicker view, int newyear, int monthOfYear,
                               int dayOfMonth) {
 
             calendar.set(newyear, monthOfYear, dayOfMonth, 13, 15);
-            editDate.setText(FORMATTER.format(calendar.getTime()));
+            editDate.setText(FORMAT_TITLE.format(calendar.getTime()));
 
             Log.d("log", "ondate");
             year = newyear;
@@ -216,17 +210,17 @@ public class EditDataFragment extends Fragment {
         }
     };
 
-    TextWatcher watcher =  new TextWatcher() {
+    private TextWatcher watcher = new TextWatcher() {
         @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+        }
 
         @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {}
+        public void onTextChanged(CharSequence s, int start, int before, int count) {
+        }
 
         @Override
         public void afterTextChanged(Editable s) {
-            activity.count.setText(String.valueOf(s.length()));
-
 
         }
     };

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AutoCompleteTextViewDiaryTheme" parent="android:Widget.Holo.Light.AutoCompleteTextView">
-      <item name="android:dropDownSelector">@drawable/diarytheme_list_selector_holo_light</item>
-	    <item name="android:background">@drawable/diarytheme_edit_text_holo_light</item>
-  </style>
     <style name="Base.TextAppearance.AppCompat.Inverse">
         <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
         <item name="android:textColorHint">?android:attr/textColorHintInverse</item>
@@ -55,31 +51,6 @@
     <style name="Base.Widget.AppCompat.ProgressBar" parent="android:Widget.Holo.ProgressBar">
     </style>
     <style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="android:Widget.Holo.ProgressBar.Horizontal">
-    </style>
-    <style name="ComposerDark" parent="@android:style/Theme.Holo">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:textColor">@color/tw__composer_white</item>
-        <item name="android:textColorSecondary">@color/tw__composer_deep_gray</item>
-        <item name="android:textColorHint">@color/tw__composer_light_gray</item>
-        <item name="tw__twitter_logo">@drawable/tw__composer_logo_white</item>
-    </style>
-    <style name="ComposerLight" parent="@android:style/Theme.Holo.Light">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:textColor">@color/tw__composer_black</item>
-        <item name="android:textColorSecondary">@color/tw__composer_deep_gray</item>
-        <item name="android:textColorHint">@color/tw__composer_light_gray</item>
-        <item name="tw__twitter_logo">@drawable/tw__composer_logo_blue</item>
-    </style>
-    <style name="DiaryTheme" parent="@style/_DiaryTheme"/>
-    <style name="Digits_default" parent="@android:style/Theme.Holo.Light">
-        <item name="dgts__accentColor">@color/dgts__default_accent</item>
-    </style>
-    <style name="MediaTheme" parent="@android:style/Theme.Holo">
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@android:color/black</item>
     </style>
     <style name="Platform.AppCompat" parent="Platform.V11.AppCompat"/>
     <style name="Platform.AppCompat.Light" parent="Platform.V11.AppCompat.Light"/>
@@ -187,31 +158,4 @@
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="android:Widget.Holo.Spinner"/>
-    <style name="VK.Transparent" parent="android:Theme.Holo.Light">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowIsFloating">true</item>
-    </style>
-    <style name="VKAlertDialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
-        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
-    </style>
-    <style name="_DiaryTheme" parent="Theme.AppCompat.Light.NoActionBar">
-
-    <item name="android:editTextBackground">@drawable/diarytheme_edit_text_holo_light</item>
-
-    <item name="android:textColorHighlight">#996abab3</item>
-    <item name="android:textSelectHandleLeft">@drawable/diarytheme_text_select_handle_left</item>
-    <item name="android:textSelectHandleRight">@drawable/diarytheme_text_select_handle_right</item>
-    <item name="android:textSelectHandle">@drawable/diarytheme_text_select_handle_middle</item>
-
-    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewDiaryTheme</item>
-
-    <item name="android:fastScrollThumbDrawable">@drawable/diarytheme_fastscroll_thumb_holo</item>
-
-  </style>
 </resources>

@@ -4,19 +4,22 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:id="@+id/item"
-    style="@style/_DiaryTheme"
+
+
     android:clickable="false"
-   >
+    >
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="200dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
         android:id="@+id/itemLayout"
-        style="@style/_DiaryTheme"
-        android:clickable="false">
+
+        android:clickable="false"
+        android:background="@drawable/texture"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -29,11 +32,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Тема"
+            android:text="@string/header"
             android:id="@+id/textTheme"
             android:layout_alignParentTop="true"
             android:layout_toRightOf="@+id/imageView"
-            style="@style/_DiaryTheme" />
+             />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,7 +46,7 @@
             android:id="@+id/textDate"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            style="@style/_DiaryTheme" />
+             />
 
     </RelativeLayout>
 

@@ -1,44 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.Onboard_diary"
-          android:versionCode="1"
-          android:versionName="1.0">
+          package="com.example.Onboard_diary">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name=".Social_Neetwork.Application"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:theme="@style/_DiaryTheme">
-
-        <activity android:name="com.vk.sdk.VKServiceActivity"
-            android:label="ServiceActivity"
-            android:theme="@style/VK.Transparent" />
-
+        android:icon="@mipmap/ic_pen"
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        >
         <activity
-
-                android:name=".MainActivity">
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
-           <activity
-               android:name=".Social_Neetwork.VkShare"
-               android:windowSoftInputMode="adjustResize">
-               <intent-filter>
-                   <data android:scheme="vk5359259" />
-                   <action android:name="android.intent.action.VIEW" />
-
-                   <category android:name="android.intent.category.BROWSABLE" />
-                   <category android:name="android.intent.category.DEFAULT" />
-               </intent-filter>
-          </activity>
-        <activity android:name=".Social_Neetwork.TwittPost"/>
-
-        <meta-data
-            android:name="io.fabric.ApiKey"
-            android:value="8e36de2f34a5fdecdd318677a3cc5a7b4e754b22" />
     </application>
 </manifest>

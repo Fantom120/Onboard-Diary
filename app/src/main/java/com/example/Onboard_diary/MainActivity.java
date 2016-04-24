@@ -9,32 +9,32 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.widget.EditText;
-import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
     String LOG_TAG = "log";
 
-    FragmentTransaction fragmentTransaction;
+    private FragmentTransaction fragmentTransaction;
     private FragmentManager mFragmentManager;
-    Toolbar mToolBar;
-    TextView count;
-    private static String FRAGMENT_EDIT_NAME = "fragment_edit";
-    private static String FRAGMENT_ADD_NAME = "fragment_add";
-    private static String FRAGMENT_LIST_NAME = "fragment_main_list";
+
+
+
+    private Toolbar mToolBar;
+    private static final String FRAGMENT_EDIT_NAME = "fragment_edit";
+    private static final String FRAGMENT_ADD_NAME = "fragment_add";
+    private static final String FRAGMENT_LIST_NAME = "fragment_main_list";
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
         mToolBar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         setSupportActionBar(mToolBar);
-        count = (TextView) mToolBar.findViewById(R.id.counter);
 
 
-//     String[] fingerprints = VKUtil.getCertificateFingerprint(this, this.getPackageName());
-//        System.out.println(Arrays.asList(fingerprints));
+
 
         mFragmentManager = getSupportFragmentManager();
 
@@ -50,10 +50,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             onItemCreated(new MainListFragment());
         }
-
-
     }
-
 
     @Override
     protected void onResume() {
@@ -62,9 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void onItemCreated(MainListFragment mainListFragment) {
-
+        mToolBar.setTitle(R.string.app_name);
         fragmentTransaction = mFragmentManager.beginTransaction();
         mFragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
         fragmentTransaction.replace(R.id.frafment_conteiner, mainListFragment, FRAGMENT_LIST_NAME).commit();
@@ -72,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onEditItem(EditDataFragment edit) {
-     //   mToolBar.setTitle(R.string.note);
 
         fragmentTransaction = mFragmentManager.beginTransaction();
         //  fragmentTransaction.setCustomAnimations(R.animator.slide_in_left,R.animator.slide_in_right);
@@ -82,9 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void onAddItem(AddDataFragment add_fragment) {
-
         fragmentTransaction = mFragmentManager.beginTransaction();
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         fragmentTransaction.replace(R.id.frafment_conteiner, add_fragment, FRAGMENT_ADD_NAME).addToBackStack("myStack").commit();
@@ -92,10 +85,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     public boolean isEmpty(EditText etText) {
         return etText.getText().toString().trim().length() == 0;
     }
-
 
     @Override
     public void onBackPressed() {
@@ -105,22 +98,13 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
         mToolBar.setTitle(R.string.app_name);
-        count.setText("");
+        mToolBar.setSubtitle("");
 
     }
 
+    public Toolbar getmToolBar() {
 
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        Log.d(LOG_TAG, "onRestoreInstanceState");
+        return mToolBar;
     }
-
-
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        Log.d(LOG_TAG, "onSaveInstanceState");
-    }
-
-
 }
 

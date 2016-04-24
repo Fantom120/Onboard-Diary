@@ -1,18 +1,1 @@
-[
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
-    }
-]
+[]

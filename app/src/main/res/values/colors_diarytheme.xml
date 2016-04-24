@@ -2,4 +2,5 @@
 <resources>
     <color name="diarytheme_color">#6abab3</color>
     <dimen name="twodp">2dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

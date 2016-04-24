@@ -63,8 +63,6 @@ public class DataItem implements Parcelable, Comparable{
         date = in.readLong();
     }
 
-
-
     public long get_id() {
         return _id;
     }
@@ -115,8 +113,6 @@ public class DataItem implements Parcelable, Comparable{
     public int hashCode() {
         return (int) (_id ^ (_id >>> 32));
     }
-
-
 
     @Override
     public int describeContents() {

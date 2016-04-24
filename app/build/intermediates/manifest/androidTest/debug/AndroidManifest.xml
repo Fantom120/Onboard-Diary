@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.Onboard_diary.test">
+    package="com.example.diary.test">
 
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.Onboard_diary"
+                     android:targetPackage="com.example.diary"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.Onboard_diary"/>
+                     android:label="Tests for com.example.diary"/>
 </manifest>

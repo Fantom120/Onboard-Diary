@@ -81,7 +81,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
         }
         //  ListViewItem item = getItem(position);
         //   viewHolder.personImageView.setImageDrawable(item.icon);
-        viewHolder.personImageView.setImageResource(R.drawable.ic_launcher);
+        viewHolder.personImageView.setImageResource(R.mipmap.ic_pen);
         viewHolder.nameTextView.setText(dataItem.getTheme());
         viewHolder.date.setText(FORMATTER.format(dataItem.getDate()));
 

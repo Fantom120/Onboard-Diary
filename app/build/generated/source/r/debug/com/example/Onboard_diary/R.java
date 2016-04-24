@@ -9,40 +9,52 @@ package com.example.Onboard_diary;
 
 public final class R {
     public static final class anim {
-        public static final int abc_fade_in=0x7f040000;
-        public static final int abc_fade_out=0x7f040001;
-        public static final int abc_grow_fade_in_from_bottom=0x7f040002;
-        public static final int abc_popup_enter=0x7f040003;
-        public static final int abc_popup_exit=0x7f040004;
-        public static final int abc_shrink_fade_out_from_bottom=0x7f040005;
-        public static final int abc_slide_in_bottom=0x7f040006;
-        public static final int abc_slide_in_top=0x7f040007;
-        public static final int abc_slide_out_bottom=0x7f040008;
-        public static final int abc_slide_out_top=0x7f040009;
-        public static final int design_bottom_sheet_slide_in=0x7f04000a;
-        public static final int design_bottom_sheet_slide_out=0x7f04000b;
-        public static final int design_fab_in=0x7f04000c;
-        public static final int design_fab_out=0x7f04000d;
-        public static final int design_snackbar_in=0x7f04000e;
-        public static final int design_snackbar_out=0x7f04000f;
+        public static final int abc_fade_in=0x7f050000;
+        public static final int abc_fade_out=0x7f050001;
+        public static final int abc_grow_fade_in_from_bottom=0x7f050002;
+        public static final int abc_popup_enter=0x7f050003;
+        public static final int abc_popup_exit=0x7f050004;
+        public static final int abc_shrink_fade_out_from_bottom=0x7f050005;
+        public static final int abc_slide_in_bottom=0x7f050006;
+        public static final int abc_slide_in_top=0x7f050007;
+        public static final int abc_slide_out_bottom=0x7f050008;
+        public static final int abc_slide_out_top=0x7f050009;
+        public static final int design_bottom_sheet_slide_in=0x7f05000a;
+        public static final int design_bottom_sheet_slide_out=0x7f05000b;
+        public static final int design_fab_in=0x7f05000c;
+        public static final int design_fab_out=0x7f05000d;
+        public static final int design_snackbar_in=0x7f05000e;
+        public static final int design_snackbar_out=0x7f05000f;
+        public static final int fab_fade_in=0x7f050010;
+        public static final int fab_fade_out=0x7f050011;
+        public static final int fab_jump_from_down=0x7f050012;
+        public static final int fab_jump_from_right=0x7f050013;
+        public static final int fab_jump_to_down=0x7f050014;
+        public static final int fab_jump_to_right=0x7f050015;
+        public static final int fab_roll_from_down=0x7f050016;
+        public static final int fab_roll_from_right=0x7f050017;
+        public static final int fab_roll_to_down=0x7f050018;
+        public static final int fab_roll_to_right=0x7f050019;
+        public static final int fab_scale_down=0x7f05001a;
+        public static final int fab_scale_up=0x7f05001b;
     }
     public static final class animator {
-        public static final int slide_in_left=0x7f050000;
-        public static final int slide_in_right=0x7f050001;
+        public static final int slide_in_left=0x7f060000;
+        public static final int slide_in_right=0x7f060001;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarDivider=0x7f010041;
+        public static final int actionBarDivider=0x7f010051;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarItemBackground=0x7f010042;
+        public static final int actionBarItemBackground=0x7f010052;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarPopupTheme=0x7f01003b;
+        public static final int actionBarPopupTheme=0x7f01004b;
         /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -60,117 +72,117 @@ containing a value of this type.
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
          */
-        public static final int actionBarSize=0x7f010040;
+        public static final int actionBarSize=0x7f010050;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarSplitStyle=0x7f01003d;
+        public static final int actionBarSplitStyle=0x7f01004d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarStyle=0x7f01003c;
+        public static final int actionBarStyle=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabBarStyle=0x7f010037;
+        public static final int actionBarTabBarStyle=0x7f010047;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabStyle=0x7f010036;
+        public static final int actionBarTabStyle=0x7f010046;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTabTextStyle=0x7f010038;
+        public static final int actionBarTabTextStyle=0x7f010048;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarTheme=0x7f01003e;
+        public static final int actionBarTheme=0x7f01004e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionBarWidgetTheme=0x7f01003f;
+        public static final int actionBarWidgetTheme=0x7f01004f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionButtonStyle=0x7f01005b;
+        public static final int actionButtonStyle=0x7f01006b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionDropDownStyle=0x7f010057;
+        public static final int actionDropDownStyle=0x7f010067;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionLayout=0x7f0100c9;
+        public static final int actionLayout=0x7f0100d9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionMenuTextAppearance=0x7f010043;
+        public static final int actionMenuTextAppearance=0x7f010053;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int actionMenuTextColor=0x7f010044;
+        public static final int actionMenuTextColor=0x7f010054;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeBackground=0x7f010047;
+        public static final int actionModeBackground=0x7f010057;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseButtonStyle=0x7f010046;
+        public static final int actionModeCloseButtonStyle=0x7f010056;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCloseDrawable=0x7f010049;
+        public static final int actionModeCloseDrawable=0x7f010059;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCopyDrawable=0x7f01004b;
+        public static final int actionModeCopyDrawable=0x7f01005b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeCutDrawable=0x7f01004a;
+        public static final int actionModeCutDrawable=0x7f01005a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeFindDrawable=0x7f01004f;
+        public static final int actionModeFindDrawable=0x7f01005f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePasteDrawable=0x7f01004c;
+        public static final int actionModePasteDrawable=0x7f01005c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModePopupWindowStyle=0x7f010051;
+        public static final int actionModePopupWindowStyle=0x7f010061;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSelectAllDrawable=0x7f01004d;
+        public static final int actionModeSelectAllDrawable=0x7f01005d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeShareDrawable=0x7f01004e;
+        public static final int actionModeShareDrawable=0x7f01005e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeSplitBackground=0x7f010048;
+        public static final int actionModeSplitBackground=0x7f010058;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeStyle=0x7f010045;
+        public static final int actionModeStyle=0x7f010055;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionModeWebSearchDrawable=0x7f010050;
+        public static final int actionModeWebSearchDrawable=0x7f010060;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowButtonStyle=0x7f010039;
+        public static final int actionOverflowButtonStyle=0x7f010049;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int actionOverflowMenuStyle=0x7f01003a;
+        public static final int actionOverflowMenuStyle=0x7f01004a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -178,7 +190,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionProviderClass=0x7f0100cb;
+        public static final int actionProviderClass=0x7f0100db;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -186,15 +198,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int actionViewClass=0x7f0100ca;
+        public static final int actionViewClass=0x7f0100da;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int activityChooserViewStyle=0x7f010063;
+        public static final int activityChooserViewStyle=0x7f010073;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogButtonGroupStyle=0x7f010086;
+        public static final int alertDialogButtonGroupStyle=0x7f010096;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -202,15 +214,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int alertDialogCenterButtons=0x7f010087;
+        public static final int alertDialogCenterButtons=0x7f010097;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogStyle=0x7f010085;
+        public static final int alertDialogStyle=0x7f010095;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int alertDialogTheme=0x7f010088;
+        public static final int alertDialogTheme=0x7f010098;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -218,7 +230,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int allowStacking=0x7f01009c;
+        public static final int allowStacking=0x7f0100ac;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int animation_onHide=0x7f01002e;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int animation_onShow=0x7f01002d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -228,7 +248,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowHeadLength=0x7f0100bb;
+        public static final int arrowHeadLength=0x7f0100cb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -238,27 +258,27 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int arrowShaftLength=0x7f0100bc;
+        public static final int arrowShaftLength=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int autoCompleteTextViewStyle=0x7f01008d;
+        public static final int autoCompleteTextViewStyle=0x7f01009d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int background=0x7f01000f;
+        public static final int background=0x7f01000c;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundSplit=0x7f010011;
+        public static final int backgroundSplit=0x7f01000e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int backgroundStacked=0x7f010010;
+        public static final int backgroundStacked=0x7f01000d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -267,7 +287,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int backgroundTint=0x7f010123;
+        public static final int backgroundTint=0x7f01012b;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -281,7 +301,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int backgroundTintMode=0x7f010124;
+        public static final int backgroundTintMode=0x7f01012c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -291,7 +311,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int barLength=0x7f0100bd;
+        public static final int barLength=0x7f0100cd;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -299,7 +319,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_hideable=0x7f01009b;
+        public static final int behavior_hideable=0x7f0100ab;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -309,7 +329,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f0100da;
+        public static final int behavior_overlapTop=0x7f0100ea;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -319,7 +339,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_peekHeight=0x7f01009a;
+        public static final int behavior_peekHeight=0x7f0100aa;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -329,51 +349,51 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int borderWidth=0x7f0100c2;
+        public static final int borderWidth=0x7f0100d2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int borderlessButtonStyle=0x7f010060;
+        public static final int borderlessButtonStyle=0x7f010070;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetDialogTheme=0x7f0100b4;
+        public static final int bottomSheetDialogTheme=0x7f0100c4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetStyle=0x7f0100b5;
+        public static final int bottomSheetStyle=0x7f0100c5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarButtonStyle=0x7f01005d;
+        public static final int buttonBarButtonStyle=0x7f01006d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNegativeButtonStyle=0x7f01008b;
+        public static final int buttonBarNegativeButtonStyle=0x7f01009b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarNeutralButtonStyle=0x7f01008c;
+        public static final int buttonBarNeutralButtonStyle=0x7f01009c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarPositiveButtonStyle=0x7f01008a;
+        public static final int buttonBarPositiveButtonStyle=0x7f01009a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonBarStyle=0x7f01005c;
+        public static final int buttonBarStyle=0x7f01006c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonPanelSideLayout=0x7f010022;
+        public static final int buttonPanelSideLayout=0x7f010032;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyle=0x7f01008e;
+        public static final int buttonStyle=0x7f01009e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int buttonStyleSmall=0x7f01008f;
+        public static final int buttonStyleSmall=0x7f01009f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -382,7 +402,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int buttonTint=0x7f0100ac;
+        public static final int buttonTint=0x7f0100bc;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -396,23 +416,50 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
          */
-        public static final int buttonTintMode=0x7f0100ad;
+        public static final int buttonTintMode=0x7f0100bd;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int button_color=0x7f01001e;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int button_colorPressed=0x7f01001f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int button_colorRipple=0x7f010021;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkboxStyle=0x7f010090;
+        public static final int checkboxStyle=0x7f0100a0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int checkedTextViewStyle=0x7f010091;
+        public static final int checkedTextViewStyle=0x7f0100a1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeIcon=0x7f0100df;
+        public static final int closeIcon=0x7f0100ef;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int closeItemLayout=0x7f01001f;
+        public static final int closeItemLayout=0x7f01002f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -420,11 +467,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int collapseContentDescription=0x7f01011a;
+        public static final int collapseContentDescription=0x7f010122;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapseIcon=0x7f010119;
+        public static final int collapseIcon=0x7f010121;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -443,11 +490,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int collapsedTitleGravity=0x7f0100a9;
+        public static final int collapsedTitleGravity=0x7f0100b9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapsedTitleTextAppearance=0x7f0100a5;
+        public static final int collapsedTitleTextAppearance=0x7f0100b5;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -456,7 +503,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int color=0x7f0100b7;
+        public static final int color=0x7f0100c7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -465,7 +512,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorAccent=0x7f01007e;
+        public static final int colorAccent=0x7f01008e;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -474,7 +521,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorButtonNormal=0x7f010082;
+        public static final int colorButtonNormal=0x7f010092;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -483,7 +530,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlActivated=0x7f010080;
+        public static final int colorControlActivated=0x7f010090;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -492,7 +539,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlHighlight=0x7f010081;
+        public static final int colorControlHighlight=0x7f010091;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -501,7 +548,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorControlNormal=0x7f01007f;
+        public static final int colorControlNormal=0x7f01008f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -510,7 +557,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimary=0x7f01007c;
+        public static final int colorPrimary=0x7f01008c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -519,7 +566,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorPrimaryDark=0x7f01007d;
+        public static final int colorPrimaryDark=0x7f01008d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -528,27 +575,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int colorSwitchThumbNormal=0x7f010083;
+        public static final int colorSwitchThumbNormal=0x7f010093;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int commitIcon=0x7f0100e4;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentDescriptionOff=0x7f01010f;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentDescriptionOn=0x7f01010e;
+        public static final int commitIcon=0x7f0100f4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -558,7 +589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetEnd=0x7f01001a;
+        public static final int contentInsetEnd=0x7f010017;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -568,7 +599,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetLeft=0x7f01001b;
+        public static final int contentInsetLeft=0x7f010018;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -578,7 +609,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetRight=0x7f01001c;
+        public static final int contentInsetRight=0x7f010019;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -588,7 +619,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentInsetStart=0x7f010019;
+        public static final int contentInsetStart=0x7f010016;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -597,11 +628,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentScrim=0x7f0100a6;
+        public static final int contentScrim=0x7f0100b6;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int controlBackground=0x7f010084;
+        public static final int controlBackground=0x7f010094;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -609,7 +640,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f010108;
+        public static final int counterEnabled=0x7f010114;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -617,19 +648,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f010109;
+        public static final int counterMaxLength=0x7f010115;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f01010b;
+        public static final int counterOverflowTextAppearance=0x7f010117;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f01010a;
+        public static final int counterTextAppearance=0x7f010116;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int customNavigationLayout=0x7f010012;
+        public static final int customNavigationLayout=0x7f01000f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -637,21 +668,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int defaultQueryHint=0x7f0100de;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int dgts__StateButtonStyle=0x7f0100ec;
-        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int dgts__accentColor=0x7f010000;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int dgts__logoDrawable=0x7f010001;
+        public static final int defaultQueryHint=0x7f0100ee;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -661,11 +678,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dialogPreferredPadding=0x7f010055;
+        public static final int dialogPreferredPadding=0x7f010065;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dialogTheme=0x7f010054;
+        public static final int dialogTheme=0x7f010064;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -681,15 +698,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
          */
-        public static final int displayOptions=0x7f010008;
+        public static final int displayOptions=0x7f010005;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int divider=0x7f01000e;
+        public static final int divider=0x7f01000b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerHorizontal=0x7f010062;
+        public static final int dividerHorizontal=0x7f010072;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -699,11 +716,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dividerPadding=0x7f0100c7;
+        public static final int dividerPadding=0x7f0100d7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dividerVertical=0x7f010061;
+        public static final int dividerVertical=0x7f010071;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -713,15 +730,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int drawableSize=0x7f0100b9;
+        public static final int drawableSize=0x7f0100c9;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int drawerArrowStyle=0x7f010002;
+        public static final int drawerArrowStyle=0x7f010000;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int dropDownListViewStyle=0x7f010074;
+        public static final int dropDownListViewStyle=0x7f010084;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -731,21 +748,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dropdownListPreferredItemHeight=0x7f010058;
+        public static final int dropdownListPreferredItemHeight=0x7f010068;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextBackground=0x7f010069;
+        public static final int editTextBackground=0x7f010079;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int editTextColor=0x7f010068;
+        public static final int editTextColor=0x7f010078;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int editTextStyle=0x7f010092;
+        public static final int editTextStyle=0x7f0100a2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -755,7 +772,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int elevation=0x7f01001d;
+        public static final int elevation=0x7f01001a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -763,15 +780,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f010106;
+        public static final int errorEnabled=0x7f010112;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f010107;
+        public static final int errorTextAppearance=0x7f010113;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandActivityOverflowButtonDrawable=0x7f010021;
+        public static final int expandActivityOverflowButtonDrawable=0x7f010031;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -779,7 +796,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expanded=0x7f010027;
+        public static final int expanded=0x7f010037;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -798,7 +815,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int expandedTitleGravity=0x7f0100aa;
+        public static final int expandedTitleGravity=0x7f0100ba;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -808,7 +825,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMargin=0x7f01009f;
+        public static final int expandedTitleMargin=0x7f0100af;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -818,7 +835,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginBottom=0x7f0100a3;
+        public static final int expandedTitleMarginBottom=0x7f0100b3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -828,7 +845,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginEnd=0x7f0100a2;
+        public static final int expandedTitleMarginEnd=0x7f0100b2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -838,7 +855,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginStart=0x7f0100a0;
+        public static final int expandedTitleMarginStart=0x7f0100b0;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -848,11 +865,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginTop=0x7f0100a1;
+        public static final int expandedTitleMarginTop=0x7f0100b1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandedTitleTextAppearance=0x7f0100a4;
+        public static final int expandedTitleTextAppearance=0x7f0100b4;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -863,15 +880,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int fabSize=0x7f0100c0;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int finishStateText=0x7f0100e9;
+        public static final int fabSize=0x7f0100d0;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -879,7 +888,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int foregroundInsidePadding=0x7f0100c4;
+        public static final int foregroundInsidePadding=0x7f0100d4;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -889,15 +898,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapBetweenBars=0x7f0100ba;
+        public static final int gapBetweenBars=0x7f0100ca;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int goIcon=0x7f0100e0;
+        public static final int goIcon=0x7f0100f0;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f0100d2;
+        public static final int headerLayout=0x7f0100e2;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -907,7 +916,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int height=0x7f010003;
+        public static final int height=0x7f010001;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -915,7 +924,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hideOnContentScroll=0x7f010018;
+        public static final int hideOnContentScroll=0x7f010015;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int hide_animation=0x7f01002a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -923,7 +936,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f01010c;
+        public static final int hintAnimationEnabled=0x7f010118;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -931,23 +944,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintEnabled=0x7f010105;
+        public static final int hintEnabled=0x7f010111;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f010104;
+        public static final int hintTextAppearance=0x7f010110;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeAsUpIndicator=0x7f01005a;
+        public static final int homeAsUpIndicator=0x7f01006a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int homeLayout=0x7f010013;
+        public static final int homeLayout=0x7f010010;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int icon=0x7f01000c;
+        public static final int icon=0x7f010009;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -955,15 +968,29 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int iconifiedByDefault=0x7f0100dc;
+        public static final int iconifiedByDefault=0x7f0100ec;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int imageButtonStyle=0x7f01006a;
+        public static final int image=0x7f01002b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int indeterminateProgressStyle=0x7f010015;
+        public static final int imageButtonStyle=0x7f01007a;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int image_size=0x7f01002c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int indeterminateProgressStyle=0x7f010012;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -971,13 +998,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int initialActivityCount=0x7f010020;
+        public static final int initialActivityCount=0x7f010030;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f0100d9;
+        public static final int insetForeground=0x7f0100e9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -985,11 +1012,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int isLightTheme=0x7f010004;
+        public static final int isLightTheme=0x7f010002;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f0100d0;
+        public static final int itemBackground=0x7f0100e0;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -998,7 +1025,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f0100ce;
+        public static final int itemIconTint=0x7f0100de;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1008,11 +1035,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemPadding=0x7f010017;
+        public static final int itemPadding=0x7f010014;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f0100d1;
+        public static final int itemTextAppearance=0x7f0100e1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1021,15 +1048,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f0100cf;
+        public static final int itemTextColor=0x7f0100df;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int keylines=0x7f0100ae;
+        public static final int keylines=0x7f0100be;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout=0x7f0100db;
+        public static final int layout=0x7f0100eb;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1037,11 +1064,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layoutManager=0x7f0100d5;
+        public static final int layoutManager=0x7f0100e5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_anchor=0x7f0100b1;
+        public static final int layout_anchor=0x7f0100c1;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1064,7 +1091,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_anchorGravity=0x7f0100b3;
+        public static final int layout_anchorGravity=0x7f0100c3;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1072,7 +1099,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_behavior=0x7f0100b0;
+        public static final int layout_behavior=0x7f0100c0;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1084,7 +1111,7 @@ containing a value of this type.
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int layout_collapseMode=0x7f01009d;
+        public static final int layout_collapseMode=0x7f0100ad;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1092,7 +1119,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_collapseParallaxMultiplier=0x7f01009e;
+        public static final int layout_collapseParallaxMultiplier=0x7f0100ae;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1100,7 +1127,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_keyline=0x7f0100b2;
+        public static final int layout_keyline=0x7f0100c2;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1114,31 +1141,31 @@ containing a value of this type.
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
          */
-        public static final int layout_scrollFlags=0x7f010028;
+        public static final int layout_scrollFlags=0x7f010038;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_scrollInterpolator=0x7f010029;
+        public static final int layout_scrollInterpolator=0x7f010039;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listChoiceBackgroundIndicator=0x7f01007b;
+        public static final int listChoiceBackgroundIndicator=0x7f01008b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listDividerAlertDialog=0x7f010056;
+        public static final int listDividerAlertDialog=0x7f010066;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listItemLayout=0x7f010026;
+        public static final int listItemLayout=0x7f010036;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listLayout=0x7f010023;
+        public static final int listLayout=0x7f010033;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int listPopupWindowStyle=0x7f010075;
+        public static final int listPopupWindowStyle=0x7f010085;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1148,7 +1175,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeight=0x7f01006f;
+        public static final int listPreferredItemHeight=0x7f01007f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1158,7 +1185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightLarge=0x7f010071;
+        public static final int listPreferredItemHeightLarge=0x7f010081;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1168,7 +1195,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemHeightSmall=0x7f010070;
+        public static final int listPreferredItemHeightSmall=0x7f010080;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1178,7 +1205,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingLeft=0x7f010072;
+        public static final int listPreferredItemPaddingLeft=0x7f010082;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1188,11 +1215,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int listPreferredItemPaddingRight=0x7f010073;
+        public static final int listPreferredItemPaddingRight=0x7f010083;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int logo=0x7f01000d;
+        public static final int logo=0x7f01000a;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1200,7 +1227,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logoDescription=0x7f01011d;
+        public static final int logoDescription=0x7f010125;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1210,7 +1237,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxActionInlineWidth=0x7f0100e8;
+        public static final int maxActionInlineWidth=0x7f0100f8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1220,7 +1247,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxButtonHeight=0x7f010118;
+        public static final int maxButtonHeight=0x7f010120;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1228,15 +1255,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int measureWithLargestChild=0x7f0100c5;
+        public static final int measureWithLargestChild=0x7f0100d5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f0100cd;
+        public static final int menu=0x7f0100dd;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int multiChoiceItemLayout=0x7f010024;
+        public static final int multiChoiceItemLayout=0x7f010034;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1244,11 +1271,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int navigationContentDescription=0x7f01011c;
+        public static final int navigationContentDescription=0x7f010124;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int navigationIcon=0x7f01011b;
+        public static final int navigationIcon=0x7f010123;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1260,7 +1287,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int navigationMode=0x7f010007;
+        public static final int navigationMode=0x7f010004;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1268,7 +1295,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int overlapAnchor=0x7f0100d3;
+        public static final int overlapAnchor=0x7f0100e3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1278,7 +1305,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingEnd=0x7f010121;
+        public static final int paddingEnd=0x7f010129;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1288,15 +1315,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int paddingStart=0x7f010120;
+        public static final int paddingStart=0x7f010128;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelBackground=0x7f010078;
+        public static final int panelBackground=0x7f010088;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int panelMenuListTheme=0x7f01007a;
+        public static final int panelMenuListTheme=0x7f01008a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1306,19 +1333,19 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int panelMenuListWidth=0x7f010079;
+        public static final int panelMenuListWidth=0x7f010089;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupMenuStyle=0x7f010066;
+        public static final int popupMenuStyle=0x7f010076;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupTheme=0x7f01001e;
+        public static final int popupTheme=0x7f01001b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int popupWindowStyle=0x7f010067;
+        public static final int popupWindowStyle=0x7f010077;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1326,7 +1353,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int preserveIconSpacing=0x7f0100cc;
+        public static final int preserveIconSpacing=0x7f0100dc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1336,7 +1363,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pressedTranslationZ=0x7f0100c1;
+        public static final int pressedTranslationZ=0x7f0100d1;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1346,11 +1373,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressBarPadding=0x7f010016;
+        public static final int progressBarPadding=0x7f010013;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int progressBarStyle=0x7f010014;
+        public static final int progressBarStyle=0x7f010011;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int queryBackground=0x7f0100f6;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1358,35 +1389,23 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int progressStateText=0x7f0100ea;
+        public static final int queryHint=0x7f0100ed;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int queryBackground=0x7f0100e6;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int queryHint=0x7f0100dd;
+        public static final int radioButtonStyle=0x7f0100a3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int radioButtonStyle=0x7f010093;
+        public static final int ratingBarStyle=0x7f0100a4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyle=0x7f010094;
+        public static final int ratingBarStyleIndicator=0x7f0100a5;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ratingBarStyleIndicator=0x7f010095;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ratingBarStyleSmall=0x7f010096;
+        public static final int ratingBarStyleSmall=0x7f0100a6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1394,7 +1413,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int reverseLayout=0x7f0100d7;
+        public static final int reverseLayout=0x7f0100e7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1403,31 +1422,86 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f0100bf;
+        public static final int rippleColor=0x7f0100cf;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rippleEffect_enabled=0x7f010020;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchHintIcon=0x7f0100e2;
+        public static final int searchHintIcon=0x7f0100f2;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchIcon=0x7f0100e1;
+        public static final int searchIcon=0x7f0100f1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int searchViewStyle=0x7f01006e;
+        public static final int searchViewStyle=0x7f01007e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int seekBarStyle=0x7f010097;
+        public static final int seekBarStyle=0x7f0100a7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackground=0x7f01005e;
+        public static final int selectableItemBackground=0x7f01006e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectableItemBackgroundBorderless=0x7f01005f;
+        public static final int selectableItemBackgroundBorderless=0x7f01006f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadowResponsiveEffect_enabled=0x7f010026;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadow_color=0x7f010025;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadow_radius=0x7f010022;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadow_xOffset=0x7f010023;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int shadow_yOffset=0x7f010024;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1441,7 +1515,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
          */
-        public static final int showAsAction=0x7f0100c8;
+        public static final int showAsAction=0x7f0100d8;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1454,7 +1528,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
          */
-        public static final int showDividers=0x7f0100c6;
+        public static final int showDividers=0x7f0100d6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1462,11 +1536,25 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int showText=0x7f0100f3;
+        public static final int showText=0x7f0100ff;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int singleChoiceItemLayout=0x7f010025;
+        public static final int show_animation=0x7f010029;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int singleChoiceItemLayout=0x7f010035;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int size=0x7f01001d;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1474,7 +1562,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spanCount=0x7f0100d6;
+        public static final int spanCount=0x7f0100e6;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1482,15 +1570,15 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int spinBars=0x7f0100b8;
+        public static final int spinBars=0x7f0100c8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerDropDownItemStyle=0x7f010059;
+        public static final int spinnerDropDownItemStyle=0x7f010069;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int spinnerStyle=0x7f010098;
+        public static final int spinnerStyle=0x7f0100a8;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1498,11 +1586,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitTrack=0x7f0100f2;
+        public static final int splitTrack=0x7f0100fe;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int srcCompat=0x7f01002a;
+        public static final int srcCompat=0x7f01003a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1510,15 +1598,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int stackFromEnd=0x7f0100d8;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int startStateText=0x7f0100eb;
+        public static final int stackFromEnd=0x7f0100e8;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1526,19 +1606,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int state_above_anchor=0x7f0100d4;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int state_toggled_on=0x7f01010d;
+        public static final int state_above_anchor=0x7f0100e4;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int statusBarBackground=0x7f0100af;
+        public static final int statusBarBackground=0x7f0100bf;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1547,23 +1619,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int statusBarScrim=0x7f0100a7;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int submitBackground=0x7f0100e7;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int subtitle=0x7f010009;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int subtitleTextAppearance=0x7f010112;
+        public static final int statusBarScrim=0x7f0100b7;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1572,15 +1628,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int subtitleTextColor=0x7f01011f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int subtitleTextStyle=0x7f01000b;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int suggestionRowLayout=0x7f0100e5;
+        public static final int stroke_color=0x7f010028;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1590,7 +1638,40 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchMinWidth=0x7f0100f0;
+        public static final int stroke_width=0x7f010027;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int submitBackground=0x7f0100f7;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitle=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextAppearance=0x7f01011a;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int subtitleTextColor=0x7f010127;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int subtitleTextStyle=0x7f010008;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int suggestionRowLayout=0x7f0100f5;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1600,19 +1681,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int switchPadding=0x7f0100f1;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int switchStyle=0x7f010099;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int switchTextAppearance=0x7f0100ef;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int tabBackground=0x7f0100f7;
+        public static final int switchMinWidth=0x7f0100fc;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1622,7 +1691,29 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f0100f6;
+        public static final int switchPadding=0x7f0100fd;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int switchStyle=0x7f0100a9;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int switchTextAppearance=0x7f0100fb;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int tabBackground=0x7f010103;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tabContentStart=0x7f010102;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1633,7 +1724,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f0100f9;
+        public static final int tabGravity=0x7f010105;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1642,7 +1733,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f0100f4;
+        public static final int tabIndicatorColor=0x7f010100;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1652,7 +1743,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f0100f5;
+        public static final int tabIndicatorHeight=0x7f010101;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1662,7 +1753,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f0100fb;
+        public static final int tabMaxWidth=0x7f010107;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1672,7 +1763,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f0100fa;
+        public static final int tabMinWidth=0x7f010106;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1683,7 +1774,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f0100f8;
+        public static final int tabMode=0x7f010104;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1693,7 +1784,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f010103;
+        public static final int tabPadding=0x7f01010f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1703,7 +1794,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f010102;
+        public static final int tabPaddingBottom=0x7f01010e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1713,7 +1804,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f010101;
+        public static final int tabPaddingEnd=0x7f01010d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1723,7 +1814,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f0100ff;
+        public static final int tabPaddingStart=0x7f01010b;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1733,7 +1824,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f010100;
+        public static final int tabPaddingTop=0x7f01010c;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1742,11 +1833,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f0100fe;
+        public static final int tabSelectedTextColor=0x7f01010a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f0100fc;
+        public static final int tabTextAppearance=0x7f010108;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1755,42 +1846,42 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f0100fd;
+        public static final int tabTextColor=0x7f010109;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int textAllCaps=0x7f01002b;
+        public static final int textAllCaps=0x7f01003b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceLargePopupMenu=0x7f010052;
+        public static final int textAppearanceLargePopupMenu=0x7f010062;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItem=0x7f010076;
+        public static final int textAppearanceListItem=0x7f010086;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceListItemSmall=0x7f010077;
+        public static final int textAppearanceListItemSmall=0x7f010087;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultSubtitle=0x7f01006c;
+        public static final int textAppearanceSearchResultSubtitle=0x7f01007c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSearchResultTitle=0x7f01006b;
+        public static final int textAppearanceSearchResultTitle=0x7f01007b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int textAppearanceSmallPopupMenu=0x7f010053;
+        public static final int textAppearanceSmallPopupMenu=0x7f010063;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorAlertDialogListItem=0x7f010089;
+        public static final int textColorAlertDialogListItem=0x7f010099;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1799,17 +1890,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textColorError=0x7f0100b6;
+        public static final int textColorError=0x7f0100c6;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int textColorSearchUrl=0x7f01006d;
+        public static final int textColorSearchUrl=0x7f01007d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int theme=0x7f010122;
+        public static final int theme=0x7f01012a;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1819,7 +1910,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thickness=0x7f0100be;
+        public static final int thickness=0x7f0100ce;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1829,7 +1920,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int thumbTextPadding=0x7f0100ee;
+        public static final int thumbTextPadding=0x7f0100fa;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1837,7 +1928,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title=0x7f010005;
+        public static final int title=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1845,7 +1936,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleEnabled=0x7f0100ab;
+        public static final int titleEnabled=0x7f0100bb;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1855,7 +1946,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginBottom=0x7f010117;
+        public static final int titleMarginBottom=0x7f01011f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1865,7 +1956,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginEnd=0x7f010115;
+        public static final int titleMarginEnd=0x7f01011d;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1875,7 +1966,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginStart=0x7f010114;
+        public static final int titleMarginStart=0x7f01011c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1885,7 +1976,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMarginTop=0x7f010116;
+        public static final int titleMarginTop=0x7f01011e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1895,11 +1986,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleMargins=0x7f010113;
+        public static final int titleMargins=0x7f01011b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextAppearance=0x7f010111;
+        public static final int titleTextAppearance=0x7f010119;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1908,90 +1999,41 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleTextColor=0x7f01011e;
+        public static final int titleTextColor=0x7f010126;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int titleTextStyle=0x7f01000a;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int toggleOnClick=0x7f010110;
+        public static final int titleTextStyle=0x7f010007;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarId=0x7f0100a8;
+        public static final int toolbarId=0x7f0100b8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarNavigationButtonStyle=0x7f010065;
+        public static final int toolbarNavigationButtonStyle=0x7f010075;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarStyle=0x7f010064;
+        public static final int toolbarStyle=0x7f010074;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int track=0x7f0100ed;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__action_color=0x7f01012a;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__action_highlight_color=0x7f01012b;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__container_bg_color=0x7f010128;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__image_aspect_ratio=0x7f010125;
+        public static final int track=0x7f0100f9;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
 <colgroup align="left" />
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>height</code></td><td>0</td><td></td></tr>
-<tr><td><code>width</code></td><td>1</td><td></td></tr>
+<tr><td><code>DEFAULT</code></td><td>0</td><td></td></tr>
+<tr><td><code>MINI</code></td><td>1</td><td></td></tr>
+<tr><td><code>BIG</code></td><td>2</td><td></td></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tw__image_dimension_to_adjust=0x7f010126;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__primary_text_color=0x7f010129;
+        public static final int type=0x7f01001c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1999,19 +2041,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tw__tweet_actions_enabled=0x7f01012c;
-        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int tw__tweet_id=0x7f010127;
+        public static final int useCompatPadding=0x7f0100d3;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tw__twitter_logo=0x7f010006;
+        public static final int voiceIcon=0x7f0100f3;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2019,11 +2053,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useCompatPadding=0x7f0100c3;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int voiceIcon=0x7f0100e3;
+        public static final int windowActionBar=0x7f01003c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2031,7 +2061,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBar=0x7f01002c;
+        public static final int windowActionBarOverlay=0x7f01003e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2039,7 +2069,85 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionBarOverlay=0x7f01002e;
+        public static final int windowActionModeOverlay=0x7f01003f;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMajor=0x7f010043;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedHeightMinor=0x7f010041;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMajor=0x7f010040;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowFixedWidthMinor=0x7f010042;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMajor=0x7f010044;
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
+The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
+some parent container.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int windowMinWidthMinor=0x7f010045;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -2047,463 +2155,254 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int windowActionModeOverlay=0x7f01002f;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMajor=0x7f010033;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedHeightMinor=0x7f010031;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMajor=0x7f010030;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowFixedWidthMinor=0x7f010032;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMajor=0x7f010034;
-        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>May be a fractional value, which is a floating point number appended with either % or %p, such as "<code>14.5%</code>".
-The % suffix always means a percentage of the base size; the optional %p suffix provides a size relative to
-some parent container.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowMinWidthMinor=0x7f010035;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int windowNoTitle=0x7f01002d;
+        public static final int windowNoTitle=0x7f01003d;
     }
     public static final class bool {
-        public static final int abc_action_bar_embed_tabs=0x7f090003;
-        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f090001;
-        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f090004;
-        public static final int abc_allow_stacked_button_bar=0x7f090000;
-        public static final int abc_config_actionMenuItemAllCaps=0x7f090005;
-        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f090002;
-        public static final int abc_config_closeDialogWhenTouchOutside=0x7f090006;
-        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090007;
+        public static final int abc_action_bar_embed_tabs=0x7f080003;
+        public static final int abc_action_bar_embed_tabs_pre_jb=0x7f080001;
+        public static final int abc_action_bar_expanded_action_views_exclusive=0x7f080004;
+        public static final int abc_allow_stacked_button_bar=0x7f080000;
+        public static final int abc_config_actionMenuItemAllCaps=0x7f080005;
+        public static final int abc_config_allowActionMenuItemTextWithIcon=0x7f080002;
+        public static final int abc_config_closeDialogWhenTouchOutside=0x7f080006;
+        public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f080007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0d0072;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0d0073;
-        public static final int abc_color_highlight_material=0x7f0d0074;
-        public static final int abc_input_method_navigation_guard=0x7f0d0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0d0075;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0d0076;
-        public static final int abc_primary_text_material_dark=0x7f0d0077;
-        public static final int abc_primary_text_material_light=0x7f0d0078;
-        public static final int abc_search_url_text=0x7f0d0079;
-        public static final int abc_search_url_text_normal=0x7f0d0001;
-        public static final int abc_search_url_text_pressed=0x7f0d0002;
-        public static final int abc_search_url_text_selected=0x7f0d0003;
-        public static final int abc_secondary_text_material_dark=0x7f0d007a;
-        public static final int abc_secondary_text_material_light=0x7f0d007b;
-        public static final int accent_material_dark=0x7f0d0004;
-        public static final int accent_material_light=0x7f0d0005;
-        public static final int background_floating_material_dark=0x7f0d0006;
-        public static final int background_floating_material_light=0x7f0d0007;
-        public static final int background_material_dark=0x7f0d0008;
-        public static final int background_material_light=0x7f0d0009;
-        public static final int bright_foreground_disabled_material_dark=0x7f0d000a;
-        public static final int bright_foreground_disabled_material_light=0x7f0d000b;
-        public static final int bright_foreground_inverse_material_dark=0x7f0d000c;
-        public static final int bright_foreground_inverse_material_light=0x7f0d000d;
-        public static final int bright_foreground_material_dark=0x7f0d000e;
-        public static final int bright_foreground_material_light=0x7f0d000f;
-        public static final int button_material_dark=0x7f0d0010;
-        public static final int button_material_light=0x7f0d0011;
-        public static final int colorAccent=0x7f0d0012;
-        public static final int colorPrimary=0x7f0d0013;
-        public static final int colorPrimaryDark=0x7f0d0014;
-        public static final int design_fab_shadow_end_color=0x7f0d0015;
-        public static final int design_fab_shadow_mid_color=0x7f0d0016;
-        public static final int design_fab_shadow_start_color=0x7f0d0017;
-        public static final int design_fab_stroke_end_inner_color=0x7f0d0018;
-        public static final int design_fab_stroke_end_outer_color=0x7f0d0019;
-        public static final int design_fab_stroke_top_inner_color=0x7f0d001a;
-        public static final int design_fab_stroke_top_outer_color=0x7f0d001b;
-        public static final int design_snackbar_background_color=0x7f0d001c;
-        public static final int design_textinput_error_color_dark=0x7f0d001d;
-        public static final int design_textinput_error_color_light=0x7f0d001e;
-        public static final int dgts__default_accent=0x7f0d001f;
-        public static final int dgts__default_logo_name=0x7f0d0020;
-        public static final int dgts__purple=0x7f0d0021;
-        public static final int dgts__purple_pressed=0x7f0d0022;
-        public static final int dgts__text_dark=0x7f0d0023;
-        public static final int dgts__text_light=0x7f0d0024;
-        public static final int diarytheme_color=0x7f0d0025;
-        public static final int dim_foreground_disabled_material_dark=0x7f0d0026;
-        public static final int dim_foreground_disabled_material_light=0x7f0d0027;
-        public static final int dim_foreground_material_dark=0x7f0d0028;
-        public static final int dim_foreground_material_light=0x7f0d0029;
-        public static final int foreground_material_dark=0x7f0d002a;
-        public static final int foreground_material_light=0x7f0d002b;
-        public static final int highlighted_text_material_dark=0x7f0d002c;
-        public static final int highlighted_text_material_light=0x7f0d002d;
-        public static final int hint_foreground_material_dark=0x7f0d002e;
-        public static final int hint_foreground_material_light=0x7f0d002f;
-        public static final int material_blue_grey_800=0x7f0d0030;
-        public static final int material_blue_grey_900=0x7f0d0031;
-        public static final int material_blue_grey_950=0x7f0d0032;
-        public static final int material_deep_teal_200=0x7f0d0033;
-        public static final int material_deep_teal_500=0x7f0d0034;
-        public static final int material_grey_100=0x7f0d0035;
-        public static final int material_grey_300=0x7f0d0036;
-        public static final int material_grey_50=0x7f0d0037;
-        public static final int material_grey_600=0x7f0d0038;
-        public static final int material_grey_800=0x7f0d0039;
-        public static final int material_grey_850=0x7f0d003a;
-        public static final int material_grey_900=0x7f0d003b;
-        public static final int primary_dark_material_dark=0x7f0d003c;
-        public static final int primary_dark_material_light=0x7f0d003d;
-        public static final int primary_material_dark=0x7f0d003e;
-        public static final int primary_material_light=0x7f0d003f;
-        public static final int primary_text_default_material_dark=0x7f0d0040;
-        public static final int primary_text_default_material_light=0x7f0d0041;
-        public static final int primary_text_disabled_material_dark=0x7f0d0042;
-        public static final int primary_text_disabled_material_light=0x7f0d0043;
-        public static final int ripple_material_dark=0x7f0d0044;
-        public static final int ripple_material_light=0x7f0d0045;
-        public static final int secondary_text_default_material_dark=0x7f0d0046;
-        public static final int secondary_text_default_material_light=0x7f0d0047;
-        public static final int secondary_text_disabled_material_dark=0x7f0d0048;
-        public static final int secondary_text_disabled_material_light=0x7f0d0049;
-        public static final int switch_thumb_disabled_material_dark=0x7f0d004a;
-        public static final int switch_thumb_disabled_material_light=0x7f0d004b;
-        public static final int switch_thumb_material_dark=0x7f0d007c;
-        public static final int switch_thumb_material_light=0x7f0d007d;
-        public static final int switch_thumb_normal_material_dark=0x7f0d004c;
-        public static final int switch_thumb_normal_material_light=0x7f0d004d;
-        public static final int tw__blue_default=0x7f0d004e;
-        public static final int tw__blue_pressed=0x7f0d004f;
-        public static final int tw__blue_pressed_light=0x7f0d0050;
-        public static final int tw__composer_black=0x7f0d0051;
-        public static final int tw__composer_blue=0x7f0d0052;
-        public static final int tw__composer_blue_text=0x7f0d0053;
-        public static final int tw__composer_deep_gray=0x7f0d0054;
-        public static final int tw__composer_light_gray=0x7f0d0055;
-        public static final int tw__composer_red=0x7f0d0056;
-        public static final int tw__composer_white=0x7f0d0057;
-        public static final int tw__light_gray=0x7f0d0058;
-        public static final int tw__medium_gray=0x7f0d0059;
-        public static final int tw__seekbar_thumb_inner_color=0x7f0d005a;
-        public static final int tw__seekbar_thumb_outer_color=0x7f0d005b;
-        public static final int tw__solid_white=0x7f0d005c;
-        public static final int tw__transparent=0x7f0d005d;
-        public static final int tw__tweet_action_color=0x7f0d005e;
-        public static final int tw__tweet_action_dark_highlight_color=0x7f0d005f;
-        public static final int tw__tweet_action_light_highlight_color=0x7f0d0060;
-        public static final int tw__tweet_dark_container_bg_color=0x7f0d0061;
-        public static final int tw__tweet_dark_primary_text_color=0x7f0d0062;
-        public static final int tw__tweet_light_container_bg_color=0x7f0d0063;
-        public static final int tw__tweet_light_primary_text_color=0x7f0d0064;
-        public static final int tw__tweet_media_preview_bg_color=0x7f0d0065;
-        public static final int vk_black=0x7f0d0066;
-        public static final int vk_black_pressed=0x7f0d0067;
-        public static final int vk_clear=0x7f0d0068;
-        public static final int vk_color=0x7f0d0069;
-        public static final int vk_grey_color=0x7f0d006a;
-        public static final int vk_light_color=0x7f0d006b;
-        public static final int vk_share_blue_color=0x7f0d006c;
-        public static final int vk_share_gray_line=0x7f0d006d;
-        public static final int vk_share_link_color=0x7f0d006e;
-        public static final int vk_share_link_title_color=0x7f0d006f;
-        public static final int vk_share_top_blue_color=0x7f0d0070;
-        public static final int vk_white=0x7f0d0071;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0c0070;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0c0071;
+        public static final int abc_color_highlight_material=0x7f0c0072;
+        public static final int abc_input_method_navigation_guard=0x7f0c0000;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0c0073;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0c0074;
+        public static final int abc_primary_text_material_dark=0x7f0c0075;
+        public static final int abc_primary_text_material_light=0x7f0c0076;
+        public static final int abc_search_url_text=0x7f0c0077;
+        public static final int abc_search_url_text_normal=0x7f0c0001;
+        public static final int abc_search_url_text_pressed=0x7f0c0002;
+        public static final int abc_search_url_text_selected=0x7f0c0003;
+        public static final int abc_secondary_text_material_dark=0x7f0c0078;
+        public static final int abc_secondary_text_material_light=0x7f0c0079;
+        public static final int accent_material_dark=0x7f0c0004;
+        public static final int accent_material_light=0x7f0c0005;
+        public static final int background_floating_material_dark=0x7f0c0006;
+        public static final int background_floating_material_light=0x7f0c0007;
+        public static final int background_material_dark=0x7f0c0008;
+        public static final int background_material_light=0x7f0c0009;
+        public static final int bright_foreground_disabled_material_dark=0x7f0c000a;
+        public static final int bright_foreground_disabled_material_light=0x7f0c000b;
+        public static final int bright_foreground_inverse_material_dark=0x7f0c000c;
+        public static final int bright_foreground_inverse_material_light=0x7f0c000d;
+        public static final int bright_foreground_material_dark=0x7f0c000e;
+        public static final int bright_foreground_material_light=0x7f0c000f;
+        public static final int button_material_dark=0x7f0c0010;
+        public static final int button_material_light=0x7f0c0011;
+        public static final int colorAccent=0x7f0c0012;
+        public static final int colorPrimary=0x7f0c0013;
+        public static final int colorPrimaryDark=0x7f0c0014;
+        public static final int design_fab_shadow_end_color=0x7f0c0015;
+        public static final int design_fab_shadow_mid_color=0x7f0c0016;
+        public static final int design_fab_shadow_start_color=0x7f0c0017;
+        public static final int design_fab_stroke_end_inner_color=0x7f0c0018;
+        public static final int design_fab_stroke_end_outer_color=0x7f0c0019;
+        public static final int design_fab_stroke_top_inner_color=0x7f0c001a;
+        public static final int design_fab_stroke_top_outer_color=0x7f0c001b;
+        public static final int design_snackbar_background_color=0x7f0c001c;
+        public static final int design_textinput_error_color_dark=0x7f0c001d;
+        public static final int design_textinput_error_color_light=0x7f0c001e;
+        public static final int diarytheme_color=0x7f0c001f;
+        public static final int dim_foreground_disabled_material_dark=0x7f0c0020;
+        public static final int dim_foreground_disabled_material_light=0x7f0c0021;
+        public static final int dim_foreground_material_dark=0x7f0c0022;
+        public static final int dim_foreground_material_light=0x7f0c0023;
+        public static final int fab_material_amber_500=0x7f0c0024;
+        public static final int fab_material_amber_900=0x7f0c0025;
+        public static final int fab_material_black=0x7f0c0026;
+        public static final int fab_material_blue_500=0x7f0c0027;
+        public static final int fab_material_blue_900=0x7f0c0028;
+        public static final int fab_material_blue_grey_500=0x7f0c0029;
+        public static final int fab_material_blue_grey_900=0x7f0c002a;
+        public static final int fab_material_brown_500=0x7f0c002b;
+        public static final int fab_material_brown_900=0x7f0c002c;
+        public static final int fab_material_cyan_500=0x7f0c002d;
+        public static final int fab_material_cyan_900=0x7f0c002e;
+        public static final int fab_material_deep_orange_500=0x7f0c002f;
+        public static final int fab_material_deep_orange_900=0x7f0c0030;
+        public static final int fab_material_deep_purple_500=0x7f0c0031;
+        public static final int fab_material_deep_purple_900=0x7f0c0032;
+        public static final int fab_material_green_500=0x7f0c0033;
+        public static final int fab_material_green_900=0x7f0c0034;
+        public static final int fab_material_grey_500=0x7f0c0035;
+        public static final int fab_material_grey_900=0x7f0c0036;
+        public static final int fab_material_indigo_500=0x7f0c0037;
+        public static final int fab_material_indigo_900=0x7f0c0038;
+        public static final int fab_material_light_blue_500=0x7f0c0039;
+        public static final int fab_material_light_blue_900=0x7f0c003a;
+        public static final int fab_material_light_green_500=0x7f0c003b;
+        public static final int fab_material_light_green_900=0x7f0c003c;
+        public static final int fab_material_lime_500=0x7f0c003d;
+        public static final int fab_material_lime_900=0x7f0c003e;
+        public static final int fab_material_orange_500=0x7f0c003f;
+        public static final int fab_material_orange_900=0x7f0c0040;
+        public static final int fab_material_pink_500=0x7f0c0041;
+        public static final int fab_material_pink_900=0x7f0c0042;
+        public static final int fab_material_purple_500=0x7f0c0043;
+        public static final int fab_material_purple_900=0x7f0c0044;
+        public static final int fab_material_red_500=0x7f0c0045;
+        public static final int fab_material_red_900=0x7f0c0046;
+        public static final int fab_material_teal_500=0x7f0c0047;
+        public static final int fab_material_teal_900=0x7f0c0048;
+        public static final int fab_material_white=0x7f0c0049;
+        public static final int fab_material_yellow_500=0x7f0c004a;
+        public static final int fab_material_yellow_900=0x7f0c004b;
+        public static final int foreground_material_dark=0x7f0c004c;
+        public static final int foreground_material_light=0x7f0c004d;
+        public static final int highlighted_text_material_dark=0x7f0c004e;
+        public static final int highlighted_text_material_light=0x7f0c004f;
+        public static final int hint_foreground_material_dark=0x7f0c0050;
+        public static final int hint_foreground_material_light=0x7f0c0051;
+        public static final int material_blue_grey_800=0x7f0c0052;
+        public static final int material_blue_grey_900=0x7f0c0053;
+        public static final int material_blue_grey_950=0x7f0c0054;
+        public static final int material_deep_teal_200=0x7f0c0055;
+        public static final int material_deep_teal_500=0x7f0c0056;
+        public static final int material_grey_100=0x7f0c0057;
+        public static final int material_grey_300=0x7f0c0058;
+        public static final int material_grey_50=0x7f0c0059;
+        public static final int material_grey_600=0x7f0c005a;
+        public static final int material_grey_800=0x7f0c005b;
+        public static final int material_grey_850=0x7f0c005c;
+        public static final int material_grey_900=0x7f0c005d;
+        public static final int primary_dark_material_dark=0x7f0c005e;
+        public static final int primary_dark_material_light=0x7f0c005f;
+        public static final int primary_material_dark=0x7f0c0060;
+        public static final int primary_material_light=0x7f0c0061;
+        public static final int primary_text_default_material_dark=0x7f0c0062;
+        public static final int primary_text_default_material_light=0x7f0c0063;
+        public static final int primary_text_disabled_material_dark=0x7f0c0064;
+        public static final int primary_text_disabled_material_light=0x7f0c0065;
+        public static final int ripple_material_dark=0x7f0c0066;
+        public static final int ripple_material_light=0x7f0c0067;
+        public static final int secondary_text_default_material_dark=0x7f0c0068;
+        public static final int secondary_text_default_material_light=0x7f0c0069;
+        public static final int secondary_text_disabled_material_dark=0x7f0c006a;
+        public static final int secondary_text_disabled_material_light=0x7f0c006b;
+        public static final int switch_thumb_disabled_material_dark=0x7f0c006c;
+        public static final int switch_thumb_disabled_material_light=0x7f0c006d;
+        public static final int switch_thumb_material_dark=0x7f0c007a;
+        public static final int switch_thumb_material_light=0x7f0c007b;
+        public static final int switch_thumb_normal_material_dark=0x7f0c006e;
+        public static final int switch_thumb_normal_material_light=0x7f0c006f;
     }
     public static final class dimen {
-        public static final int abc_action_bar_content_inset_material=0x7f0a0012;
-        public static final int abc_action_bar_default_height_material=0x7f0a0006;
-        public static final int abc_action_bar_default_padding_end_material=0x7f0a0013;
-        public static final int abc_action_bar_default_padding_start_material=0x7f0a0014;
-        public static final int abc_action_bar_icon_vertical_padding_material=0x7f0a0020;
-        public static final int abc_action_bar_overflow_padding_end_material=0x7f0a0021;
-        public static final int abc_action_bar_overflow_padding_start_material=0x7f0a0022;
-        public static final int abc_action_bar_progress_bar_size=0x7f0a0007;
-        public static final int abc_action_bar_stacked_max_height=0x7f0a0023;
-        public static final int abc_action_bar_stacked_tab_max_width=0x7f0a0024;
-        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f0a0025;
-        public static final int abc_action_bar_subtitle_top_margin_material=0x7f0a0026;
-        public static final int abc_action_button_min_height_material=0x7f0a0027;
-        public static final int abc_action_button_min_width_material=0x7f0a0028;
-        public static final int abc_action_button_min_width_overflow_material=0x7f0a0029;
-        public static final int abc_alert_dialog_button_bar_height=0x7f0a0000;
-        public static final int abc_button_inset_horizontal_material=0x7f0a002a;
-        public static final int abc_button_inset_vertical_material=0x7f0a002b;
-        public static final int abc_button_padding_horizontal_material=0x7f0a002c;
-        public static final int abc_button_padding_vertical_material=0x7f0a002d;
-        public static final int abc_config_prefDialogWidth=0x7f0a000a;
-        public static final int abc_control_corner_material=0x7f0a002e;
-        public static final int abc_control_inset_material=0x7f0a002f;
-        public static final int abc_control_padding_material=0x7f0a0030;
-        public static final int abc_dialog_fixed_height_major=0x7f0a000b;
-        public static final int abc_dialog_fixed_height_minor=0x7f0a000c;
-        public static final int abc_dialog_fixed_width_major=0x7f0a000d;
-        public static final int abc_dialog_fixed_width_minor=0x7f0a000e;
-        public static final int abc_dialog_list_padding_vertical_material=0x7f0a0031;
-        public static final int abc_dialog_min_width_major=0x7f0a000f;
-        public static final int abc_dialog_min_width_minor=0x7f0a0010;
-        public static final int abc_dialog_padding_material=0x7f0a0032;
-        public static final int abc_dialog_padding_top_material=0x7f0a0033;
-        public static final int abc_disabled_alpha_material_dark=0x7f0a0034;
-        public static final int abc_disabled_alpha_material_light=0x7f0a0035;
-        public static final int abc_dropdownitem_icon_width=0x7f0a0036;
-        public static final int abc_dropdownitem_text_padding_left=0x7f0a0037;
-        public static final int abc_dropdownitem_text_padding_right=0x7f0a0038;
-        public static final int abc_edit_text_inset_bottom_material=0x7f0a0039;
-        public static final int abc_edit_text_inset_horizontal_material=0x7f0a003a;
-        public static final int abc_edit_text_inset_top_material=0x7f0a003b;
-        public static final int abc_floating_window_z=0x7f0a003c;
-        public static final int abc_list_item_padding_horizontal_material=0x7f0a003d;
-        public static final int abc_panel_menu_list_width=0x7f0a003e;
-        public static final int abc_search_view_preferred_width=0x7f0a003f;
-        public static final int abc_search_view_text_min_width=0x7f0a0011;
-        public static final int abc_seekbar_track_background_height_material=0x7f0a0040;
-        public static final int abc_seekbar_track_progress_height_material=0x7f0a0041;
-        public static final int abc_select_dialog_padding_start_material=0x7f0a0042;
-        public static final int abc_switch_padding=0x7f0a001e;
-        public static final int abc_text_size_body_1_material=0x7f0a0043;
-        public static final int abc_text_size_body_2_material=0x7f0a0044;
-        public static final int abc_text_size_button_material=0x7f0a0045;
-        public static final int abc_text_size_caption_material=0x7f0a0046;
-        public static final int abc_text_size_display_1_material=0x7f0a0047;
-        public static final int abc_text_size_display_2_material=0x7f0a0048;
-        public static final int abc_text_size_display_3_material=0x7f0a0049;
-        public static final int abc_text_size_display_4_material=0x7f0a004a;
-        public static final int abc_text_size_headline_material=0x7f0a004b;
-        public static final int abc_text_size_large_material=0x7f0a004c;
-        public static final int abc_text_size_medium_material=0x7f0a004d;
-        public static final int abc_text_size_menu_material=0x7f0a004e;
-        public static final int abc_text_size_small_material=0x7f0a004f;
-        public static final int abc_text_size_subhead_material=0x7f0a0050;
-        public static final int abc_text_size_subtitle_material_toolbar=0x7f0a0008;
-        public static final int abc_text_size_title_material=0x7f0a0051;
-        public static final int abc_text_size_title_material_toolbar=0x7f0a0009;
-        public static final int design_appbar_elevation=0x7f0a0052;
-        public static final int design_bottom_sheet_modal_elevation=0x7f0a0053;
-        public static final int design_bottom_sheet_modal_peek_height=0x7f0a0054;
-        public static final int design_fab_border_width=0x7f0a0055;
-        public static final int design_fab_elevation=0x7f0a0056;
-        public static final int design_fab_image_size=0x7f0a0057;
-        public static final int design_fab_size_mini=0x7f0a0058;
-        public static final int design_fab_size_normal=0x7f0a0059;
-        public static final int design_fab_translation_z_pressed=0x7f0a005a;
-        public static final int design_navigation_elevation=0x7f0a005b;
-        public static final int design_navigation_icon_padding=0x7f0a005c;
-        public static final int design_navigation_icon_size=0x7f0a005d;
-        public static final int design_navigation_max_width=0x7f0a0015;
-        public static final int design_navigation_padding_bottom=0x7f0a005e;
-        public static final int design_navigation_separator_vertical_padding=0x7f0a005f;
-        public static final int design_snackbar_action_inline_max_width=0x7f0a0016;
-        public static final int design_snackbar_background_corner_radius=0x7f0a0017;
-        public static final int design_snackbar_elevation=0x7f0a0060;
-        public static final int design_snackbar_extra_spacing_horizontal=0x7f0a0018;
-        public static final int design_snackbar_max_width=0x7f0a0019;
-        public static final int design_snackbar_min_width=0x7f0a001a;
-        public static final int design_snackbar_padding_horizontal=0x7f0a0061;
-        public static final int design_snackbar_padding_vertical=0x7f0a0062;
-        public static final int design_snackbar_padding_vertical_2lines=0x7f0a001b;
-        public static final int design_snackbar_text_size=0x7f0a0063;
-        public static final int design_tab_max_width=0x7f0a0064;
-        public static final int design_tab_scrollable_min_width=0x7f0a001c;
-        public static final int design_tab_text_size=0x7f0a0065;
-        public static final int design_tab_text_size_2line=0x7f0a0066;
-        public static final int dgts__countdown_margin=0x7f0a0067;
-        public static final int dgts__country_code_margin_bottom=0x7f0a0068;
-        public static final int dgts__margin_bottom=0x7f0a0069;
-        public static final int dgts__margin_left=0x7f0a006a;
-        public static final int dgts__margin_right=0x7f0a006b;
-        public static final int dgts__padding_container=0x7f0a006c;
-        public static final int dgts__padding_title=0x7f0a006d;
-        public static final int dgts__permissions_margin_bottom=0x7f0a006e;
-        public static final int dgts__progress_bar_side_length=0x7f0a006f;
-        public static final int dgts__terms_text_size=0x7f0a0070;
-        public static final int dgts__title_text_size=0x7f0a0071;
-        public static final int disabled_alpha_material_dark=0x7f0a0072;
-        public static final int disabled_alpha_material_light=0x7f0a0073;
-        public static final int highlight_alpha_material_colored=0x7f0a0074;
-        public static final int highlight_alpha_material_dark=0x7f0a0075;
-        public static final int highlight_alpha_material_light=0x7f0a0076;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f0a0077;
-        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f0a0078;
-        public static final int item_touch_helper_swipe_escape_velocity=0x7f0a0079;
-        public static final int notification_large_icon_height=0x7f0a007a;
-        public static final int notification_large_icon_width=0x7f0a007b;
-        public static final int notification_subtext_size=0x7f0a007c;
-        public static final int tw__btn_bar_margin_left=0x7f0a007d;
-        public static final int tw__btn_bar_margin_right=0x7f0a007e;
-        public static final int tw__card_font_size_medium=0x7f0a007f;
-        public static final int tw__card_font_size_small=0x7f0a0080;
-        public static final int tw__card_maximum_width=0x7f0a0081;
-        public static final int tw__card_radius_medium=0x7f0a0082;
-        public static final int tw__card_radius_small=0x7f0a0083;
-        public static final int tw__card_spacing_large=0x7f0a0084;
-        public static final int tw__card_spacing_medium=0x7f0a0085;
-        public static final int tw__card_spacing_small=0x7f0a0086;
-        public static final int tw__compact_tweet_action_bar_offset_left=0x7f0a0087;
-        public static final int tw__compact_tweet_attribution_line_margin_right=0x7f0a0088;
-        public static final int tw__compact_tweet_avatar_margin_left=0x7f0a0089;
-        public static final int tw__compact_tweet_avatar_margin_right=0x7f0a008a;
-        public static final int tw__compact_tweet_avatar_margin_top=0x7f0a008b;
-        public static final int tw__compact_tweet_container_bottom_separator=0x7f0a008c;
-        public static final int tw__compact_tweet_container_padding_top=0x7f0a008d;
-        public static final int tw__compact_tweet_full_name_margin_top=0x7f0a008e;
-        public static final int tw__compact_tweet_logo_margin_right=0x7f0a008f;
-        public static final int tw__compact_tweet_logo_margin_top=0x7f0a0090;
-        public static final int tw__compact_tweet_media_margin_bottom=0x7f0a0091;
-        public static final int tw__compact_tweet_media_margin_right=0x7f0a0092;
-        public static final int tw__compact_tweet_media_margin_top=0x7f0a0093;
-        public static final int tw__compact_tweet_retweeted_by_drawable_padding=0x7f0a0094;
-        public static final int tw__compact_tweet_retweeted_by_margin_bottom=0x7f0a0095;
-        public static final int tw__compact_tweet_retweeted_by_margin_left=0x7f0a0096;
-        public static final int tw__compact_tweet_retweeted_by_margin_top=0x7f0a0097;
-        public static final int tw__compact_tweet_screen_name_layout_width=0x7f0a0098;
-        public static final int tw__compact_tweet_screen_name_margin_bottom=0x7f0a0099;
-        public static final int tw__compact_tweet_screen_name_margin_top=0x7f0a009a;
-        public static final int tw__compact_tweet_screen_name_padding_left=0x7f0a009b;
-        public static final int tw__compact_tweet_text_margin_left=0x7f0a009c;
-        public static final int tw__compact_tweet_text_margin_right=0x7f0a009d;
-        public static final int tw__compact_tweet_text_margin_top=0x7f0a009e;
-        public static final int tw__compact_tweet_timestamp_margin_top=0x7f0a009f;
-        public static final int tw__composer_avatar_size=0x7f0a00a0;
-        public static final int tw__composer_char_count_height=0x7f0a00a1;
-        public static final int tw__composer_close_size=0x7f0a00a2;
-        public static final int tw__composer_divider_height=0x7f0a00a3;
-        public static final int tw__composer_font_size_small=0x7f0a00a4;
-        public static final int tw__composer_logo_height=0x7f0a00a5;
-        public static final int tw__composer_logo_width=0x7f0a00a6;
-        public static final int tw__composer_spacing_large=0x7f0a00a7;
-        public static final int tw__composer_spacing_medium=0x7f0a00a8;
-        public static final int tw__composer_spacing_small=0x7f0a00a9;
-        public static final int tw__composer_tweet_btn_height=0x7f0a00aa;
-        public static final int tw__composer_tweet_btn_radius=0x7f0a00ab;
-        public static final int tw__gif_badge_padding=0x7f0a00ac;
-        public static final int tw__login_btn_drawable_padding=0x7f0a0001;
-        public static final int tw__login_btn_height=0x7f0a0002;
-        public static final int tw__login_btn_left_padding=0x7f0a0003;
-        public static final int tw__login_btn_radius=0x7f0a00ad;
-        public static final int tw__login_btn_right_padding=0x7f0a0004;
-        public static final int tw__login_btn_text_size=0x7f0a0005;
-        public static final int tw__padding_permission_horizontal_container=0x7f0a001d;
-        public static final int tw__padding_permission_vertical_container=0x7f0a00ae;
-        public static final int tw__permission_description_text_size=0x7f0a00af;
-        public static final int tw__permission_title_text_size=0x7f0a00b0;
-        public static final int tw__seekbar_thumb_inner_padding=0x7f0a00b1;
-        public static final int tw__seekbar_thumb_outer_padding=0x7f0a00b2;
-        public static final int tw__seekbar_thumb_size=0x7f0a00b3;
-        public static final int tw__text_size_large=0x7f0a00b4;
-        public static final int tw__text_size_medium=0x7f0a00b5;
-        public static final int tw__text_size_small=0x7f0a00b6;
-        public static final int tw__tweet_action_bar_offset_bottom=0x7f0a00b7;
-        public static final int tw__tweet_action_bar_offset_left=0x7f0a00b8;
-        public static final int tw__tweet_action_button_margin_top=0x7f0a00b9;
-        public static final int tw__tweet_action_button_spacing=0x7f0a00ba;
-        public static final int tw__tweet_action_heart_size=0x7f0a00bb;
-        public static final int tw__tweet_action_share_padding=0x7f0a00bc;
-        public static final int tw__tweet_avatar_margin_left=0x7f0a00bd;
-        public static final int tw__tweet_avatar_margin_right=0x7f0a00be;
-        public static final int tw__tweet_avatar_margin_top=0x7f0a00bf;
-        public static final int tw__tweet_avatar_size=0x7f0a00c0;
-        public static final int tw__tweet_container_bottom_separator=0x7f0a00c1;
-        public static final int tw__tweet_container_padding_top=0x7f0a00c2;
-        public static final int tw__tweet_full_name_margin_top=0x7f0a00c3;
-        public static final int tw__tweet_logo_margin_right=0x7f0a00c4;
-        public static final int tw__tweet_logo_margin_top=0x7f0a00c5;
-        public static final int tw__tweet_media_aspect_ratio=0x7f0a00c6;
-        public static final int tw__tweet_media_badge_margin=0x7f0a00c7;
-        public static final int tw__tweet_retweeted_by_drawable_padding=0x7f0a00c8;
-        public static final int tw__tweet_retweeted_by_margin_bottom=0x7f0a00c9;
-        public static final int tw__tweet_retweeted_by_margin_left=0x7f0a00ca;
-        public static final int tw__tweet_retweeted_by_margin_top=0x7f0a00cb;
-        public static final int tw__tweet_screen_name_margin_bottom=0x7f0a00cc;
-        public static final int tw__tweet_screen_name_margin_top=0x7f0a00cd;
-        public static final int tw__tweet_text_margin_left=0x7f0a00ce;
-        public static final int tw__tweet_text_margin_right=0x7f0a00cf;
-        public static final int tw__tweet_text_margin_top=0x7f0a00d0;
-        public static final int tw__tweet_timestamp_margin_top=0x7f0a00d1;
-        public static final int tw__tweet_timestamp_padding_left=0x7f0a00d2;
-        public static final int tw__tweet_verified_check_padding_left=0x7f0a00d3;
-        public static final int tw__tweet_verified_margin_bottom=0x7f0a00d4;
-        public static final int tw__video_control_height=0x7f0a00d5;
-        public static final int tw__video_control_text_size=0x7f0a00d6;
-        public static final int twodp=0x7f0a00d7;
-        public static final int vk_share_dialog_padding=0x7f0a00d8;
-        public static final int vk_share_dialog_padding_top=0x7f0a00d9;
-        public static final int vk_share_dialog_view_padding=0x7f0a001f;
-        public static final int vk_share_link_top_margin=0x7f0a00da;
-        public static final int vk_share_send_text_size=0x7f0a00db;
-        public static final int vk_share_settings_button_min_height=0x7f0a00dc;
-        public static final int vk_share_title_link_host_size=0x7f0a00dd;
-        public static final int vk_share_title_link_title_size=0x7f0a00de;
-        public static final int vk_share_title_text_size=0x7f0a00df;
-        public static final int vk_share_top_button_padding_left=0x7f0a00e0;
-        public static final int vk_share_top_button_padding_right=0x7f0a00e1;
-        public static final int vk_share_top_image_margin=0x7f0a00e2;
-        public static final int vk_share_top_line_margin=0x7f0a00e3;
-        public static final int vk_share_top_panel_height=0x7f0a00e4;
-        public static final int vk_share_top_title_margin=0x7f0a00e5;
+        public static final int abc_action_bar_content_inset_material=0x7f09000d;
+        public static final int abc_action_bar_default_height_material=0x7f090001;
+        public static final int abc_action_bar_default_padding_end_material=0x7f09000e;
+        public static final int abc_action_bar_default_padding_start_material=0x7f09000f;
+        public static final int abc_action_bar_icon_vertical_padding_material=0x7f09001a;
+        public static final int abc_action_bar_overflow_padding_end_material=0x7f09001b;
+        public static final int abc_action_bar_overflow_padding_start_material=0x7f09001c;
+        public static final int abc_action_bar_progress_bar_size=0x7f090002;
+        public static final int abc_action_bar_stacked_max_height=0x7f09001d;
+        public static final int abc_action_bar_stacked_tab_max_width=0x7f09001e;
+        public static final int abc_action_bar_subtitle_bottom_margin_material=0x7f09001f;
+        public static final int abc_action_bar_subtitle_top_margin_material=0x7f090020;
+        public static final int abc_action_button_min_height_material=0x7f090021;
+        public static final int abc_action_button_min_width_material=0x7f090022;
+        public static final int abc_action_button_min_width_overflow_material=0x7f090023;
+        public static final int abc_alert_dialog_button_bar_height=0x7f090000;
+        public static final int abc_button_inset_horizontal_material=0x7f090024;
+        public static final int abc_button_inset_vertical_material=0x7f090025;
+        public static final int abc_button_padding_horizontal_material=0x7f090026;
+        public static final int abc_button_padding_vertical_material=0x7f090027;
+        public static final int abc_config_prefDialogWidth=0x7f090005;
+        public static final int abc_control_corner_material=0x7f090028;
+        public static final int abc_control_inset_material=0x7f090029;
+        public static final int abc_control_padding_material=0x7f09002a;
+        public static final int abc_dialog_fixed_height_major=0x7f090006;
+        public static final int abc_dialog_fixed_height_minor=0x7f090007;
+        public static final int abc_dialog_fixed_width_major=0x7f090008;
+        public static final int abc_dialog_fixed_width_minor=0x7f090009;
+        public static final int abc_dialog_list_padding_vertical_material=0x7f09002b;
+        public static final int abc_dialog_min_width_major=0x7f09000a;
+        public static final int abc_dialog_min_width_minor=0x7f09000b;
+        public static final int abc_dialog_padding_material=0x7f09002c;
+        public static final int abc_dialog_padding_top_material=0x7f09002d;
+        public static final int abc_disabled_alpha_material_dark=0x7f09002e;
+        public static final int abc_disabled_alpha_material_light=0x7f09002f;
+        public static final int abc_dropdownitem_icon_width=0x7f090030;
+        public static final int abc_dropdownitem_text_padding_left=0x7f090031;
+        public static final int abc_dropdownitem_text_padding_right=0x7f090032;
+        public static final int abc_edit_text_inset_bottom_material=0x7f090033;
+        public static final int abc_edit_text_inset_horizontal_material=0x7f090034;
+        public static final int abc_edit_text_inset_top_material=0x7f090035;
+        public static final int abc_floating_window_z=0x7f090036;
+        public static final int abc_list_item_padding_horizontal_material=0x7f090037;
+        public static final int abc_panel_menu_list_width=0x7f090038;
+        public static final int abc_search_view_preferred_width=0x7f090039;
+        public static final int abc_search_view_text_min_width=0x7f09000c;
+        public static final int abc_seekbar_track_background_height_material=0x7f09003a;
+        public static final int abc_seekbar_track_progress_height_material=0x7f09003b;
+        public static final int abc_select_dialog_padding_start_material=0x7f09003c;
+        public static final int abc_switch_padding=0x7f090019;
+        public static final int abc_text_size_body_1_material=0x7f09003d;
+        public static final int abc_text_size_body_2_material=0x7f09003e;
+        public static final int abc_text_size_button_material=0x7f09003f;
+        public static final int abc_text_size_caption_material=0x7f090040;
+        public static final int abc_text_size_display_1_material=0x7f090041;
+        public static final int abc_text_size_display_2_material=0x7f090042;
+        public static final int abc_text_size_display_3_material=0x7f090043;
+        public static final int abc_text_size_display_4_material=0x7f090044;
+        public static final int abc_text_size_headline_material=0x7f090045;
+        public static final int abc_text_size_large_material=0x7f090046;
+        public static final int abc_text_size_medium_material=0x7f090047;
+        public static final int abc_text_size_menu_material=0x7f090048;
+        public static final int abc_text_size_small_material=0x7f090049;
+        public static final int abc_text_size_subhead_material=0x7f09004a;
+        public static final int abc_text_size_subtitle_material_toolbar=0x7f090003;
+        public static final int abc_text_size_title_material=0x7f09004b;
+        public static final int abc_text_size_title_material_toolbar=0x7f090004;
+        public static final int design_appbar_elevation=0x7f09004c;
+        public static final int design_bottom_sheet_modal_elevation=0x7f09004d;
+        public static final int design_bottom_sheet_modal_peek_height=0x7f09004e;
+        public static final int design_fab_border_width=0x7f09004f;
+        public static final int design_fab_elevation=0x7f090050;
+        public static final int design_fab_image_size=0x7f090051;
+        public static final int design_fab_size_mini=0x7f090052;
+        public static final int design_fab_size_normal=0x7f090053;
+        public static final int design_fab_translation_z_pressed=0x7f090054;
+        public static final int design_navigation_elevation=0x7f090055;
+        public static final int design_navigation_icon_padding=0x7f090056;
+        public static final int design_navigation_icon_size=0x7f090057;
+        public static final int design_navigation_max_width=0x7f090010;
+        public static final int design_navigation_padding_bottom=0x7f090058;
+        public static final int design_navigation_separator_vertical_padding=0x7f090059;
+        public static final int design_snackbar_action_inline_max_width=0x7f090011;
+        public static final int design_snackbar_background_corner_radius=0x7f090012;
+        public static final int design_snackbar_elevation=0x7f09005a;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f090013;
+        public static final int design_snackbar_max_width=0x7f090014;
+        public static final int design_snackbar_min_width=0x7f090015;
+        public static final int design_snackbar_padding_horizontal=0x7f09005b;
+        public static final int design_snackbar_padding_vertical=0x7f09005c;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f090016;
+        public static final int design_snackbar_text_size=0x7f09005d;
+        public static final int design_tab_max_width=0x7f09005e;
+        public static final int design_tab_scrollable_min_width=0x7f090017;
+        public static final int design_tab_text_size=0x7f09005f;
+        public static final int design_tab_text_size_2line=0x7f090060;
+        public static final int disabled_alpha_material_dark=0x7f090061;
+        public static final int disabled_alpha_material_light=0x7f090062;
+        public static final int fab_margin=0x7f090018;
+        public static final int highlight_alpha_material_colored=0x7f090063;
+        public static final int highlight_alpha_material_dark=0x7f090064;
+        public static final int highlight_alpha_material_light=0x7f090065;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f090066;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f090067;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f090068;
+        public static final int notification_large_icon_height=0x7f090069;
+        public static final int notification_large_icon_width=0x7f09006a;
+        public static final int notification_subtext_size=0x7f09006b;
+        public static final int twodp=0x7f09006c;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2583,520 +2482,242 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f02004a;
         public static final int design_fab_background=0x7f02004b;
         public static final int design_snackbar_background=0x7f02004c;
-        public static final int dgts__addressbook_header=0x7f02004d;
-        public static final int dgts__digits_btn=0x7f02004e;
-        public static final int dgts__digits_btn_default=0x7f02004f;
-        public static final int dgts__digits_btn_pressed=0x7f020050;
-        public static final int dgts__ic_success=0x7f020051;
-        public static final int dgts__login_header=0x7f020052;
-        public static final int dgts__logo=0x7f020053;
-        public static final int dgts__logo_name=0x7f020054;
-        public static final int dgts__spinner_dark=0x7f020055;
-        public static final int dgts__spinner_light=0x7f020056;
-        public static final int diarytheme_activated_background_holo_light=0x7f020057;
-        public static final int diarytheme_edit_text_holo_light=0x7f020058;
-        public static final int diarytheme_fastscroll_thumb_default_holo=0x7f020059;
-        public static final int diarytheme_fastscroll_thumb_holo=0x7f02005a;
-        public static final int diarytheme_fastscroll_thumb_pressed_holo=0x7f02005b;
-        public static final int diarytheme_item_background_holo_light=0x7f02005c;
-        public static final int diarytheme_list_activated_holo=0x7f02005d;
-        public static final int diarytheme_list_focused_holo=0x7f02005e;
-        public static final int diarytheme_list_longpressed_holo=0x7f02005f;
-        public static final int diarytheme_list_pressed_holo_light=0x7f020060;
-        public static final int diarytheme_list_selector_background_transition_holo_light=0x7f020061;
-        public static final int diarytheme_list_selector_disabled_holo_light=0x7f020062;
-        public static final int diarytheme_list_selector_holo_light=0x7f020063;
-        public static final int diarytheme_text_select_handle_left=0x7f020064;
-        public static final int diarytheme_text_select_handle_middle=0x7f020065;
-        public static final int diarytheme_text_select_handle_right=0x7f020066;
-        public static final int diarytheme_textfield_activated_holo_light=0x7f020067;
-        public static final int diarytheme_textfield_default_holo_light=0x7f020068;
-        public static final int diarytheme_textfield_disabled_focused_holo_light=0x7f020069;
-        public static final int diarytheme_textfield_disabled_holo_light=0x7f02006a;
-        public static final int diarytheme_textfield_focused_holo_light=0x7f02006b;
-        public static final int face=0x7f02006c;
-        public static final int facebook=0x7f02006d;
-        public static final int ic_ab_app=0x7f02006e;
-        public static final int ic_ab_done=0x7f02006f;
-        public static final int ic_fc=0x7f020070;
-        public static final int ic_launcher=0x7f020071;
-        public static final int ic_vk=0x7f020072;
-        public static final int notification_template_icon_bg=0x7f0200e7;
-        public static final int progress_dark=0x7f020073;
-        public static final int progress_light=0x7f020074;
-        public static final int tw__action_heart_off_default=0x7f020075;
-        public static final int tw__action_heart_on_default=0x7f020076;
-        public static final int tw__app_info_layout_border=0x7f020077;
-        public static final int tw__bg_media_badge=0x7f020078;
-        public static final int tw__btn_composer_tweet=0x7f020079;
-        public static final int tw__composer_close=0x7f02007a;
-        public static final int tw__composer_logo_blue=0x7f02007b;
-        public static final int tw__composer_logo_white=0x7f02007c;
-        public static final int tw__gif_badge=0x7f02007d;
-        public static final int tw__heart_animation_detail_60fps_00000=0x7f02007e;
-        public static final int tw__heart_animation_detail_60fps_00001=0x7f02007f;
-        public static final int tw__heart_animation_detail_60fps_00002=0x7f020080;
-        public static final int tw__heart_animation_detail_60fps_00003=0x7f020081;
-        public static final int tw__heart_animation_detail_60fps_00004=0x7f020082;
-        public static final int tw__heart_animation_detail_60fps_00005=0x7f020083;
-        public static final int tw__heart_animation_detail_60fps_00006=0x7f020084;
-        public static final int tw__heart_animation_detail_60fps_00007=0x7f020085;
-        public static final int tw__heart_animation_detail_60fps_00008=0x7f020086;
-        public static final int tw__heart_animation_detail_60fps_00009=0x7f020087;
-        public static final int tw__heart_animation_detail_60fps_00010=0x7f020088;
-        public static final int tw__heart_animation_detail_60fps_00011=0x7f020089;
-        public static final int tw__heart_animation_detail_60fps_00012=0x7f02008a;
-        public static final int tw__heart_animation_detail_60fps_00013=0x7f02008b;
-        public static final int tw__heart_animation_detail_60fps_00014=0x7f02008c;
-        public static final int tw__heart_animation_detail_60fps_00015=0x7f02008d;
-        public static final int tw__heart_animation_detail_60fps_00016=0x7f02008e;
-        public static final int tw__heart_animation_detail_60fps_00017=0x7f02008f;
-        public static final int tw__heart_animation_detail_60fps_00018=0x7f020090;
-        public static final int tw__heart_animation_detail_60fps_00019=0x7f020091;
-        public static final int tw__heart_animation_detail_60fps_00020=0x7f020092;
-        public static final int tw__heart_animation_detail_60fps_00021=0x7f020093;
-        public static final int tw__heart_animation_detail_60fps_00022=0x7f020094;
-        public static final int tw__heart_animation_detail_60fps_00023=0x7f020095;
-        public static final int tw__heart_animation_detail_60fps_00024=0x7f020096;
-        public static final int tw__heart_animation_detail_60fps_00025=0x7f020097;
-        public static final int tw__heart_animation_detail_60fps_00026=0x7f020098;
-        public static final int tw__heart_animation_detail_60fps_00027=0x7f020099;
-        public static final int tw__heart_animation_detail_60fps_00028=0x7f02009a;
-        public static final int tw__heart_animation_detail_60fps_00029=0x7f02009b;
-        public static final int tw__heart_animation_detail_60fps_00030=0x7f02009c;
-        public static final int tw__heart_animation_detail_60fps_00031=0x7f02009d;
-        public static final int tw__heart_animation_detail_60fps_00032=0x7f02009e;
-        public static final int tw__heart_animation_detail_60fps_00033=0x7f02009f;
-        public static final int tw__heart_animation_detail_60fps_00034=0x7f0200a0;
-        public static final int tw__heart_animation_detail_60fps_00035=0x7f0200a1;
-        public static final int tw__heart_animation_detail_60fps_00036=0x7f0200a2;
-        public static final int tw__heart_animation_detail_60fps_00037=0x7f0200a3;
-        public static final int tw__heart_animation_detail_60fps_00038=0x7f0200a4;
-        public static final int tw__heart_animation_detail_60fps_00039=0x7f0200a5;
-        public static final int tw__heart_animation_detail_60fps_00040=0x7f0200a6;
-        public static final int tw__heart_animation_detail_60fps_00041=0x7f0200a7;
-        public static final int tw__heart_animation_detail_60fps_00042=0x7f0200a8;
-        public static final int tw__heart_animation_detail_60fps_00043=0x7f0200a9;
-        public static final int tw__heart_animation_detail_60fps_00044=0x7f0200aa;
-        public static final int tw__heart_animation_detail_60fps_00045=0x7f0200ab;
-        public static final int tw__heart_animation_detail_60fps_00046=0x7f0200ac;
-        public static final int tw__heart_animation_detail_60fps_00047=0x7f0200ad;
-        public static final int tw__heart_animation_detail_60fps_00048=0x7f0200ae;
-        public static final int tw__heart_animation_detail_60fps_00049=0x7f0200af;
-        public static final int tw__heart_animation_detail_60fps_00050=0x7f0200b0;
-        public static final int tw__heart_animation_detail_60fps_00051=0x7f0200b1;
-        public static final int tw__heart_animation_detail_60fps_00052=0x7f0200b2;
-        public static final int tw__heart_animation_detail_60fps_00053=0x7f0200b3;
-        public static final int tw__heart_animation_detail_60fps_00054=0x7f0200b4;
-        public static final int tw__heart_animation_detail_60fps_00055=0x7f0200b5;
-        public static final int tw__heart_animation_detail_60fps_00056=0x7f0200b6;
-        public static final int tw__heart_animation_detail_60fps_00057=0x7f0200b7;
-        public static final int tw__heart_animation_detail_60fps_00058=0x7f0200b8;
-        public static final int tw__heart_animation_detail_60fps_00059=0x7f0200b9;
-        public static final int tw__ic_gif_badge=0x7f0200ba;
-        public static final int tw__ic_inline_share=0x7f0200bb;
-        public static final int tw__ic_logo_blue=0x7f0200bc;
-        public static final int tw__ic_logo_default=0x7f0200bd;
-        public static final int tw__ic_logo_white=0x7f0200be;
-        public static final int tw__ic_play_default=0x7f0200bf;
-        public static final int tw__ic_play_pressed=0x7f0200c0;
-        public static final int tw__ic_retweet_dark=0x7f0200c1;
-        public static final int tw__ic_retweet_light=0x7f0200c2;
-        public static final int tw__ic_seekbar_bg=0x7f0200c3;
-        public static final int tw__ic_seekbar_progress_bg=0x7f0200c4;
-        public static final int tw__ic_seekbar_secondary_bg=0x7f0200c5;
-        public static final int tw__ic_tweet_photo_error_dark=0x7f0200c6;
-        public static final int tw__ic_tweet_photo_error_light=0x7f0200c7;
-        public static final int tw__ic_tweet_verified=0x7f0200c8;
-        public static final int tw__ic_video_pause=0x7f0200c9;
-        public static final int tw__ic_video_pause_pressed=0x7f0200ca;
-        public static final int tw__ic_video_play=0x7f0200cb;
-        public static final int tw__ic_video_play_pressed=0x7f0200cc;
-        public static final int tw__ic_video_replay=0x7f0200cd;
-        public static final int tw__ic_video_replay_pressed=0x7f0200ce;
-        public static final int tw__install_button_border=0x7f0200cf;
-        public static final int tw__like_action=0x7f0200d0;
-        public static final int tw__login_btn=0x7f0200d1;
-        public static final int tw__login_btn_default=0x7f0200d2;
-        public static final int tw__login_btn_default_light=0x7f0200d3;
-        public static final int tw__login_btn_disabled=0x7f0200d4;
-        public static final int tw__login_btn_light=0x7f0200d5;
-        public static final int tw__login_btn_pressed=0x7f0200d6;
-        public static final int tw__login_btn_pressed_light=0x7f0200d7;
-        public static final int tw__login_btn_text_color_light=0x7f0200d8;
-        public static final int tw__player_overlay=0x7f0200d9;
-        public static final int tw__seekbar_thumb=0x7f0200da;
-        public static final int tw__share_action=0x7f0200db;
-        public static final int tw__share_email_header=0x7f0200dc;
-        public static final int tw__transparent=0x7f0200dd;
-        public static final int tw__video_pause_btn=0x7f0200de;
-        public static final int tw__video_play_btn=0x7f0200df;
-        public static final int tw__video_replay_btn=0x7f0200e0;
-        public static final int tw__video_seekbar=0x7f0200e1;
-        public static final int vk=0x7f0200e2;
-        public static final int vk_clear_shape=0x7f0200e3;
-        public static final int vk_gray_transparent_shape=0x7f0200e4;
-        public static final int vk_logo_small_blue=0x7f0200e5;
-        public static final int vk_share_send_button_background=0x7f0200e6;
+        public static final int dialogue=0x7f02004d;
+        public static final int ediitem=0x7f02004e;
+        public static final int editingediticon=0x7f02004f;
+        public static final int fab_plus_icon=0x7f020050;
+        public static final int ic_add_icon=0x7f020051;
+        public static final int notification_template_icon_bg=0x7f020053;
+        public static final int texture=0x7f020052;
     }
     public static final class id {
-        public static final int LinearLayout=0x7f0e009f;
-        public static final int action0=0x7f0e00a4;
-        public static final int action_bar=0x7f0e005c;
-        public static final int action_bar_activity_content=0x7f0e0000;
-        public static final int action_bar_container=0x7f0e005b;
-        public static final int action_bar_root=0x7f0e0057;
-        public static final int action_bar_spinner=0x7f0e0001;
-        public static final int action_bar_subtitle=0x7f0e003d;
-        public static final int action_bar_title=0x7f0e003c;
-        public static final int action_context_bar=0x7f0e005d;
-        public static final int action_divider=0x7f0e00a8;
-        public static final int action_menu_divider=0x7f0e0002;
-        public static final int action_menu_presenter=0x7f0e0003;
-        public static final int action_mode_bar=0x7f0e0059;
-        public static final int action_mode_bar_stub=0x7f0e0058;
-        public static final int action_mode_close_button=0x7f0e003e;
-        public static final int activity_chooser_view_content=0x7f0e003f;
-        public static final int alertTitle=0x7f0e004b;
-        public static final int always=0x7f0e0033;
-        public static final int attachmentLinkLayout=0x7f0e00f0;
-        public static final int beginning=0x7f0e0031;
-        public static final int bottom=0x7f0e001d;
-        public static final int bottom_separator=0x7f0e00db;
-        public static final int buttonPanel=0x7f0e0046;
-        public static final int cancel_action=0x7f0e00a5;
-        public static final int captchaAnswer=0x7f0e00e5;
-        public static final int captcha_container=0x7f0e00e3;
-        public static final int center=0x7f0e001e;
-        public static final int center_horizontal=0x7f0e001f;
-        public static final int center_vertical=0x7f0e0020;
-        public static final int checkbox=0x7f0e0054;
-        public static final int chronometer=0x7f0e00ab;
-        public static final int clip_horizontal=0x7f0e002c;
-        public static final int clip_vertical=0x7f0e002d;
-        public static final int collapseActionView=0x7f0e0034;
-        public static final int contentPanel=0x7f0e004c;
-        public static final int copyUrl=0x7f0e00e7;
-        public static final int counter=0x7f0e00a2;
-        public static final int custom=0x7f0e0052;
-        public static final int customPanel=0x7f0e0051;
-        public static final int date=0x7f0e00a3;
-        public static final int decor_content_parent=0x7f0e005a;
-        public static final int default_activity_button=0x7f0e0042;
-        public static final int deleteItem=0x7f0e00f7;
-        public static final int design_bottom_sheet=0x7f0e0072;
-        public static final int design_menu_item_action_area=0x7f0e0079;
-        public static final int design_menu_item_action_area_stub=0x7f0e0078;
-        public static final int design_menu_item_text=0x7f0e0077;
-        public static final int design_navigation_view=0x7f0e0076;
-        public static final int dgts__callMeButton=0x7f0e0080;
-        public static final int dgts__confirmationEditText=0x7f0e007c;
-        public static final int dgts__countdownTimer=0x7f0e0081;
-        public static final int dgts__countryCode=0x7f0e008d;
-        public static final int dgts__createAccount=0x7f0e007e;
-        public static final int dgts__dismiss_button=0x7f0e008a;
-        public static final int dgts__editPhoneNumber=0x7f0e007b;
-        public static final int dgts__error_text=0x7f0e0089;
-        public static final int dgts__error_title=0x7f0e0088;
-        public static final int dgts__find_your_friends=0x7f0e0084;
-        public static final int dgts__header_image=0x7f0e0083;
-        public static final int dgts__logo=0x7f0e008c;
-        public static final int dgts__logo_icon=0x7f0e0091;
-        public static final int dgts__logo_name=0x7f0e0092;
-        public static final int dgts__not_now=0x7f0e0086;
-        public static final int dgts__okay=0x7f0e0087;
-        public static final int dgts__phoneNumberEditText=0x7f0e008e;
-        public static final int dgts__resendConfirmationButton=0x7f0e007f;
-        public static final int dgts__sendCodeButton=0x7f0e008f;
-        public static final int dgts__state_button=0x7f0e0093;
-        public static final int dgts__state_progress=0x7f0e0094;
-        public static final int dgts__state_success=0x7f0e0095;
-        public static final int dgts__termsText=0x7f0e0090;
-        public static final int dgts__termsTextCreateAccount=0x7f0e0082;
-        public static final int dgts__titleText=0x7f0e007a;
-        public static final int dgts__try_another_phone=0x7f0e008b;
-        public static final int dgts__upload_contacts=0x7f0e0085;
-        public static final int disableHome=0x7f0e000e;
-        public static final int editDate=0x7f0e0098;
-        public static final int editDescription=0x7f0e0099;
-        public static final int editNote=0x7f0e00f6;
-        public static final int editTheme=0x7f0e0097;
-        public static final int edit_query=0x7f0e005e;
-        public static final int end=0x7f0e0021;
-        public static final int end_padder=0x7f0e00b0;
-        public static final int enterAlways=0x7f0e0015;
-        public static final int enterAlwaysCollapsed=0x7f0e0016;
-        public static final int exitUntilCollapsed=0x7f0e0017;
-        public static final int expand_activities_button=0x7f0e0040;
-        public static final int expanded_menu=0x7f0e0053;
-        public static final int fill=0x7f0e002e;
-        public static final int fill_horizontal=0x7f0e002f;
-        public static final int fill_vertical=0x7f0e0022;
-        public static final int fixed=0x7f0e0038;
-        public static final int frafment_conteiner=0x7f0e00a0;
-        public static final int heart_off=0x7f0e00f5;
-        public static final int heart_on=0x7f0e00f4;
-        public static final int height=0x7f0e003a;
-        public static final int home=0x7f0e0004;
-        public static final int homeAsUp=0x7f0e000f;
-        public static final int icon=0x7f0e0044;
-        public static final int ifRoom=0x7f0e0035;
-        public static final int image=0x7f0e0041;
-        public static final int imageView=0x7f0e009c;
-        public static final int imageView2=0x7f0e006c;
-        public static final int imageView3=0x7f0e006f;
-        public static final int image_view=0x7f0e00cb;
-        public static final int imagesContainer=0x7f0e00ef;
-        public static final int imagesScrollView=0x7f0e00ee;
-        public static final int info=0x7f0e00af;
-        public static final int input=0x7f0e0096;
-        public static final int input_add=0x7f0e00f9;
-        public static final int item=0x7f0e009a;
-        public static final int itemLayout=0x7f0e009b;
-        public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int left=0x7f0e0023;
-        public static final int line1=0x7f0e00a9;
-        public static final int line3=0x7f0e00ad;
-        public static final int linkHost=0x7f0e00f2;
-        public static final int linkTitle=0x7f0e00f1;
-        public static final int listMode=0x7f0e000b;
-        public static final int list_item=0x7f0e0043;
-        public static final int media_actions=0x7f0e00a7;
-        public static final int middle=0x7f0e0032;
-        public static final int mini=0x7f0e0030;
-        public static final int multiply=0x7f0e0027;
-        public static final int navigation_header_container=0x7f0e0075;
-        public static final int never=0x7f0e0036;
-        public static final int none=0x7f0e0010;
-        public static final int normal=0x7f0e000c;
-        public static final int parallax=0x7f0e001b;
-        public static final int parentPanel=0x7f0e0048;
-        public static final int pin=0x7f0e001c;
-        public static final int postContentLayout=0x7f0e00ec;
-        public static final int postSettingsLayout=0x7f0e00f3;
-        public static final int progress=0x7f0e00e6;
-        public static final int progressBar=0x7f0e00e4;
-        public static final int progress_circular=0x7f0e0006;
-        public static final int progress_horizontal=0x7f0e0007;
-        public static final int radio=0x7f0e0056;
-        public static final int right=0x7f0e0024;
-        public static final int screen=0x7f0e0028;
-        public static final int scroll=0x7f0e0018;
-        public static final int scrollIndicatorDown=0x7f0e0050;
-        public static final int scrollIndicatorUp=0x7f0e004d;
-        public static final int scrollView=0x7f0e004e;
-        public static final int scrollable=0x7f0e0039;
-        public static final int search_badge=0x7f0e0060;
-        public static final int search_bar=0x7f0e005f;
-        public static final int search_button=0x7f0e0061;
-        public static final int search_close_btn=0x7f0e0066;
-        public static final int search_edit_frame=0x7f0e0062;
-        public static final int search_go_btn=0x7f0e0068;
-        public static final int search_mag_icon=0x7f0e0063;
-        public static final int search_plate=0x7f0e0064;
-        public static final int search_src_text=0x7f0e0065;
-        public static final int search_voice_btn=0x7f0e0069;
-        public static final int select_dialog_listview=0x7f0e006a;
-        public static final int sendButton=0x7f0e00eb;
-        public static final int sendButtonLayout=0x7f0e00e9;
-        public static final int sendProgress=0x7f0e00ea;
-        public static final int share=0x7f0e00f8;
-        public static final int shareText=0x7f0e00ed;
-        public static final int shortcut=0x7f0e0055;
-        public static final int showCustom=0x7f0e0011;
-        public static final int showHome=0x7f0e0012;
-        public static final int showTitle=0x7f0e0013;
-        public static final int snackbar_action=0x7f0e0074;
-        public static final int snackbar_text=0x7f0e0073;
-        public static final int snap=0x7f0e0019;
-        public static final int spacer=0x7f0e0047;
-        public static final int split_action_bar=0x7f0e0008;
-        public static final int src_atop=0x7f0e0029;
-        public static final int src_in=0x7f0e002a;
-        public static final int src_over=0x7f0e002b;
-        public static final int start=0x7f0e0025;
-        public static final int status_bar_latest_event_content=0x7f0e00a6;
-        public static final int strut=0x7f0e007d;
-        public static final int submit_area=0x7f0e0067;
-        public static final int tabMode=0x7f0e000d;
-        public static final int text=0x7f0e00ae;
-        public static final int text2=0x7f0e00ac;
-        public static final int textDate=0x7f0e009e;
-        public static final int textSpacerNoButtons=0x7f0e004f;
-        public static final int textTheme=0x7f0e009d;
-        public static final int textView=0x7f0e006d;
-        public static final int textView2=0x7f0e0070;
-        public static final int time=0x7f0e00aa;
-        public static final int title=0x7f0e0045;
-        public static final int title_template=0x7f0e004a;
-        public static final int toolbar_actionbar=0x7f0e00a1;
-        public static final int top=0x7f0e0026;
-        public static final int topBarLayout=0x7f0e00e8;
-        public static final int topPanel=0x7f0e0049;
-        public static final int touch_outside=0x7f0e0071;
-        public static final int tw__allow_btn=0x7f0e00b9;
-        public static final int tw__app_image=0x7f0e00ba;
-        public static final int tw__app_info_layout=0x7f0e00bb;
-        public static final int tw__app_install_button=0x7f0e00bc;
-        public static final int tw__app_name=0x7f0e00bd;
-        public static final int tw__app_store_name=0x7f0e00be;
-        public static final int tw__author_attribution=0x7f0e00dc;
-        public static final int tw__author_avatar=0x7f0e00c2;
-        public static final int tw__card_view=0x7f0e00c6;
-        public static final int tw__char_count=0x7f0e00c9;
-        public static final int tw__composer_close=0x7f0e00c0;
-        public static final int tw__composer_header=0x7f0e00bf;
-        public static final int tw__composer_profile_divider=0x7f0e00c3;
-        public static final int tw__composer_scroll_view=0x7f0e00c4;
-        public static final int tw__composer_toolbar=0x7f0e00c8;
-        public static final int tw__composer_toolbar_divider=0x7f0e00c7;
-        public static final int tw__composer_view=0x7f0e00b4;
-        public static final int tw__current_time=0x7f0e00de;
-        public static final int tw__duration=0x7f0e00e0;
-        public static final int tw__edit_tweet=0x7f0e00c5;
-        public static final int tw__gif_badge=0x7f0e00cc;
-        public static final int tw__not_now_btn=0x7f0e00b8;
-        public static final int tw__post_tweet=0x7f0e00ca;
-        public static final int tw__progress=0x7f0e00df;
-        public static final int tw__share_email_desc=0x7f0e00b7;
-        public static final int tw__spinner=0x7f0e00b6;
-        public static final int tw__state_control=0x7f0e00dd;
-        public static final int tw__tweet_action_bar=0x7f0e00b1;
-        public static final int tw__tweet_author_avatar=0x7f0e00d5;
-        public static final int tw__tweet_author_full_name=0x7f0e00d6;
-        public static final int tw__tweet_author_screen_name=0x7f0e00d8;
-        public static final int tw__tweet_author_verified=0x7f0e00d7;
-        public static final int tw__tweet_like_button=0x7f0e00b2;
-        public static final int tw__tweet_media=0x7f0e00d2;
-        public static final int tw__tweet_media_badge=0x7f0e00d3;
-        public static final int tw__tweet_media_container=0x7f0e00d1;
-        public static final int tw__tweet_retweeted_by=0x7f0e00d4;
-        public static final int tw__tweet_share_button=0x7f0e00b3;
-        public static final int tw__tweet_text=0x7f0e00da;
-        public static final int tw__tweet_timestamp=0x7f0e00d9;
-        public static final int tw__tweet_view=0x7f0e00d0;
-        public static final int tw__twitter_logo=0x7f0e00c1;
-        public static final int tw__video_duration=0x7f0e00cd;
-        public static final int tw__web_view=0x7f0e00b5;
-        public static final int twitt=0x7f0e006e;
-        public static final int twitter_login_button=0x7f0e00e2;
-        public static final int up=0x7f0e0009;
-        public static final int useLogo=0x7f0e0014;
-        public static final int video_control_view=0x7f0e00cf;
-        public static final int video_view=0x7f0e00ce;
-        public static final int view_offset_helper=0x7f0e000a;
-        public static final int vk_item=0x7f0e006b;
-        public static final int vk_kontainer=0x7f0e00e1;
-        public static final int width=0x7f0e003b;
-        public static final int withText=0x7f0e0037;
-        public static final int wrap_content=0x7f0e001a;
+        public static final int BIG=0x7f0d0016;
+        public static final int DEFAULT=0x7f0d0017;
+        public static final int LinearLayout=0x7f0d007f;
+        public static final int MINI=0x7f0d0018;
+        public static final int action0=0x7f0d0083;
+        public static final int action_bar=0x7f0d005e;
+        public static final int action_bar_activity_content=0x7f0d0000;
+        public static final int action_bar_container=0x7f0d005d;
+        public static final int action_bar_root=0x7f0d0059;
+        public static final int action_bar_spinner=0x7f0d0001;
+        public static final int action_bar_subtitle=0x7f0d003f;
+        public static final int action_bar_title=0x7f0d003e;
+        public static final int action_button=0x7f0d0081;
+        public static final int action_context_bar=0x7f0d005f;
+        public static final int action_divider=0x7f0d0087;
+        public static final int action_menu_divider=0x7f0d0002;
+        public static final int action_menu_presenter=0x7f0d0003;
+        public static final int action_mode_bar=0x7f0d005b;
+        public static final int action_mode_bar_stub=0x7f0d005a;
+        public static final int action_mode_close_button=0x7f0d0040;
+        public static final int activity_chooser_view_content=0x7f0d0041;
+        public static final int alertTitle=0x7f0d004d;
+        public static final int always=0x7f0d0037;
+        public static final int beginning=0x7f0d0035;
+        public static final int bottom=0x7f0d0022;
+        public static final int buttonPanel=0x7f0d0048;
+        public static final int cancel_action=0x7f0d0084;
+        public static final int center=0x7f0d0023;
+        public static final int center_horizontal=0x7f0d0024;
+        public static final int center_vertical=0x7f0d0025;
+        public static final int checkbox=0x7f0d0056;
+        public static final int chronometer=0x7f0d008a;
+        public static final int clip_horizontal=0x7f0d0031;
+        public static final int clip_vertical=0x7f0d0032;
+        public static final int collapseActionView=0x7f0d0038;
+        public static final int contentPanel=0x7f0d004e;
+        public static final int custom=0x7f0d0054;
+        public static final int customPanel=0x7f0d0053;
+        public static final int decor_content_parent=0x7f0d005c;
+        public static final int default_activity_button=0x7f0d0044;
+        public static final int deleteItem=0x7f0d0091;
+        public static final int design_bottom_sheet=0x7f0d006e;
+        public static final int design_menu_item_action_area=0x7f0d0075;
+        public static final int design_menu_item_action_area_stub=0x7f0d0074;
+        public static final int design_menu_item_text=0x7f0d0073;
+        public static final int design_navigation_view=0x7f0d0072;
+        public static final int disableHome=0x7f0d000f;
+        public static final int editDate=0x7f0d0078;
+        public static final int editDescription=0x7f0d0079;
+        public static final int editNote=0x7f0d0090;
+        public static final int editTheme=0x7f0d0077;
+        public static final int edit_query=0x7f0d0060;
+        public static final int end=0x7f0d0026;
+        public static final int end_padder=0x7f0d008f;
+        public static final int enterAlways=0x7f0d001a;
+        public static final int enterAlwaysCollapsed=0x7f0d001b;
+        public static final int exitUntilCollapsed=0x7f0d001c;
+        public static final int expand_activities_button=0x7f0d0042;
+        public static final int expanded_menu=0x7f0d0055;
+        public static final int fill=0x7f0d0033;
+        public static final int fill_horizontal=0x7f0d0034;
+        public static final int fill_vertical=0x7f0d0027;
+        public static final int fixed=0x7f0d003c;
+        public static final int frafment_conteiner=0x7f0d0080;
+        public static final int home=0x7f0d0004;
+        public static final int homeAsUp=0x7f0d0010;
+        public static final int icon=0x7f0d0046;
+        public static final int ifRoom=0x7f0d0039;
+        public static final int image=0x7f0d0043;
+        public static final int imageView=0x7f0d007c;
+        public static final int info=0x7f0d008e;
+        public static final int input=0x7f0d0076;
+        public static final int item=0x7f0d007a;
+        public static final int itemLayout=0x7f0d007b;
+        public static final int item_touch_helper_previous_elevation=0x7f0d0005;
+        public static final int left=0x7f0d0028;
+        public static final int line1=0x7f0d0088;
+        public static final int line3=0x7f0d008c;
+        public static final int listMode=0x7f0d000c;
+        public static final int list_item=0x7f0d0045;
+        public static final int media_actions=0x7f0d0086;
+        public static final int middle=0x7f0d0036;
+        public static final int mini=0x7f0d0019;
+        public static final int multiply=0x7f0d002c;
+        public static final int navigation_header_container=0x7f0d0071;
+        public static final int never=0x7f0d003a;
+        public static final int none=0x7f0d0011;
+        public static final int normal=0x7f0d000d;
+        public static final int parallax=0x7f0d0020;
+        public static final int parentPanel=0x7f0d004a;
+        public static final int pin=0x7f0d0021;
+        public static final int progress_circular=0x7f0d0006;
+        public static final int progress_horizontal=0x7f0d0007;
+        public static final int radio=0x7f0d0058;
+        public static final int right=0x7f0d0029;
+        public static final int screen=0x7f0d002d;
+        public static final int scroll=0x7f0d001d;
+        public static final int scrollIndicatorDown=0x7f0d0052;
+        public static final int scrollIndicatorUp=0x7f0d004f;
+        public static final int scrollView=0x7f0d0050;
+        public static final int scrollable=0x7f0d003d;
+        public static final int search_badge=0x7f0d0062;
+        public static final int search_bar=0x7f0d0061;
+        public static final int search_button=0x7f0d0063;
+        public static final int search_close_btn=0x7f0d0068;
+        public static final int search_edit_frame=0x7f0d0064;
+        public static final int search_go_btn=0x7f0d006a;
+        public static final int search_mag_icon=0x7f0d0065;
+        public static final int search_plate=0x7f0d0066;
+        public static final int search_src_text=0x7f0d0067;
+        public static final int search_voice_btn=0x7f0d006b;
+        public static final int select_dialog_listview=0x7f0d006c;
+        public static final int share=0x7f0d0092;
+        public static final int shortcut=0x7f0d0057;
+        public static final int showCustom=0x7f0d0012;
+        public static final int showHome=0x7f0d0013;
+        public static final int showTitle=0x7f0d0014;
+        public static final int snackbar_action=0x7f0d0070;
+        public static final int snackbar_text=0x7f0d006f;
+        public static final int snap=0x7f0d001e;
+        public static final int spacer=0x7f0d0049;
+        public static final int split_action_bar=0x7f0d0008;
+        public static final int src_atop=0x7f0d002e;
+        public static final int src_in=0x7f0d002f;
+        public static final int src_over=0x7f0d0030;
+        public static final int start=0x7f0d002a;
+        public static final int status_bar_latest_event_content=0x7f0d0085;
+        public static final int submit_area=0x7f0d0069;
+        public static final int tabMode=0x7f0d000e;
+        public static final int text=0x7f0d008d;
+        public static final int text2=0x7f0d008b;
+        public static final int textDate=0x7f0d007e;
+        public static final int textSpacerNoButtons=0x7f0d0051;
+        public static final int textTheme=0x7f0d007d;
+        public static final int time=0x7f0d0089;
+        public static final int title=0x7f0d0047;
+        public static final int title_template=0x7f0d004c;
+        public static final int toolbar_actionbar=0x7f0d0082;
+        public static final int top=0x7f0d002b;
+        public static final int topPanel=0x7f0d004b;
+        public static final int touch_outside=0x7f0d006d;
+        public static final int up=0x7f0d0009;
+        public static final int useLogo=0x7f0d0015;
+        public static final int viewA=0x7f0d000a;
+        public static final int view_offset_helper=0x7f0d000b;
+        public static final int withText=0x7f0d003b;
+        public static final int wrap_content=0x7f0d001f;
     }
     public static final class integer {
-        public static final int abc_config_activityDefaultDur=0x7f0c0002;
-        public static final int abc_config_activityShortDur=0x7f0c0003;
-        public static final int abc_max_action_buttons=0x7f0c0000;
-        public static final int bottom_sheet_slide_duration=0x7f0c0004;
-        public static final int cancel_button_image_alpha=0x7f0c0005;
-        public static final int com_vk_sdk_AppId=0x7f0c0006;
-        public static final int design_snackbar_text_max_lines=0x7f0c0001;
-        public static final int status_bar_notification_info_maxnum=0x7f0c0007;
+        public static final int abc_config_activityDefaultDur=0x7f0b0002;
+        public static final int abc_config_activityShortDur=0x7f0b0003;
+        public static final int abc_max_action_buttons=0x7f0b0000;
+        public static final int bottom_sheet_slide_duration=0x7f0b0004;
+        public static final int cancel_button_image_alpha=0x7f0b0005;
+        public static final int design_snackbar_text_max_lines=0x7f0b0001;
+        public static final int status_bar_notification_info_maxnum=0x7f0b0006;
     }
     public static final class layout {
-        public static final int abc_action_bar_title_item=0x7f030000;
-        public static final int abc_action_bar_up_container=0x7f030001;
-        public static final int abc_action_bar_view_list_nav_layout=0x7f030002;
-        public static final int abc_action_menu_item_layout=0x7f030003;
-        public static final int abc_action_menu_layout=0x7f030004;
-        public static final int abc_action_mode_bar=0x7f030005;
-        public static final int abc_action_mode_close_item_material=0x7f030006;
-        public static final int abc_activity_chooser_view=0x7f030007;
-        public static final int abc_activity_chooser_view_list_item=0x7f030008;
-        public static final int abc_alert_dialog_button_bar_material=0x7f030009;
-        public static final int abc_alert_dialog_material=0x7f03000a;
-        public static final int abc_dialog_title_material=0x7f03000b;
-        public static final int abc_expanded_menu_layout=0x7f03000c;
-        public static final int abc_list_menu_item_checkbox=0x7f03000d;
-        public static final int abc_list_menu_item_icon=0x7f03000e;
-        public static final int abc_list_menu_item_layout=0x7f03000f;
-        public static final int abc_list_menu_item_radio=0x7f030010;
-        public static final int abc_popup_menu_item_layout=0x7f030011;
-        public static final int abc_screen_content_include=0x7f030012;
-        public static final int abc_screen_simple=0x7f030013;
-        public static final int abc_screen_simple_overlay_action_mode=0x7f030014;
-        public static final int abc_screen_toolbar=0x7f030015;
-        public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
-        public static final int abc_search_view=0x7f030017;
-        public static final int abc_select_dialog_material=0x7f030018;
-        public static final int builder_items=0x7f030019;
-        public static final int design_bottom_sheet_dialog=0x7f03001a;
-        public static final int design_layout_snackbar=0x7f03001b;
-        public static final int design_layout_snackbar_include=0x7f03001c;
-        public static final int design_layout_tab_icon=0x7f03001d;
-        public static final int design_layout_tab_text=0x7f03001e;
-        public static final int design_menu_item_action_area=0x7f03001f;
-        public static final int design_navigation_item=0x7f030020;
-        public static final int design_navigation_item_header=0x7f030021;
-        public static final int design_navigation_item_separator=0x7f030022;
-        public static final int design_navigation_item_subheader=0x7f030023;
-        public static final int design_navigation_menu=0x7f030024;
-        public static final int design_navigation_menu_item=0x7f030025;
-        public static final int dgts__activity_confirmation=0x7f030026;
-        public static final int dgts__activity_contacts=0x7f030027;
-        public static final int dgts__activity_failure=0x7f030028;
-        public static final int dgts__activity_phone_number=0x7f030029;
-        public static final int dgts__activity_pin_code=0x7f03002a;
-        public static final int dgts__country_row=0x7f03002b;
-        public static final int dgts__state_button=0x7f03002c;
-        public static final int input=0x7f03002d;
-        public static final int item=0x7f03002e;
-        public static final int main=0x7f03002f;
-        public static final int mfragment=0x7f030030;
-        public static final int my_toolbar=0x7f030031;
-        public static final int notification_media_action=0x7f030032;
-        public static final int notification_media_cancel_action=0x7f030033;
-        public static final int notification_template_big_media=0x7f030034;
-        public static final int notification_template_big_media_narrow=0x7f030035;
-        public static final int notification_template_lines=0x7f030036;
-        public static final int notification_template_media=0x7f030037;
-        public static final int notification_template_part_chronometer=0x7f030038;
-        public static final int notification_template_part_time=0x7f030039;
-        public static final int select_dialog_item_material=0x7f03003a;
-        public static final int select_dialog_multichoice_material=0x7f03003b;
-        public static final int select_dialog_singlechoice_material=0x7f03003c;
-        public static final int support_simple_spinner_dropdown_item=0x7f03003d;
-        public static final int tw__action_bar=0x7f03003e;
-        public static final int tw__activity_composer=0x7f03003f;
-        public static final int tw__activity_oauth=0x7f030040;
-        public static final int tw__activity_share_email=0x7f030041;
-        public static final int tw__app_card=0x7f030042;
-        public static final int tw__composer_view=0x7f030043;
-        public static final int tw__gallery_activity=0x7f030044;
-        public static final int tw__media_badge=0x7f030045;
-        public static final int tw__player_activity=0x7f030046;
-        public static final int tw__tweet=0x7f030047;
-        public static final int tw__tweet_compact=0x7f030048;
-        public static final int tw__video_control=0x7f030049;
-        public static final int twitt=0x7f03004a;
-        public static final int vk_captcha_dialog=0x7f03004b;
-        public static final int vk_open_auth_dialog=0x7f03004c;
-        public static final int vk_share_dialog=0x7f03004d;
+        public static final int abc_action_bar_title_item=0x7f040000;
+        public static final int abc_action_bar_up_container=0x7f040001;
+        public static final int abc_action_bar_view_list_nav_layout=0x7f040002;
+        public static final int abc_action_menu_item_layout=0x7f040003;
+        public static final int abc_action_menu_layout=0x7f040004;
+        public static final int abc_action_mode_bar=0x7f040005;
+        public static final int abc_action_mode_close_item_material=0x7f040006;
+        public static final int abc_activity_chooser_view=0x7f040007;
+        public static final int abc_activity_chooser_view_list_item=0x7f040008;
+        public static final int abc_alert_dialog_button_bar_material=0x7f040009;
+        public static final int abc_alert_dialog_material=0x7f04000a;
+        public static final int abc_dialog_title_material=0x7f04000b;
+        public static final int abc_expanded_menu_layout=0x7f04000c;
+        public static final int abc_list_menu_item_checkbox=0x7f04000d;
+        public static final int abc_list_menu_item_icon=0x7f04000e;
+        public static final int abc_list_menu_item_layout=0x7f04000f;
+        public static final int abc_list_menu_item_radio=0x7f040010;
+        public static final int abc_popup_menu_item_layout=0x7f040011;
+        public static final int abc_screen_content_include=0x7f040012;
+        public static final int abc_screen_simple=0x7f040013;
+        public static final int abc_screen_simple_overlay_action_mode=0x7f040014;
+        public static final int abc_screen_toolbar=0x7f040015;
+        public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
+        public static final int abc_search_view=0x7f040017;
+        public static final int abc_select_dialog_material=0x7f040018;
+        public static final int design_bottom_sheet_dialog=0x7f040019;
+        public static final int design_layout_snackbar=0x7f04001a;
+        public static final int design_layout_snackbar_include=0x7f04001b;
+        public static final int design_layout_tab_icon=0x7f04001c;
+        public static final int design_layout_tab_text=0x7f04001d;
+        public static final int design_menu_item_action_area=0x7f04001e;
+        public static final int design_navigation_item=0x7f04001f;
+        public static final int design_navigation_item_header=0x7f040020;
+        public static final int design_navigation_item_separator=0x7f040021;
+        public static final int design_navigation_item_subheader=0x7f040022;
+        public static final int design_navigation_menu=0x7f040023;
+        public static final int design_navigation_menu_item=0x7f040024;
+        public static final int input=0x7f040025;
+        public static final int item=0x7f040026;
+        public static final int main=0x7f040027;
+        public static final int mfragment=0x7f040028;
+        public static final int my_toolbar=0x7f040029;
+        public static final int notification_media_action=0x7f04002a;
+        public static final int notification_media_cancel_action=0x7f04002b;
+        public static final int notification_template_big_media=0x7f04002c;
+        public static final int notification_template_big_media_narrow=0x7f04002d;
+        public static final int notification_template_lines=0x7f04002e;
+        public static final int notification_template_media=0x7f04002f;
+        public static final int notification_template_part_chronometer=0x7f040030;
+        public static final int notification_template_part_time=0x7f040031;
+        public static final int select_dialog_item_material=0x7f040032;
+        public static final int select_dialog_multichoice_material=0x7f040033;
+        public static final int select_dialog_singlechoice_material=0x7f040034;
+        public static final int support_simple_spinner_dropdown_item=0x7f040035;
     }
     public static final class menu {
-        public static final int edit_menu=0x7f0f0000;
-        public static final int main_menu=0x7f0f0001;
+        public static final int edit_menu=0x7f0e0000;
+        public static final int main_menu=0x7f0e0001;
     }
-    public static final class plurals {
-        public static final int tw__time_hours=0x7f080000;
-        public static final int tw__time_mins=0x7f080001;
-        public static final int tw__time_secs=0x7f080002;
-    }
-    public static final class raw {
-        public static final int tw__cacerts=0x7f060000;
+    public static final class mipmap {
+        public static final int delete=0x7f030000;
+        public static final int ic_edit=0x7f030001;
+        public static final int ic_launcher=0x7f030002;
+        public static final int ic_pen=0x7f030003;
     }
     public static final class string {
-        public static final int Change=0x7f070056;
-        public static final int No=0x7f070057;
-        public static final int Yes=0x7f070058;
+        public static final int Change=0x7f070014;
+        public static final int No=0x7f070015;
+        public static final int Yes=0x7f070016;
         public static final int abc_action_bar_home_description=0x7f070000;
         public static final int abc_action_bar_home_description_format=0x7f070001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f070002;
@@ -3116,519 +2737,368 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int action=0x7f070059;
-        public static final int aim=0x7f07005a;
-        public static final int app_name=0x7f07005b;
-        public static final int appbar_scrolling_view_behavior=0x7f07005c;
-        public static final int bottom_sheet_behavior=0x7f07005d;
-        public static final int character_counter_pattern=0x7f07005e;
-        public static final int com_crashlytics_android_build_id=0x7f07005f;
-        public static final int delete_item=0x7f070060;
-        public static final int description=0x7f070061;
-        public static final int dgts__call_me=0x7f070014;
-        public static final int dgts__calling=0x7f070015;
-        public static final int dgts__confirmation_code=0x7f070016;
-        public static final int dgts__confirmation_edit_hint=0x7f070017;
-        public static final int dgts__confirmation_error=0x7f070018;
-        public static final int dgts__confirmation_error_alternative=0x7f070019;
-        public static final int dgts__confirmation_expired=0x7f07001a;
-        public static final int dgts__continue=0x7f07001b;
-        public static final int dgts__country_spinner_format=0x7f070062;
-        public static final int dgts__create_account=0x7f070063;
-        public static final int dgts__digits_com_settings_url=0x7f070064;
-        public static final int dgts__digits_com_url=0x7f070065;
-        public static final int dgts__digits_logo_desc=0x7f07001c;
-        public static final int dgts__digits_logo_name_desc=0x7f07001d;
-        public static final int dgts__dismiss=0x7f07001e;
-        public static final int dgts__done=0x7f07001f;
-        public static final int dgts__email_request_edit_hint=0x7f070020;
-        public static final int dgts__email_request_title=0x7f070021;
-        public static final int dgts__find_your_friends=0x7f070022;
-        public static final int dgts__image_header_description=0x7f070023;
-        public static final int dgts__invalid_email=0x7f070024;
-        public static final int dgts__login_digits_text=0x7f070025;
-        public static final int dgts__network_error=0x7f070026;
-        public static final int dgts__not_now=0x7f070027;
-        public static final int dgts__okay=0x7f070028;
-        public static final int dgts__phone_number_edit_hint=0x7f070029;
-        public static final int dgts__phone_number_text=0x7f07002a;
-        public static final int dgts__pin_code_verification_title=0x7f07002b;
-        public static final int dgts__resend_confirmation_button_code=0x7f07002c;
-        public static final int dgts__resend_confirmation_text=0x7f07002d;
-        public static final int dgts__send_confirmation_code=0x7f070066;
-        public static final int dgts__sending=0x7f07002e;
-        public static final int dgts__success_desc=0x7f07002f;
-        public static final int dgts__terms_email_request=0x7f070067;
-        public static final int dgts__terms_text=0x7f07004b;
-        public static final int dgts__terms_text_call_me=0x7f07004c;
-        public static final int dgts__terms_text_create=0x7f07004d;
-        public static final int dgts__terms_text_sign_in=0x7f07004e;
-        public static final int dgts__terms_text_updated=0x7f070068;
-        public static final int dgts__try_again=0x7f070030;
-        public static final int dgts__try_again_confirmation=0x7f070031;
-        public static final int dgts__try_again_email=0x7f070032;
-        public static final int dgts__try_again_phone_number=0x7f070033;
-        public static final int dgts__try_another_phone=0x7f070034;
-        public static final int dgts__twitter_cookies_policy_url=0x7f070069;
-        public static final int dgts__twitter_privacy_url=0x7f07006a;
-        public static final int dgts__twitter_tos_url=0x7f07006b;
-        public static final int dgts__unsupported_operator_error=0x7f070035;
-        public static final int dgts__upload_contacts=0x7f070036;
-        public static final int dgts__verification_code=0x7f070037;
-        public static final int dgts_pin_code_terms=0x7f070038;
-        public static final int emptyLine=0x7f07006c;
-        public static final int kit_name=0x7f07006d;
-        public static final int note=0x7f07006e;
+        public static final int action=0x7f070017;
+        public static final int aim=0x7f070018;
+        public static final int app_name=0x7f070019;
+        public static final int appbar_scrolling_view_behavior=0x7f07001a;
+        public static final int bottom_sheet_behavior=0x7f07001b;
+        public static final int character_counter_pattern=0x7f07001c;
+        public static final int delete_item=0x7f07001d;
+        public static final int description=0x7f07001e;
+        public static final int emptyLine=0x7f07001f;
+        public static final int header=0x7f070020;
+        public static final int note=0x7f070021;
+        public static final int publication=0x7f070022;
+        public static final int send_to=0x7f070023;
         public static final int status_bar_notification_info_overflow=0x7f070013;
-        public static final int theme=0x7f07006f;
-        public static final int tw__allow_btn_txt=0x7f070039;
-        public static final int tw__composer_hint=0x7f070070;
-        public static final int tw__install=0x7f070071;
-        public static final int tw__like_tweet=0x7f07003a;
-        public static final int tw__liked_tweet=0x7f07003b;
-        public static final int tw__loading_tweet=0x7f07003c;
-        public static final int tw__login_btn_txt=0x7f07003d;
-        public static final int tw__max_tweet_chars=0x7f070072;
-        public static final int tw__not_now_btn_txt=0x7f07003e;
-        public static final int tw__pause=0x7f07003f;
-        public static final int tw__play=0x7f070040;
-        public static final int tw__play_store=0x7f070073;
-        public static final int tw__post_tweet=0x7f070074;
-        public static final int tw__relative_date_format_long=0x7f070041;
-        public static final int tw__relative_date_format_short=0x7f070042;
-        public static final int tw__replay=0x7f070043;
-        public static final int tw__retweeted_by_format=0x7f070044;
-        public static final int tw__share_content_format=0x7f070045;
-        public static final int tw__share_email_desc=0x7f070046;
-        public static final int tw__share_email_title=0x7f070047;
-        public static final int tw__share_subject_format=0x7f070048;
-        public static final int tw__share_tweet=0x7f070049;
-        public static final int tw__tweet_content_description=0x7f07004a;
-        public static final int vk_enter_captcha_text=0x7f07004f;
-        public static final int vk_name=0x7f070050;
-        public static final int vk_new_message_text=0x7f070051;
-        public static final int vk_new_post_settings=0x7f070052;
-        public static final int vk_retry=0x7f070053;
-        public static final int vk_send=0x7f070054;
-        public static final int vk_share=0x7f070055;
+        public static final int theme=0x7f070024;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0b0091;
-        public static final int AlertDialog_AppCompat_Light=0x7f0b0092;
-        public static final int Animation_AppCompat_Dialog=0x7f0b0093;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0b0094;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0b0095;
-        public static final int AppTheme=0x7f0b0096;
-        public static final int AutoCompleteTextViewDiaryTheme=0x7f0b000c;
-        public static final int Base_AlertDialog_AppCompat=0x7f0b0097;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b0098;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0b0099;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b009a;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b009b;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b009c;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b0041;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0042;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0043;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b002a;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b0044;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b0045;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b0046;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b0047;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b0048;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0049;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b000d;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b004a;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b000e;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b004b;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b004c;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b004d;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b000f;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b004e;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b009d;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b004f;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0050;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0051;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0010;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0052;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0011;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0053;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0012;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b008a;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b0054;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b0055;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b0056;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b0057;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b0058;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0059;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b005a;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b008b;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b009e;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b005b;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b005c;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b005d;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b005e;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b009f;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b005f;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0060;
-        public static final int Base_Theme_AppCompat=0x7f0b0061;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b00a0;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0013;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b00a1;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b00a2;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b00a3;
-        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0002;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b0062;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b00a4;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0014;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b00a5;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b00a6;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00a7;
-        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b00a8;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00a9;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00aa;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00ab;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b00ac;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0015;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0016;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b0026;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b0027;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b0063;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b0064;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b0065;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b0066;
-        public static final int Base_V22_Theme_AppCompat=0x7f0b0088;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b0089;
-        public static final int Base_V23_Theme_AppCompat=0x7f0b008c;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b008d;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b00ad;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b00ae;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b00af;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00b0;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00b1;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00b2;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00b3;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00b4;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00b5;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b0067;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b0068;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0069;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b006a;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b006b;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00b6;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00b7;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0028;
-        public static final int Base_Widget_AppCompat_Button=0x7f0b006c;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b006d;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b006e;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00b8;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b008e;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b006f;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b0070;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00b9;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0071;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0072;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00ba;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00bb;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0073;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b0029;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b0074;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00bc;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00bd;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00be;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0075;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0076;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0077;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b0078;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0079;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b007a;
-        public static final int Base_Widget_AppCompat_ListView=0x7f0b007b;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b007c;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b007d;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b007e;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b007f;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00bf;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b0017;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0018;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0080;
-        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b008f;
-        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0b0090;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00c0;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00c1;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0081;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0082;
-        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0004;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0083;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00c2;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0084;
-        public static final int Base_Widget_Design_TabLayout=0x7f0b00c3;
-        public static final int ComposerDark=0x7f0b0019;
-        public static final int ComposerLight=0x7f0b001a;
-        public static final int DiaryTheme=0x7f0b001b;
-        public static final int Digits_default=0x7f0b001c;
-        public static final int EditTextDiaryTheme=0x7f0b00c4;
-        public static final int MediaTheme=0x7f0b001d;
-        public static final int Platform_AppCompat=0x7f0b001e;
-        public static final int Platform_AppCompat_Light=0x7f0b001f;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b0085;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b0086;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b0087;
-        public static final int Platform_V11_AppCompat=0x7f0b0020;
-        public static final int Platform_V11_AppCompat_Light=0x7f0b0021;
-        public static final int Platform_V14_AppCompat=0x7f0b002b;
-        public static final int Platform_V14_AppCompat_Light=0x7f0b002c;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b0022;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0033;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b0034;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b0035;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b0036;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b0037;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b0038;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0039;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b003a;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b003b;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b003c;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b003d;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b003e;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b003f;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0040;
-        public static final int TextAppearance_AppCompat=0x7f0b00c5;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b00c6;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b00c7;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b00c8;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b00c9;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b00ca;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b00cb;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b00cc;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b00cd;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b00ce;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00cf;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b00d0;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00d1;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00d2;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00d3;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00d4;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00d5;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b00d6;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00d7;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b00d8;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00d9;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00da;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b00db;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00dc;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00dd;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00de;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b00df;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00e0;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00e1;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00e2;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00e3;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00e4;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00e5;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00e6;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00e7;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00e8;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00e9;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b00ea;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00eb;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00ec;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00ed;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00ee;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00ef;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00f0;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b00f1;
-        public static final int TextAppearance_Design_Counter=0x7f0b00f2;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b00f3;
-        public static final int TextAppearance_Design_Error=0x7f0b00f4;
-        public static final int TextAppearance_Design_Hint=0x7f0b00f5;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b00f6;
-        public static final int TextAppearance_Design_Tab=0x7f0b00f7;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f0b002d;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b002e;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b002f;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b0030;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b0031;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00f8;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00f9;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00fa;
-        public static final int Theme_AppCompat=0x7f0b00fb;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b00fc;
-        public static final int Theme_AppCompat_DayNight=0x7f0b0005;
-        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0006;
-        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b0007;
-        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0b0008;
-        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0009;
-        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b000a;
-        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b000b;
-        public static final int Theme_AppCompat_Dialog=0x7f0b00fd;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00fe;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00ff;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b0100;
-        public static final int Theme_AppCompat_Light=0x7f0b0101;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b0102;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b0103;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b0104;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0105;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0106;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b0107;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b0108;
-        public static final int Theme_Design=0x7f0b0109;
-        public static final int Theme_Design_BottomSheetDialog=0x7f0b010a;
-        public static final int Theme_Design_Light=0x7f0b010b;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0b010c;
-        public static final int Theme_Design_Light_NoActionBar=0x7f0b010d;
-        public static final int Theme_Design_NoActionBar=0x7f0b010e;
-        public static final int ThemeOverlay_AppCompat=0x7f0b010f;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b0110;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b0111;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b0112;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b0113;
-        public static final int VK_Transparent=0x7f0b0023;
-        public static final int VKAlertDialog=0x7f0b0024;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b0114;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0115;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0116;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b0117;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b0118;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b0119;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b011a;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b011b;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b011c;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b011d;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b011e;
-        public static final int Widget_AppCompat_Button=0x7f0b011f;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0b0120;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b0121;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b0122;
-        public static final int Widget_AppCompat_Button_Colored=0x7f0b0123;
-        public static final int Widget_AppCompat_Button_Small=0x7f0b0124;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0b0125;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0126;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0127;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0128;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0129;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b012a;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b012b;
-        public static final int Widget_AppCompat_EditText=0x7f0b012c;
-        public static final int Widget_AppCompat_ImageButton=0x7f0b012d;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b012e;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b012f;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b0130;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b0131;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b0132;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b0133;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0134;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0135;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0136;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0137;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0138;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0139;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b013a;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b013b;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b013c;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b013d;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b013e;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b013f;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b0140;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0141;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b0142;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b0143;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0144;
-        public static final int Widget_AppCompat_ListView=0x7f0b0145;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0146;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b0147;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b0148;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0149;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b014a;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b014b;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b014c;
-        public static final int Widget_AppCompat_RatingBar=0x7f0b014d;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0b014e;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f0b014f;
-        public static final int Widget_AppCompat_SearchView=0x7f0b0150;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b0151;
-        public static final int Widget_AppCompat_SeekBar=0x7f0b0152;
-        public static final int Widget_AppCompat_Spinner=0x7f0b0153;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b0154;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0155;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b0156;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0157;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b0158;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0159;
-        public static final int Widget_Design_AppBarLayout=0x7f0b015a;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f0b015b;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0b015c;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0b015d;
-        public static final int Widget_Design_FloatingActionButton=0x7f0b015e;
-        public static final int Widget_Design_NavigationView=0x7f0b015f;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b0160;
-        public static final int Widget_Design_Snackbar=0x7f0b0161;
-        public static final int Widget_Design_TabLayout=0x7f0b0001;
-        public static final int Widget_Design_TextInputLayout=0x7f0b0162;
-        public static final int _DiaryTheme=0x7f0b0025;
-        public static final int dgts__ButtonText=0x7f0b0163;
-        public static final int dgts__Container=0x7f0b0164;
-        public static final int dgts__CountDownTimer=0x7f0b0165;
-        public static final int dgts__EnterConfirmationCodeTitle=0x7f0b0166;
-        public static final int dgts__HeaderMargin=0x7f0b0167;
-        public static final int dgts__Terms=0x7f0b0168;
-        public static final int dgts__Title=0x7f0b0169;
-        public static final int tw__AttributionText=0x7f0b016a;
-        public static final int tw__Badge=0x7f0b016b;
-        public static final int tw__Badge_Gif=0x7f0b016c;
-        public static final int tw__Badge_VideoDuration=0x7f0b016d;
-        public static final int tw__Button=0x7f0b016e;
-        public static final int tw__Button_Light=0x7f0b016f;
-        public static final int tw__ButtonBar=0x7f0b0170;
-        public static final int tw__CardAppInfoLayout=0x7f0b0171;
-        public static final int tw__CardAppName=0x7f0b0172;
-        public static final int tw__CardAppStoreName=0x7f0b0173;
-        public static final int tw__CardInstallButton=0x7f0b0174;
-        public static final int tw__CompactAttributionLine=0x7f0b0175;
-        public static final int tw__CompactTweetContainer=0x7f0b0176;
-        public static final int tw__ComposerAvatar=0x7f0b0177;
-        public static final int tw__ComposerCharCount=0x7f0b0178;
-        public static final int tw__ComposerCharCountOverflow=0x7f0b0179;
-        public static final int tw__ComposerClose=0x7f0b017a;
-        public static final int tw__ComposerDivider=0x7f0b017b;
-        public static final int tw__ComposerToolbar=0x7f0b017c;
-        public static final int tw__ComposerTweetButton=0x7f0b017d;
-        public static final int tw__EditTweet=0x7f0b017e;
-        public static final int tw__Permission_Container=0x7f0b017f;
-        public static final int tw__Permission_Description=0x7f0b0180;
-        public static final int tw__Permission_Title=0x7f0b0181;
-        public static final int tw__TweetActionButton=0x7f0b0182;
-        public static final int tw__TweetActionButton_Heart=0x7f0b0183;
-        public static final int tw__TweetActionButton_Share=0x7f0b0184;
-        public static final int tw__TweetActionButtonBar=0x7f0b0185;
-        public static final int tw__TweetActionButtonBar_Compact=0x7f0b0186;
-        public static final int tw__TweetAvatar=0x7f0b0187;
-        public static final int tw__TweetAvatar_Compact=0x7f0b0188;
-        public static final int tw__TweetBadge=0x7f0b0189;
-        public static final int tw__TweetContainer=0x7f0b018a;
-        public static final int tw__TweetDarkStyle=0x7f0b018b;
-        public static final int tw__TweetDarkWithActionsStyle=0x7f0b018c;
-        public static final int tw__TweetFillWidth=0x7f0b018d;
-        public static final int tw__TweetFullName=0x7f0b0032;
-        public static final int tw__TweetFullName_Compact=0x7f0b018e;
-        public static final int tw__TweetFullNameBase=0x7f0b018f;
-        public static final int tw__TweetLightStyle=0x7f0b0190;
-        public static final int tw__TweetLightWithActionsStyle=0x7f0b0191;
-        public static final int tw__TweetMedia=0x7f0b0192;
-        public static final int tw__TweetMediaContainer=0x7f0b0193;
-        public static final int tw__TweetMediaContainer_Compact=0x7f0b0194;
-        public static final int tw__TweetRetweetedBy=0x7f0b0195;
-        public static final int tw__TweetRetweetedBy_Compact=0x7f0b0196;
-        public static final int tw__TweetScreenName=0x7f0b0197;
-        public static final int tw__TweetScreenName_Compact=0x7f0b0198;
-        public static final int tw__TweetText=0x7f0b0199;
-        public static final int tw__TweetText_Compact=0x7f0b019a;
-        public static final int tw__TweetTimestamp=0x7f0b019b;
-        public static final int tw__TweetTimestamp_Compact=0x7f0b019c;
-        public static final int tw__TweetVerifiedCheck=0x7f0b019d;
-        public static final int tw__TwitterLogo=0x7f0b019e;
-        public static final int tw__TwitterLogo_Compact=0x7f0b019f;
+        public static final int AlertDialog_AppCompat=0x7f0a0087;
+        public static final int AlertDialog_AppCompat_Light=0x7f0a0088;
+        public static final int Animation_AppCompat_Dialog=0x7f0a0089;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0a008a;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0a008b;
+        public static final int AppTheme=0x7f0a008c;
+        public static final int Base_AlertDialog_AppCompat=0x7f0a008d;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0a008e;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0a008f;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0a0090;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0a0091;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0a0092;
+        public static final int Base_TextAppearance_AppCompat=0x7f0a0037;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0a0038;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0a0039;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0a0021;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0a003a;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0a003b;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0a003c;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0a003d;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0a003e;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0a003f;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0a000c;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0a0040;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0a000d;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0a0041;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0a0042;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0a0043;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0a000e;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0a0044;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0a0093;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0a0045;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0a0046;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0a0047;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0a000f;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0a0048;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0a0010;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0a0049;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0a0011;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0a0080;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0a004a;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0a004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0a004c;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0a004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0a004e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0a004f;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0a0050;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0a0081;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0a0094;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0a0051;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0a0052;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0a0053;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0a0054;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0a0095;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0a0055;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0a0056;
+        public static final int Base_Theme_AppCompat=0x7f0a0057;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0a0096;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0a0012;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0a0097;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0a0098;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0a0099;
+        public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0a0002;
+        public static final int Base_Theme_AppCompat_Light=0x7f0a0058;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0a009a;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0a0013;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0a009b;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0a009c;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0a009d;
+        public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0a0003;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0a009e;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0a009f;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0a00a0;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0a00a1;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0a00a2;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0a0014;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0a0015;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0a001d;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0a001e;
+        public static final int Base_V21_Theme_AppCompat=0x7f0a0059;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0a005a;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0a005b;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0a005c;
+        public static final int Base_V22_Theme_AppCompat=0x7f0a007e;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0a007f;
+        public static final int Base_V23_Theme_AppCompat=0x7f0a0082;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0a0083;
+        public static final int Base_V7_Theme_AppCompat=0x7f0a00a3;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0a00a4;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0a00a5;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0a00a6;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0a00a7;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0a00a8;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0a00a9;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0a00aa;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0a00ab;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0a005d;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0a005e;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0a005f;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0a0060;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0a0061;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0a00ac;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0a00ad;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0a001f;
+        public static final int Base_Widget_AppCompat_Button=0x7f0a0062;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0a0063;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0a0064;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0a00ae;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0a0084;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0a0065;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0a0066;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0a00af;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0a0067;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0a0068;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0a00b0;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0a0000;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0a00b1;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0a0069;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0a0020;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0a006a;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0a00b2;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0a00b3;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0a00b4;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0a006b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0a006c;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0a006d;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0a006e;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0a006f;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0a0070;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0a0071;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0a0072;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0a0073;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0a0074;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0a0075;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0a00b5;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0a0016;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0a0017;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0a0076;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0a0085;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0a0086;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0a00b6;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0a00b7;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0a0077;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0a0078;
+        public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0a0004;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0a0079;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0a00b8;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0a007a;
+        public static final int Base_Widget_Design_TabLayout=0x7f0a00b9;
+        public static final int Platform_AppCompat=0x7f0a0018;
+        public static final int Platform_AppCompat_Light=0x7f0a0019;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0a007b;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0a007c;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0a007d;
+        public static final int Platform_V11_AppCompat=0x7f0a001a;
+        public static final int Platform_V11_AppCompat_Light=0x7f0a001b;
+        public static final int Platform_V14_AppCompat=0x7f0a0022;
+        public static final int Platform_V14_AppCompat_Light=0x7f0a0023;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0a001c;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0a0029;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0a002a;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0a002b;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0a002c;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0a002d;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0a002e;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0a002f;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0a0030;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0a0031;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0a0032;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0a0033;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0a0034;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0a0035;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0a0036;
+        public static final int TextAppearance_AppCompat=0x7f0a00ba;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0a00bb;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0a00bc;
+        public static final int TextAppearance_AppCompat_Button=0x7f0a00bd;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0a00be;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0a00bf;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0a00c0;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0a00c1;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0a00c2;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0a00c3;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0a00c4;
+        public static final int TextAppearance_AppCompat_Large=0x7f0a00c5;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0a00c6;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0a00c7;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0a00c8;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0a00c9;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0a00ca;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0a00cb;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0a00cc;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0a00cd;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0a00ce;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0a00cf;
+        public static final int TextAppearance_AppCompat_Small=0x7f0a00d0;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0a00d1;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0a00d2;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0a00d3;
+        public static final int TextAppearance_AppCompat_Title=0x7f0a00d4;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0a00d5;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0a00d6;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0a00d7;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0a00d8;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0a00d9;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0a00da;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0a00db;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0a00dc;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0a00dd;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0a00de;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0a00df;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0a00e0;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0a00e1;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0a00e2;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0a00e3;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0a00e4;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0a00e5;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0a00e6;
+        public static final int TextAppearance_Design_Counter=0x7f0a00e7;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0a00e8;
+        public static final int TextAppearance_Design_Error=0x7f0a00e9;
+        public static final int TextAppearance_Design_Hint=0x7f0a00ea;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0a00eb;
+        public static final int TextAppearance_Design_Tab=0x7f0a00ec;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0a0024;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0a0025;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0a0026;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0a0027;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0a0028;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0a00ed;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0a00ee;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0a00ef;
+        public static final int Theme_AppCompat=0x7f0a00f0;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0a00f1;
+        public static final int Theme_AppCompat_DayNight=0x7f0a0005;
+        public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0a0006;
+        public static final int Theme_AppCompat_DayNight_Dialog=0x7f0a0007;
+        public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f0a0008;
+        public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0a0009;
+        public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0a000a;
+        public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0a000b;
+        public static final int Theme_AppCompat_Dialog=0x7f0a00f2;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0a00f3;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0a00f4;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0a00f5;
+        public static final int Theme_AppCompat_Light=0x7f0a00f6;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0a00f7;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0a00f8;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0a00f9;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0a00fa;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0a00fb;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0a00fc;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0a00fd;
+        public static final int Theme_Design=0x7f0a00fe;
+        public static final int Theme_Design_BottomSheetDialog=0x7f0a00ff;
+        public static final int Theme_Design_Light=0x7f0a0100;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0a0101;
+        public static final int Theme_Design_Light_NoActionBar=0x7f0a0102;
+        public static final int Theme_Design_NoActionBar=0x7f0a0103;
+        public static final int ThemeOverlay_AppCompat=0x7f0a0104;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0a0105;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0a0106;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0a0107;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0a0108;
+        public static final int Widget_AppCompat_ActionBar=0x7f0a0109;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0a010a;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0a010b;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0a010c;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0a010d;
+        public static final int Widget_AppCompat_ActionButton=0x7f0a010e;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0a010f;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0a0110;
+        public static final int Widget_AppCompat_ActionMode=0x7f0a0111;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0a0112;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0a0113;
+        public static final int Widget_AppCompat_Button=0x7f0a0114;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0a0115;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0a0116;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0a0117;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0a0118;
+        public static final int Widget_AppCompat_Button_Small=0x7f0a0119;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0a011a;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0a011b;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0a011c;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0a011d;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0a011e;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0a011f;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0a0120;
+        public static final int Widget_AppCompat_EditText=0x7f0a0121;
+        public static final int Widget_AppCompat_ImageButton=0x7f0a0122;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0a0123;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0a0124;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0a0125;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0a0126;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0a0127;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0a0128;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0a0129;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0a012a;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0a012b;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0a012c;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0a012d;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0a012e;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0a012f;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0a0130;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0a0131;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0a0132;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0a0133;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0a0134;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0a0135;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0a0136;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0a0137;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0a0138;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0a0139;
+        public static final int Widget_AppCompat_ListView=0x7f0a013a;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0a013b;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0a013c;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0a013d;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0a013e;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0a013f;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0a0140;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0a0141;
+        public static final int Widget_AppCompat_RatingBar=0x7f0a0142;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0a0143;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f0a0144;
+        public static final int Widget_AppCompat_SearchView=0x7f0a0145;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0a0146;
+        public static final int Widget_AppCompat_SeekBar=0x7f0a0147;
+        public static final int Widget_AppCompat_Spinner=0x7f0a0148;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0a0149;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0a014a;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0a014b;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0a014c;
+        public static final int Widget_AppCompat_Toolbar=0x7f0a014d;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0a014e;
+        public static final int Widget_Design_AppBarLayout=0x7f0a014f;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f0a0150;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0a0151;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0a0152;
+        public static final int Widget_Design_FloatingActionButton=0x7f0a0153;
+        public static final int Widget_Design_NavigationView=0x7f0a0154;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0a0155;
+        public static final int Widget_Design_Snackbar=0x7f0a0156;
+        public static final int Widget_Design_TabLayout=0x7f0a0001;
+        public static final int Widget_Design_TextInputLayout=0x7f0a0157;
+        public static final int appTheme=0x7f0a0158;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3637,33 +3107,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.example.Onboard_diary:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.Onboard_diary:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.Onboard_diary:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.Onboard_diary:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.Onboard_diary:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.Onboard_diary:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.Onboard_diary:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.Onboard_diary:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.example.Onboard_diary:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.example.Onboard_diary:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.example.Onboard_diary:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.example.Onboard_diary:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.Onboard_diary:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.Onboard_diary:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.example.Onboard_diary:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.example.Onboard_diary:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.Onboard_diary:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.example.Onboard_diary:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.example.Onboard_diary:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.example.Onboard_diary:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.example.Onboard_diary:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.Onboard_diary:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.Onboard_diary:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.example.Onboard_diary:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.Onboard_diary:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.example.Onboard_diary:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.Onboard_diary:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.example.diary:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.example.diary:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.example.diary:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.diary:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.diary:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.example.diary:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.example.diary:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.diary:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.example.diary:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.example.diary:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.example.diary:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.example.diary:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.diary:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.diary:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.example.diary:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.example.diary:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.diary:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.example.diary:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.example.diary:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.example.diary:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.example.diary:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.example.diary:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.example.diary:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.example.diary:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.diary:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.example.diary:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.example.diary:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3694,26 +3164,26 @@ containing a value of this type.
            @see #ActionBar_titleTextStyle
          */
         public static final int[] ActionBar = {
-            0x7f010003, 0x7f010005, 0x7f010007, 0x7f010008,
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
-            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
-            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
-            0x7f01001d, 0x7f01001e, 0x7f01005a
+            0x7f010001, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009,
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+            0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011,
+            0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015,
+            0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019,
+            0x7f01001a, 0x7f01001b, 0x7f01006a
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:background
+          @attr name com.example.diary:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3721,11 +3191,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:backgroundSplit
+          @attr name com.example.diary:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3733,11 +3203,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:backgroundStacked
+          @attr name com.example.diary:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3749,11 +3219,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetEnd
+          @attr name com.example.diary:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3765,11 +3235,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetLeft
+          @attr name com.example.diary:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3781,11 +3251,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetRight
+          @attr name com.example.diary:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3797,21 +3267,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetStart
+          @attr name com.example.diary:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:customNavigationLayout
+          @attr name com.example.diary:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3829,21 +3299,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:displayOptions
+          @attr name com.example.diary:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:divider
+          @attr name com.example.diary:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3855,11 +3325,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:elevation
+          @attr name com.example.diary:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3871,11 +3341,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:height
+          @attr name com.example.diary:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3885,51 +3355,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:hideOnContentScroll
+          @attr name com.example.diary:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:homeAsUpIndicator
+          @attr name com.example.diary:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:homeLayout
+          @attr name com.example.diary:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:icon
+          @attr name com.example.diary:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:indeterminateProgressStyle
+          @attr name com.example.diary:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3941,21 +3411,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:itemPadding
+          @attr name com.example.diary:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:logo
+          @attr name com.example.diary:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3969,21 +3439,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:navigationMode
+          @attr name com.example.diary:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:popupTheme
+          @attr name com.example.diary:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3995,21 +3465,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:progressBarPadding
+          @attr name com.example.diary:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:progressBarStyle
+          @attr name com.example.diary:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4019,21 +3489,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:subtitle
+          @attr name com.example.diary:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:subtitleTextStyle
+          @attr name com.example.diary:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -4043,17 +3513,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:title
+          @attr name com.example.diary:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:titleTextStyle
+          @attr name com.example.diary:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -4075,6 +3545,328 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android:layout_gravity
         */
         public static final int ActionBarLayout_android_layout_gravity = 0;
+        /** Attributes that can be used with a ActionButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ActionButton_animation_onHide com.example.diary:animation_onHide}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_animation_onShow com.example.diary:animation_onShow}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_button_color com.example.diary:button_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_button_colorPressed com.example.diary:button_colorPressed}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_button_colorRipple com.example.diary:button_colorRipple}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_hide_animation com.example.diary:hide_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_image com.example.diary:image}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_image_size com.example.diary:image_size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_rippleEffect_enabled com.example.diary:rippleEffect_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadowResponsiveEffect_enabled com.example.diary:shadowResponsiveEffect_enabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_color com.example.diary:shadow_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_radius com.example.diary:shadow_radius}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_xOffset com.example.diary:shadow_xOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_shadow_yOffset com.example.diary:shadow_yOffset}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_show_animation com.example.diary:show_animation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_size com.example.diary:size}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_stroke_color com.example.diary:stroke_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_stroke_width com.example.diary:stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionButton_type com.example.diary:type}</code></td><td></td></tr>
+           </table>
+           @see #ActionButton_animation_onHide
+           @see #ActionButton_animation_onShow
+           @see #ActionButton_button_color
+           @see #ActionButton_button_colorPressed
+           @see #ActionButton_button_colorRipple
+           @see #ActionButton_hide_animation
+           @see #ActionButton_image
+           @see #ActionButton_image_size
+           @see #ActionButton_rippleEffect_enabled
+           @see #ActionButton_shadowResponsiveEffect_enabled
+           @see #ActionButton_shadow_color
+           @see #ActionButton_shadow_radius
+           @see #ActionButton_shadow_xOffset
+           @see #ActionButton_shadow_yOffset
+           @see #ActionButton_show_animation
+           @see #ActionButton_size
+           @see #ActionButton_stroke_color
+           @see #ActionButton_stroke_width
+           @see #ActionButton_type
+         */
+        public static final int[] ActionButton = {
+            0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f,
+            0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023,
+            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027,
+            0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b,
+            0x7f01002c, 0x7f01002d, 0x7f01002e
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#animation_onHide}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.diary:animation_onHide
+        */
+        public static final int ActionButton_animation_onHide = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#animation_onShow}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.diary:animation_onShow
+        */
+        public static final int ActionButton_animation_onShow = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#button_color}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:button_color
+        */
+        public static final int ActionButton_button_color = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#button_colorPressed}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:button_colorPressed
+        */
+        public static final int ActionButton_button_colorPressed = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#button_colorRipple}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:button_colorRipple
+        */
+        public static final int ActionButton_button_colorRipple = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#hide_animation}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.diary:hide_animation
+        */
+        public static final int ActionButton_hide_animation = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#image}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.diary:image
+        */
+        public static final int ActionButton_image = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#image_size}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:image_size
+        */
+        public static final int ActionButton_image_size = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#rippleEffect_enabled}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:rippleEffect_enabled
+        */
+        public static final int ActionButton_rippleEffect_enabled = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#shadowResponsiveEffect_enabled}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:shadowResponsiveEffect_enabled
+        */
+        public static final int ActionButton_shadowResponsiveEffect_enabled = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#shadow_color}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:shadow_color
+        */
+        public static final int ActionButton_shadow_color = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#shadow_radius}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:shadow_radius
+        */
+        public static final int ActionButton_shadow_radius = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#shadow_xOffset}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:shadow_xOffset
+        */
+        public static final int ActionButton_shadow_xOffset = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#shadow_yOffset}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:shadow_yOffset
+        */
+        public static final int ActionButton_shadow_yOffset = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#show_animation}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.example.diary:show_animation
+        */
+        public static final int ActionButton_show_animation = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#size}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:size
+        */
+        public static final int ActionButton_size = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#stroke_color}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:stroke_color
+        */
+        public static final int ActionButton_stroke_color = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#stroke_width}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.diary:stroke_width
+        */
+        public static final int ActionButton_stroke_width = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#type}
+          attribute's value can be found in the {@link #ActionButton} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>DEFAULT</code></td><td>0</td><td></td></tr>
+<tr><td><code>MINI</code></td><td>1</td><td></td></tr>
+<tr><td><code>BIG</code></td><td>2</td><td></td></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>mini</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name com.example.diary:type
+        */
+        public static final int ActionButton_type = 0;
         /** Attributes that can be used with a ActionMenuItemView.
            <p>Includes the following attributes:</p>
            <table>
@@ -4105,12 +3897,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.example.Onboard_diary:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.Onboard_diary:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.Onboard_diary:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.example.Onboard_diary:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.Onboard_diary:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.Onboard_diary:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.example.diary:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.example.diary:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.example.diary:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.example.diary:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.diary:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.example.diary:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -4120,21 +3912,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ActionMode_titleTextStyle
          */
         public static final int[] ActionMode = {
-            0x7f010003, 0x7f01000a, 0x7f01000b, 0x7f01000f,
-            0x7f010011, 0x7f01001f
+            0x7f010001, 0x7f010007, 0x7f010008, 0x7f01000c,
+            0x7f01000e, 0x7f01002f
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#background}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:background
+          @attr name com.example.diary:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4142,21 +3934,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:backgroundSplit
+          @attr name com.example.diary:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:closeItemLayout
+          @attr name com.example.diary:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#height}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -4168,27 +3960,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:height
+          @attr name com.example.diary:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:subtitleTextStyle
+          @attr name com.example.diary:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:titleTextStyle
+          @attr name com.example.diary:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -4197,27 +3989,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.Onboard_diary:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.Onboard_diary:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.diary:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.diary:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
          */
         public static final int[] ActivityChooserView = {
-            0x7f010020, 0x7f010021
+            0x7f010030, 0x7f010031
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:expandActivityOverflowButtonDrawable
+          @attr name com.example.diary:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4227,7 +4019,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:initialActivityCount
+          @attr name com.example.diary:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4237,11 +4029,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.Onboard_diary:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.example.Onboard_diary:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.example.Onboard_diary:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.Onboard_diary:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.Onboard_diary:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.diary:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.example.diary:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.example.diary:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.diary:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.diary:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4251,8 +4043,8 @@ containing a value of this type.
            @see #AlertDialog_singleChoiceItemLayout
          */
         public static final int[] AlertDialog = {
-            0x010100f2, 0x7f010022, 0x7f010023, 0x7f010024,
-            0x7f010025, 0x7f010026
+            0x010100f2, 0x7f010032, 0x7f010033, 0x7f010034,
+            0x7f010035, 0x7f010036
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -4261,53 +4053,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonPanelSideLayout
+          @attr name com.example.diary:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:listItemLayout
+          @attr name com.example.diary:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:listLayout
+          @attr name com.example.diary:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:multiChoiceItemLayout
+          @attr name com.example.diary:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:singleChoiceItemLayout
+          @attr name com.example.diary:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4317,15 +4109,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation com.example.Onboard_diary:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded com.example.Onboard_diary:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.example.diary:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.example.diary:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x7f01001d, 0x7f010027
+            0x010100d4, 0x7f01001a, 0x7f010037
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -4334,7 +4126,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4346,11 +4138,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:elevation
+          @attr name com.example.diary:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4360,7 +4152,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expanded
+          @attr name com.example.diary:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4369,17 +4161,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.example.Onboard_diary:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.example.Onboard_diary:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.example.diary:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.example.diary:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
          */
         public static final int[] AppBarLayout_LayoutParams = {
-            0x7f010028, 0x7f010029
+            0x7f010038, 0x7f010039
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4395,17 +4187,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:layout_scrollFlags
+          @attr name com.example.diary:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:layout_scrollInterpolator
+          @attr name com.example.diary:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4415,13 +4207,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.Onboard_diary:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.diary:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
          */
         public static final int[] AppCompatImageView = {
-            0x01010119, 0x7f01002a
+            0x01010119, 0x7f01003a
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -4430,13 +4222,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:srcCompat
+          @attr name com.example.diary:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4446,13 +4238,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.Onboard_diary:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.diary:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
          */
         public static final int[] AppCompatTextView = {
-            0x01010034, 0x7f01002b
+            0x01010034, 0x7f01003b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -4461,14 +4253,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.example.Onboard_diary:textAllCaps
+          @attr name com.example.diary:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4477,118 +4269,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.Onboard_diary:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.Onboard_diary:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.Onboard_diary:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.Onboard_diary:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.Onboard_diary:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.Onboard_diary:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.Onboard_diary:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.Onboard_diary:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.Onboard_diary:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.Onboard_diary:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.Onboard_diary:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.Onboard_diary:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.Onboard_diary:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.Onboard_diary:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.Onboard_diary:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.Onboard_diary:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.Onboard_diary:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.Onboard_diary:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.Onboard_diary:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.Onboard_diary:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.Onboard_diary:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.Onboard_diary:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.Onboard_diary:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.Onboard_diary:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.Onboard_diary:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.Onboard_diary:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.Onboard_diary:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.Onboard_diary:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.Onboard_diary:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.Onboard_diary:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.Onboard_diary:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.Onboard_diary:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.Onboard_diary:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.Onboard_diary:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.Onboard_diary:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.diary:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.diary:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.diary:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.diary:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.diary:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.diary:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.diary:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.diary:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.diary:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.diary:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.diary:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.diary:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.diary:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.diary:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.diary:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.diary:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.diary:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.diary:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.diary:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.diary:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.diary:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.diary:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.diary:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.diary:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.diary:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.diary:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.diary:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.diary:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.diary:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.diary:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.diary:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.diary:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.diary:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.diary:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.diary:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.Onboard_diary:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.Onboard_diary:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.Onboard_diary:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.Onboard_diary:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.Onboard_diary:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.Onboard_diary:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.Onboard_diary:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.Onboard_diary:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.Onboard_diary:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.Onboard_diary:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.Onboard_diary:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.Onboard_diary:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.Onboard_diary:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.Onboard_diary:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.Onboard_diary:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.Onboard_diary:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.Onboard_diary:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.Onboard_diary:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.Onboard_diary:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.Onboard_diary:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.Onboard_diary:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.Onboard_diary:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.Onboard_diary:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.Onboard_diary:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.Onboard_diary:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.Onboard_diary:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.Onboard_diary:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.Onboard_diary:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.Onboard_diary:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.Onboard_diary:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.Onboard_diary:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.Onboard_diary:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.Onboard_diary:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.Onboard_diary:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.Onboard_diary:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.Onboard_diary:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.Onboard_diary:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.Onboard_diary:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.Onboard_diary:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.Onboard_diary:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.Onboard_diary:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.Onboard_diary:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.Onboard_diary:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.Onboard_diary:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.Onboard_diary:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.Onboard_diary:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.Onboard_diary:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.Onboard_diary:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.Onboard_diary:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.Onboard_diary:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.Onboard_diary:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.Onboard_diary:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.Onboard_diary:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.Onboard_diary:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.Onboard_diary:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.Onboard_diary:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.Onboard_diary:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.Onboard_diary:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.Onboard_diary:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.Onboard_diary:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.Onboard_diary:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.Onboard_diary:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.Onboard_diary:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.Onboard_diary:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.Onboard_diary:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.Onboard_diary:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.Onboard_diary:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.Onboard_diary:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.Onboard_diary:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.Onboard_diary:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.Onboard_diary:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.Onboard_diary:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.Onboard_diary:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.Onboard_diary:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.Onboard_diary:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.diary:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.diary:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.diary:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.diary:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.diary:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.diary:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.diary:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.diary:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.diary:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.diary:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.diary:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.diary:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.diary:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.diary:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.diary:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.diary:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.diary:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.diary:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.diary:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.diary:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.diary:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.diary:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.diary:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.diary:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.diary:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.diary:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.diary:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.diary:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.diary:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.diary:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.diary:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.diary:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.diary:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.diary:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.diary:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.diary:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.diary:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.diary:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.diary:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.diary:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.diary:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.diary:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.diary:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.diary:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.diary:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.diary:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.diary:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.diary:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.diary:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.diary:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.diary:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.diary:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.diary:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.diary:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.diary:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.diary:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.diary:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.diary:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.diary:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.diary:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.diary:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.diary:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.diary:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.diary:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.diary:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.diary:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.diary:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.diary:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.diary:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.diary:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.diary:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.diary:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.diary:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.diary:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.diary:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4704,11 +4496,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppCompatTheme_windowNoTitle
          */
         public static final int[] AppCompatTheme = {
-            0x01010057, 0x010100ae, 0x7f01002c, 0x7f01002d,
-            0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031,
-            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
-            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
-            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
+            0x01010057, 0x010100ae, 0x7f01003c, 0x7f01003d,
             0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
             0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
             0x7f010046, 0x7f010047, 0x7f010048, 0x7f010049,
@@ -4731,40 +4519,44 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01008a, 0x7f01008b, 0x7f01008c, 0x7f01008d,
             0x7f01008e, 0x7f01008f, 0x7f010090, 0x7f010091,
             0x7f010092, 0x7f010093, 0x7f010094, 0x7f010095,
-            0x7f010096, 0x7f010097, 0x7f010098, 0x7f010099
+            0x7f010096, 0x7f010097, 0x7f010098, 0x7f010099,
+            0x7f01009a, 0x7f01009b, 0x7f01009c, 0x7f01009d,
+            0x7f01009e, 0x7f01009f, 0x7f0100a0, 0x7f0100a1,
+            0x7f0100a2, 0x7f0100a3, 0x7f0100a4, 0x7f0100a5,
+            0x7f0100a6, 0x7f0100a7, 0x7f0100a8, 0x7f0100a9
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarDivider
+          @attr name com.example.diary:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarItemBackground
+          @attr name com.example.diary:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarPopupTheme
+          @attr name com.example.diary:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4784,111 +4576,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:actionBarSize
+          @attr name com.example.diary:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarSplitStyle
+          @attr name com.example.diary:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarStyle
+          @attr name com.example.diary:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarTabBarStyle
+          @attr name com.example.diary:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarTabStyle
+          @attr name com.example.diary:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarTabTextStyle
+          @attr name com.example.diary:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarTheme
+          @attr name com.example.diary:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionBarWidgetTheme
+          @attr name com.example.diary:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionButtonStyle
+          @attr name com.example.diary:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionDropDownStyle
+          @attr name com.example.diary:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionMenuTextAppearance
+          @attr name com.example.diary:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4896,181 +4688,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:actionMenuTextColor
+          @attr name com.example.diary:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeBackground
+          @attr name com.example.diary:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeCloseButtonStyle
+          @attr name com.example.diary:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeCloseDrawable
+          @attr name com.example.diary:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeCopyDrawable
+          @attr name com.example.diary:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeCutDrawable
+          @attr name com.example.diary:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeFindDrawable
+          @attr name com.example.diary:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModePasteDrawable
+          @attr name com.example.diary:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModePopupWindowStyle
+          @attr name com.example.diary:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeSelectAllDrawable
+          @attr name com.example.diary:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeShareDrawable
+          @attr name com.example.diary:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeSplitBackground
+          @attr name com.example.diary:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeStyle
+          @attr name com.example.diary:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionModeWebSearchDrawable
+          @attr name com.example.diary:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionOverflowButtonStyle
+          @attr name com.example.diary:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionOverflowMenuStyle
+          @attr name com.example.diary:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:activityChooserViewStyle
+          @attr name com.example.diary:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:alertDialogButtonGroupStyle
+          @attr name com.example.diary:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5080,27 +4872,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:alertDialogCenterButtons
+          @attr name com.example.diary:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:alertDialogStyle
+          @attr name com.example.diary:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:alertDialogTheme
+          @attr name com.example.diary:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 94;
         /**
@@ -5116,117 +4908,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:autoCompleteTextViewStyle
+          @attr name com.example.diary:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:borderlessButtonStyle
+          @attr name com.example.diary:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonBarButtonStyle
+          @attr name com.example.diary:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonBarNegativeButtonStyle
+          @attr name com.example.diary:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonBarNeutralButtonStyle
+          @attr name com.example.diary:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonBarPositiveButtonStyle
+          @attr name com.example.diary:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonBarStyle
+          @attr name com.example.diary:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonStyle
+          @attr name com.example.diary:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:buttonStyleSmall
+          @attr name com.example.diary:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:checkboxStyle
+          @attr name com.example.diary:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:checkedTextViewStyle
+          @attr name com.example.diary:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5237,11 +5029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorAccent
+          @attr name com.example.diary:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5252,11 +5044,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorButtonNormal
+          @attr name com.example.diary:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5267,11 +5059,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorControlActivated
+          @attr name com.example.diary:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5282,11 +5074,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorControlHighlight
+          @attr name com.example.diary:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5297,11 +5089,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorControlNormal
+          @attr name com.example.diary:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5312,11 +5104,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorPrimary
+          @attr name com.example.diary:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5327,11 +5119,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorPrimaryDark
+          @attr name com.example.diary:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5342,21 +5134,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:colorSwitchThumbNormal
+          @attr name com.example.diary:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:controlBackground
+          @attr name com.example.diary:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5368,51 +5160,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:dialogPreferredPadding
+          @attr name com.example.diary:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:dialogTheme
+          @attr name com.example.diary:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:dividerHorizontal
+          @attr name com.example.diary:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:dividerVertical
+          @attr name com.example.diary:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:dropDownListViewStyle
+          @attr name com.example.diary:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5424,21 +5216,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:dropdownListPreferredItemHeight
+          @attr name com.example.diary:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:editTextBackground
+          @attr name com.example.diary:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5446,71 +5238,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:editTextColor
+          @attr name com.example.diary:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:editTextStyle
+          @attr name com.example.diary:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:homeAsUpIndicator
+          @attr name com.example.diary:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:imageButtonStyle
+          @attr name com.example.diary:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:listChoiceBackgroundIndicator
+          @attr name com.example.diary:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:listDividerAlertDialog
+          @attr name com.example.diary:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:listPopupWindowStyle
+          @attr name com.example.diary:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5522,11 +5314,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:listPreferredItemHeight
+          @attr name com.example.diary:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5538,11 +5330,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:listPreferredItemHeightLarge
+          @attr name com.example.diary:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5554,11 +5346,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:listPreferredItemHeightSmall
+          @attr name com.example.diary:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5570,11 +5362,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:listPreferredItemPaddingLeft
+          @attr name com.example.diary:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5586,31 +5378,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:listPreferredItemPaddingRight
+          @attr name com.example.diary:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:panelBackground
+          @attr name com.example.diary:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:panelMenuListTheme
+          @attr name com.example.diary:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5622,201 +5414,201 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:panelMenuListWidth
+          @attr name com.example.diary:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:popupMenuStyle
+          @attr name com.example.diary:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:popupWindowStyle
+          @attr name com.example.diary:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:radioButtonStyle
+          @attr name com.example.diary:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:ratingBarStyle
+          @attr name com.example.diary:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:ratingBarStyleIndicator
+          @attr name com.example.diary:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:ratingBarStyleSmall
+          @attr name com.example.diary:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:searchViewStyle
+          @attr name com.example.diary:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:seekBarStyle
+          @attr name com.example.diary:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:selectableItemBackground
+          @attr name com.example.diary:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:selectableItemBackgroundBorderless
+          @attr name com.example.diary:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:spinnerDropDownItemStyle
+          @attr name com.example.diary:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:spinnerStyle
+          @attr name com.example.diary:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:switchStyle
+          @attr name com.example.diary:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceLargePopupMenu
+          @attr name com.example.diary:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceListItem
+          @attr name com.example.diary:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceListItemSmall
+          @attr name com.example.diary:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceSearchResultSubtitle
+          @attr name com.example.diary:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceSearchResultTitle
+          @attr name com.example.diary:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:textAppearanceSmallPopupMenu
+          @attr name com.example.diary:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5824,11 +5616,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:textColorAlertDialogListItem
+          @attr name com.example.diary:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5836,31 +5628,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:textColorSearchUrl
+          @attr name com.example.diary:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:toolbarNavigationButtonStyle
+          @attr name com.example.diary:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:toolbarStyle
+          @attr name com.example.diary:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5870,11 +5662,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowActionBar
+          @attr name com.example.diary:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5884,11 +5676,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowActionBarOverlay
+          @attr name com.example.diary:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5898,11 +5690,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowActionModeOverlay
+          @attr name com.example.diary:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5917,11 +5709,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowFixedHeightMajor
+          @attr name com.example.diary:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5936,11 +5728,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowFixedHeightMinor
+          @attr name com.example.diary:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5955,11 +5747,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowFixedWidthMajor
+          @attr name com.example.diary:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5974,11 +5766,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowFixedWidthMinor
+          @attr name com.example.diary:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5993,11 +5785,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowMinWidthMajor
+          @attr name com.example.diary:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6012,11 +5804,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowMinWidthMinor
+          @attr name com.example.diary:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -6026,7 +5818,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:windowNoTitle
+          @attr name com.example.diary:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -6035,17 +5827,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.example.Onboard_diary:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.example.Onboard_diary:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.example.diary:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.example.diary:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
          */
         public static final int[] BottomSheetBehavior_Params = {
-            0x7f01009a, 0x7f01009b
+            0x7f0100aa, 0x7f0100ab
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -6055,11 +5847,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:behavior_hideable
+          @attr name com.example.diary:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -6071,7 +5863,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:behavior_peekHeight
+          @attr name com.example.diary:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -6080,15 +5872,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.Onboard_diary:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.diary:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
         public static final int[] ButtonBarLayout = {
-            0x7f01009c
+            0x7f0100ac
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -6098,7 +5890,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:allowStacking
+          @attr name com.example.diary:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -6107,17 +5899,17 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.example.Onboard_diary:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.example.Onboard_diary:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.example.diary:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.example.diary:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingAppBarLayout_LayoutParams = {
-            0x7f01009d, 0x7f01009e
+            0x7f0100ad, 0x7f0100ae
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6131,11 +5923,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:layout_collapseMode
+          @attr name com.example.diary:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6145,7 +5937,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:layout_collapseParallaxMultiplier
+          @attr name com.example.diary:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6154,20 +5946,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.Onboard_diary:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.Onboard_diary:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.Onboard_diary:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.Onboard_diary:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.Onboard_diary:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.Onboard_diary:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.Onboard_diary:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.Onboard_diary:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.Onboard_diary:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.Onboard_diary:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.Onboard_diary:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.Onboard_diary:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.Onboard_diary:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.Onboard_diary:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.diary:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.diary:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.diary:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.diary:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.diary:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.diary:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.diary:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.diary:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.diary:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.diary:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.diary:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.diary:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.diary:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.diary:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6185,13 +5977,13 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f010005, 0x7f01009f, 0x7f0100a0, 0x7f0100a1,
-            0x7f0100a2, 0x7f0100a3, 0x7f0100a4, 0x7f0100a5,
-            0x7f0100a6, 0x7f0100a7, 0x7f0100a8, 0x7f0100a9,
-            0x7f0100aa, 0x7f0100ab
+            0x7f010003, 0x7f0100af, 0x7f0100b0, 0x7f0100b1,
+            0x7f0100b2, 0x7f0100b3, 0x7f0100b4, 0x7f0100b5,
+            0x7f0100b6, 0x7f0100b7, 0x7f0100b8, 0x7f0100b9,
+            0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6212,21 +6004,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:collapsedTitleGravity
+          @attr name com.example.diary:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:collapsedTitleTextAppearance
+          @attr name com.example.diary:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6237,11 +6029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentScrim
+          @attr name com.example.diary:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6262,11 +6054,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:expandedTitleGravity
+          @attr name com.example.diary:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6278,11 +6070,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expandedTitleMargin
+          @attr name com.example.diary:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6294,11 +6086,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expandedTitleMarginBottom
+          @attr name com.example.diary:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6310,11 +6102,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expandedTitleMarginEnd
+          @attr name com.example.diary:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6326,11 +6118,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expandedTitleMarginStart
+          @attr name com.example.diary:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6342,21 +6134,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:expandedTitleMarginTop
+          @attr name com.example.diary:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:expandedTitleTextAppearance
+          @attr name com.example.diary:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6367,11 +6159,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:statusBarScrim
+          @attr name com.example.diary:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6381,11 +6173,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:title
+          @attr name com.example.diary:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6395,17 +6187,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleEnabled
+          @attr name com.example.diary:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:toolbarId
+          @attr name com.example.diary:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -6415,15 +6207,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.example.Onboard_diary:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.Onboard_diary:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.example.diary:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.diary:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
            @see #CompoundButton_buttonTintMode
          */
         public static final int[] CompoundButton = {
-            0x01010107, 0x7f0100ac, 0x7f0100ad
+            0x01010107, 0x7f0100bc, 0x7f0100bd
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -6432,7 +6224,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6443,11 +6235,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:buttonTint
+          @attr name com.example.diary:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6463,7 +6255,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:buttonTintMode
+          @attr name com.example.diary:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -6472,33 +6264,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines com.example.Onboard_diary:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.Onboard_diary:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.example.diary:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.diary:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f0100ae, 0x7f0100af
+            0x7f0100be, 0x7f0100bf
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:keylines
+          @attr name com.example.diary:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:statusBarBackground
+          @attr name com.example.diary:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -6508,10 +6300,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.example.Onboard_diary:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.example.Onboard_diary:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.example.Onboard_diary:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.example.Onboard_diary:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.example.diary:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.example.diary:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.example.diary:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.example.diary:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -6520,8 +6312,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_LayoutParams_layout_keyline
          */
         public static final int[] CoordinatorLayout_LayoutParams = {
-            0x010100b3, 0x7f0100b0, 0x7f0100b1, 0x7f0100b2,
-            0x7f0100b3
+            0x010100b3, 0x7f0100c0, 0x7f0100c1, 0x7f0100c2,
+            0x7f0100c3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -6530,17 +6322,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:layout_anchor
+          @attr name com.example.diary:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6565,11 +6357,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:layout_anchorGravity
+          @attr name com.example.diary:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6579,11 +6371,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:layout_behavior
+          @attr name com.example.diary:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6593,7 +6385,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:layout_keyline
+          @attr name com.example.diary:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -6602,39 +6394,39 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.Onboard_diary:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.Onboard_diary:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError com.example.Onboard_diary:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.diary:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.diary:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.example.diary:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
            @see #DesignTheme_textColorError
          */
         public static final int[] DesignTheme = {
-            0x7f0100b4, 0x7f0100b5, 0x7f0100b6
+            0x7f0100c4, 0x7f0100c5, 0x7f0100c6
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:bottomSheetDialogTheme
+          @attr name com.example.diary:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:bottomSheetStyle
+          @attr name com.example.diary:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -6645,7 +6437,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:textColorError
+          @attr name com.example.diary:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -6654,14 +6446,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.Onboard_diary:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.Onboard_diary:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.Onboard_diary:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.example.Onboard_diary:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.Onboard_diary:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.Onboard_diary:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.Onboard_diary:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.Onboard_diary:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.diary:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.diary:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.diary:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.example.diary:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.diary:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.diary:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.diary:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.diary:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -6673,11 +6465,11 @@ containing a value of this type.
            @see #DrawerArrowToggle_thickness
          */
         public static final int[] DrawerArrowToggle = {
-            0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba,
-            0x7f0100bb, 0x7f0100bc, 0x7f0100bd, 0x7f0100be
+            0x7f0100c7, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca,
+            0x7f0100cb, 0x7f0100cc, 0x7f0100cd, 0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6689,11 +6481,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:arrowHeadLength
+          @attr name com.example.diary:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6705,11 +6497,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:arrowShaftLength
+          @attr name com.example.diary:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6721,11 +6513,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:barLength
+          @attr name com.example.diary:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#color}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6736,11 +6528,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:color
+          @attr name com.example.diary:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6752,11 +6544,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:drawableSize
+          @attr name com.example.diary:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6768,11 +6560,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:gapBetweenBars
+          @attr name com.example.diary:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6782,11 +6574,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:spinBars
+          @attr name com.example.diary:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6798,7 +6590,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:thickness
+          @attr name com.example.diary:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -6807,14 +6599,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.Onboard_diary:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.Onboard_diary:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.Onboard_diary:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation com.example.Onboard_diary:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize com.example.Onboard_diary:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.Onboard_diary:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.Onboard_diary:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.Onboard_diary:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.diary:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.diary:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.diary:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.example.diary:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.example.diary:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.diary:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.diary:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.diary:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -6826,11 +6618,11 @@ containing a value of this type.
            @see #FloatingActionButton_useCompatPadding
          */
         public static final int[] FloatingActionButton = {
-            0x7f01001d, 0x7f0100bf, 0x7f0100c0, 0x7f0100c1,
-            0x7f0100c2, 0x7f0100c3, 0x7f010123, 0x7f010124
+            0x7f01001a, 0x7f0100cf, 0x7f0100d0, 0x7f0100d1,
+            0x7f0100d2, 0x7f0100d3, 0x7f01012b, 0x7f01012c
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6841,11 +6633,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:backgroundTint
+          @attr name com.example.diary:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6861,11 +6653,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:backgroundTintMode
+          @attr name com.example.diary:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6877,11 +6669,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:borderWidth
+          @attr name com.example.diary:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6893,11 +6685,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:elevation
+          @attr name com.example.diary:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6910,11 +6702,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:fabSize
+          @attr name com.example.diary:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6926,11 +6718,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:pressedTranslationZ
+          @attr name com.example.diary:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6941,11 +6733,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:rippleColor
+          @attr name com.example.diary:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6955,7 +6747,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:useCompatPadding
+          @attr name com.example.diary:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -6966,14 +6758,14 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.Onboard_diary:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.diary:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f0100c4
+            0x01010109, 0x01010200, 0x7f0100d4
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -6988,7 +6780,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -6998,7 +6790,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:foregroundInsidePadding
+          @attr name com.example.diary:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -7012,10 +6804,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.Onboard_diary:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.Onboard_diary:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.Onboard_diary:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.Onboard_diary:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.example.diary:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.diary:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.diary:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.diary:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7029,8 +6821,8 @@ containing a value of this type.
          */
         public static final int[] LinearLayoutCompat = {
             0x010100af, 0x010100c4, 0x01010126, 0x01010127,
-            0x01010128, 0x7f01000e, 0x7f0100c5, 0x7f0100c6,
-            0x7f0100c7
+            0x01010128, 0x7f01000b, 0x7f0100d5, 0x7f0100d6,
+            0x7f0100d7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
@@ -7063,17 +6855,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:divider
+          @attr name com.example.diary:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7085,11 +6877,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:dividerPadding
+          @attr name com.example.diary:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7099,11 +6891,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:measureWithLargestChild
+          @attr name com.example.diary:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7118,7 +6910,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:showDividers
+          @attr name com.example.diary:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7257,9 +7049,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.example.Onboard_diary:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.Onboard_diary:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.example.Onboard_diary:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.example.diary:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.example.diary:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.example.diary:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7273,7 +7065,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.example.Onboard_diary:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.example.diary:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7297,21 +7089,21 @@ containing a value of this type.
             0x01010002, 0x0101000e, 0x010100d0, 0x01010106,
             0x01010194, 0x010101de, 0x010101df, 0x010101e1,
             0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5,
-            0x0101026f, 0x7f0100c8, 0x7f0100c9, 0x7f0100ca,
-            0x7f0100cb
+            0x0101026f, 0x7f0100d8, 0x7f0100d9, 0x7f0100da,
+            0x7f0100db
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:actionLayout
+          @attr name com.example.diary:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7321,11 +7113,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:actionProviderClass
+          @attr name com.example.diary:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7335,7 +7127,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:actionViewClass
+          @attr name com.example.diary:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7417,7 +7209,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7433,7 +7225,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:showAsAction
+          @attr name com.example.diary:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7449,7 +7241,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.Onboard_diary:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.diary:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7462,7 +7254,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x7f0100cc
+            0x0101012f, 0x01010130, 0x01010131, 0x7f0100dc
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
@@ -7507,7 +7299,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7517,7 +7309,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:preserveIconSpacing
+          @attr name com.example.diary:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -7529,13 +7321,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation com.example.Onboard_diary:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout com.example.Onboard_diary:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground com.example.Onboard_diary:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint com.example.Onboard_diary:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.Onboard_diary:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor com.example.Onboard_diary:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu com.example.Onboard_diary:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.example.diary:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.example.diary:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.example.diary:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.example.diary:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.diary:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.example.diary:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.example.diary:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -7549,9 +7341,9 @@ containing a value of this type.
            @see #NavigationView_menu
          */
         public static final int[] NavigationView = {
-            0x010100d4, 0x010100dd, 0x0101011f, 0x7f01001d,
-            0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
-            0x7f0100d1, 0x7f0100d2
+            0x010100d4, 0x010100dd, 0x0101011f, 0x7f01001a,
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1, 0x7f0100e2
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -7572,7 +7364,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7584,31 +7376,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:elevation
+          @attr name com.example.diary:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:headerLayout
+          @attr name com.example.diary:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:itemBackground
+          @attr name com.example.diary:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7619,21 +7411,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:itemIconTint
+          @attr name com.example.diary:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:itemTextAppearance
+          @attr name com.example.diary:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7644,17 +7436,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:itemTextColor
+          @attr name com.example.diary:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:menu
+          @attr name com.example.diary:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -7664,13 +7456,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.Onboard_diary:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.diary:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
          */
         public static final int[] PopupWindow = {
-            0x01010176, 0x7f0100d3
+            0x01010176, 0x7f0100e3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -7679,7 +7471,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -7689,7 +7481,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:overlapAnchor
+          @attr name com.example.diary:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -7698,15 +7490,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.Onboard_diary:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.diary:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
         public static final int[] PopupWindowBackgroundState = {
-            0x7f0100d4
+            0x7f0100e4
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -7716,7 +7508,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:state_above_anchor
+          @attr name com.example.diary:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -7726,10 +7518,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.example.Onboard_diary:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.example.Onboard_diary:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.example.Onboard_diary:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.Onboard_diary:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.example.diary:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.example.diary:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.example.diary:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.diary:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -7738,8 +7530,8 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
-            0x7f0100d8
+            0x010100c4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7,
+            0x7f0100e8
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -7748,7 +7540,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7758,11 +7550,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:layoutManager
+          @attr name com.example.diary:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7772,11 +7564,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:reverseLayout
+          @attr name com.example.diary:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7786,11 +7578,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:spanCount
+          @attr name com.example.diary:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7800,7 +7592,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:stackFromEnd
+          @attr name com.example.diary:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -7809,15 +7601,15 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.Onboard_diary:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.diary:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f0100d9
+            0x7f0100e9
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -7825,7 +7617,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.example.Onboard_diary:insetForeground
+          @attr name com.example.diary:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -7834,15 +7626,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.example.Onboard_diary:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.example.diary:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f0100da
+            0x7f0100ea
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -7854,7 +7646,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:behavior_overlapTop
+          @attr name com.example.diary:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -7867,19 +7659,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.example.Onboard_diary:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.example.Onboard_diary:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.example.Onboard_diary:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.example.Onboard_diary:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.Onboard_diary:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.example.Onboard_diary:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.example.Onboard_diary:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.example.Onboard_diary:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.example.Onboard_diary:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.example.Onboard_diary:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.example.Onboard_diary:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.Onboard_diary:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.example.Onboard_diary:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.example.diary:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.example.diary:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.example.diary:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.example.diary:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.diary:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.example.diary:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.example.diary:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.example.diary:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.example.diary:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.example.diary:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.example.diary:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.diary:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.example.diary:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -7901,10 +7693,10 @@ containing a value of this type.
          */
         public static final int[] SearchView = {
             0x010100da, 0x0101011f, 0x01010220, 0x01010264,
-            0x7f0100db, 0x7f0100dc, 0x7f0100dd, 0x7f0100de,
-            0x7f0100df, 0x7f0100e0, 0x7f0100e1, 0x7f0100e2,
-            0x7f0100e3, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
-            0x7f0100e7
+            0x7f0100eb, 0x7f0100ec, 0x7f0100ed, 0x7f0100ee,
+            0x7f0100ef, 0x7f0100f0, 0x7f0100f1, 0x7f0100f2,
+            0x7f0100f3, 0x7f0100f4, 0x7f0100f5, 0x7f0100f6,
+            0x7f0100f7
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -7931,27 +7723,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:closeIcon
+          @attr name com.example.diary:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:commitIcon
+          @attr name com.example.diary:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7961,21 +7753,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:defaultQueryHint
+          @attr name com.example.diary:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:goIcon
+          @attr name com.example.diary:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -7985,31 +7777,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:iconifiedByDefault
+          @attr name com.example.diary:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:layout
+          @attr name com.example.diary:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:queryBackground
+          @attr name com.example.diary:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8019,57 +7811,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:queryHint
+          @attr name com.example.diary:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:searchHintIcon
+          @attr name com.example.diary:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:searchIcon
+          @attr name com.example.diary:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:submitBackground
+          @attr name com.example.diary:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:suggestionRowLayout
+          @attr name com.example.diary:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:voiceIcon
+          @attr name com.example.diary:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -8079,15 +7871,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation com.example.Onboard_diary:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.Onboard_diary:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.example.diary:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.diary:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f01001d, 0x7f0100e8
+            0x0101011f, 0x7f01001a, 0x7f0100f8
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -8096,7 +7888,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8108,11 +7900,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:elevation
+          @attr name com.example.diary:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8124,7 +7916,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:maxActionInlineWidth
+          @attr name com.example.diary:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -8137,7 +7929,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.example.Onboard_diary:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.example.diary:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8147,7 +7939,7 @@ containing a value of this type.
          */
         public static final int[] Spinner = {
             0x010100b2, 0x01010176, 0x0101017b, 0x01010262,
-            0x7f01001e
+            0x7f01001b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
@@ -8174,86 +7966,15 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:popupTheme
+          @attr name com.example.diary:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
-        /** Attributes that can be used with a StateButton.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #StateButton_dgts__StateButtonStyle com.example.Onboard_diary:dgts__StateButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_finishStateText com.example.Onboard_diary:finishStateText}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_progressStateText com.example.Onboard_diary:progressStateText}</code></td><td></td></tr>
-           <tr><td><code>{@link #StateButton_startStateText com.example.Onboard_diary:startStateText}</code></td><td></td></tr>
-           </table>
-           @see #StateButton_dgts__StateButtonStyle
-           @see #StateButton_finishStateText
-           @see #StateButton_progressStateText
-           @see #StateButton_startStateText
-         */
-        public static final int[] StateButton = {
-            0x7f0100e9, 0x7f0100ea, 0x7f0100eb, 0x7f0100ec
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#dgts__StateButtonStyle}
-          attribute's value can be found in the {@link #StateButton} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:dgts__StateButtonStyle
-        */
-        public static final int StateButton_dgts__StateButtonStyle = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#finishStateText}
-          attribute's value can be found in the {@link #StateButton} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:finishStateText
-        */
-        public static final int StateButton_finishStateText = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#progressStateText}
-          attribute's value can be found in the {@link #StateButton} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:progressStateText
-        */
-        public static final int StateButton_progressStateText = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#startStateText}
-          attribute's value can be found in the {@link #StateButton} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:startStateText
-        */
-        public static final int StateButton_startStateText = 2;
         /** Attributes that can be used with a SwitchCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -8263,13 +7984,13 @@ containing a value of this type.
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.example.Onboard_diary:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.Onboard_diary:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.Onboard_diary:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.Onboard_diary:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.Onboard_diary:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.Onboard_diary:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.example.Onboard_diary:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.example.diary:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.example.diary:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.diary:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.example.diary:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.diary:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.diary:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.example.diary:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8283,9 +8004,9 @@ containing a value of this type.
            @see #SwitchCompat_track
          */
         public static final int[] SwitchCompat = {
-            0x01010124, 0x01010125, 0x01010142, 0x7f0100ed,
-            0x7f0100ee, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1,
-            0x7f0100f2, 0x7f0100f3
+            0x01010124, 0x01010125, 0x01010142, 0x7f0100f9,
+            0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd,
+            0x7f0100fe, 0x7f0100ff
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#textOff}
@@ -8306,7 +8027,7 @@ containing a value of this type.
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8316,11 +8037,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:showText
+          @attr name com.example.diary:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8330,11 +8051,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:splitTrack
+          @attr name com.example.diary:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8346,11 +8067,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:switchMinWidth
+          @attr name com.example.diary:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8362,21 +8083,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:switchPadding
+          @attr name com.example.diary:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:switchTextAppearance
+          @attr name com.example.diary:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8388,17 +8109,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:thumbTextPadding
+          @attr name com.example.diary:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#track}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:track
+          @attr name com.example.diary:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabItem.
@@ -8442,22 +8163,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground com.example.Onboard_diary:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart com.example.Onboard_diary:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity com.example.Onboard_diary:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.Onboard_diary:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.Onboard_diary:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.Onboard_diary:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth com.example.Onboard_diary:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode com.example.Onboard_diary:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding com.example.Onboard_diary:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.Onboard_diary:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.Onboard_diary:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.Onboard_diary:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.Onboard_diary:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.Onboard_diary:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.Onboard_diary:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor com.example.Onboard_diary:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.example.diary:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.example.diary:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.example.diary:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.diary:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.diary:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.diary:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.example.diary:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.example.diary:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.example.diary:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.diary:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.diary:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.diary:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.diary:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.diary:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.diary:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.example.diary:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -8477,23 +8198,23 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7,
-            0x7f0100f8, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb,
-            0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff,
-            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103
+            0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103,
+            0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107,
+            0x7f010108, 0x7f010109, 0x7f01010a, 0x7f01010b,
+            0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:tabBackground
+          @attr name com.example.diary:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8505,11 +8226,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabContentStart
+          @attr name com.example.diary:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8522,11 +8243,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:tabGravity
+          @attr name com.example.diary:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8537,11 +8258,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabIndicatorColor
+          @attr name com.example.diary:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8553,11 +8274,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabIndicatorHeight
+          @attr name com.example.diary:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8569,11 +8290,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabMaxWidth
+          @attr name com.example.diary:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8585,11 +8306,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabMinWidth
+          @attr name com.example.diary:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8602,11 +8323,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:tabMode
+          @attr name com.example.diary:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8618,11 +8339,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabPadding
+          @attr name com.example.diary:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8634,11 +8355,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabPaddingBottom
+          @attr name com.example.diary:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8650,11 +8371,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabPaddingEnd
+          @attr name com.example.diary:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8666,11 +8387,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabPaddingStart
+          @attr name com.example.diary:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8682,11 +8403,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabPaddingTop
+          @attr name com.example.diary:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8697,21 +8418,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabSelectedTextColor
+          @attr name com.example.diary:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:tabTextAppearance
+          @attr name com.example.diary:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8722,7 +8443,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:tabTextColor
+          @attr name com.example.diary:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -8739,7 +8460,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.example.Onboard_diary:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.example.diary:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -8754,7 +8475,7 @@ containing a value of this type.
         public static final int[] TextAppearance = {
             0x01010095, 0x01010096, 0x01010097, 0x01010098,
             0x01010161, 0x01010162, 0x01010163, 0x01010164,
-            0x7f01002b
+            0x7f01003b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#shadowColor}
@@ -8805,14 +8526,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.example.Onboard_diary:textAllCaps
+          @attr name com.example.diary:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -8823,15 +8544,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.Onboard_diary:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.Onboard_diary:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.Onboard_diary:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.Onboard_diary:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.Onboard_diary:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.Onboard_diary:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.Onboard_diary:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.Onboard_diary:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.Onboard_diary:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.diary:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.diary:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.diary:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.diary:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.diary:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.diary:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.diary:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.diary:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.diary:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -8846,9 +8567,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010104, 0x7f010105,
-            0x7f010106, 0x7f010107, 0x7f010108, 0x7f010109,
-            0x7f01010a, 0x7f01010b, 0x7f01010c
+            0x0101009a, 0x01010150, 0x7f010110, 0x7f010111,
+            0x7f010112, 0x7f010113, 0x7f010114, 0x7f010115,
+            0x7f010116, 0x7f010117, 0x7f010118
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#hint}
@@ -8863,7 +8584,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8873,11 +8594,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:counterEnabled
+          @attr name com.example.diary:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8887,31 +8608,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:counterMaxLength
+          @attr name com.example.diary:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:counterOverflowTextAppearance
+          @attr name com.example.diary:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:counterTextAppearance
+          @attr name com.example.diary:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8921,21 +8642,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:errorEnabled
+          @attr name com.example.diary:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:errorTextAppearance
+          @attr name com.example.diary:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8945,11 +8666,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:hintAnimationEnabled
+          @attr name com.example.diary:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8959,94 +8680,19 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:hintEnabled
+          @attr name com.example.diary:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:hintTextAppearance
+          @attr name com.example.diary:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
-        /** Attributes that can be used with a ToggleImageButton.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ToggleImageButton_contentDescriptionOff com.example.Onboard_diary:contentDescriptionOff}</code></td><td></td></tr>
-           <tr><td><code>{@link #ToggleImageButton_contentDescriptionOn com.example.Onboard_diary:contentDescriptionOn}</code></td><td></td></tr>
-           <tr><td><code>{@link #ToggleImageButton_state_toggled_on com.example.Onboard_diary:state_toggled_on}</code></td><td></td></tr>
-           <tr><td><code>{@link #ToggleImageButton_toggleOnClick com.example.Onboard_diary:toggleOnClick}</code></td><td></td></tr>
-           </table>
-           @see #ToggleImageButton_contentDescriptionOff
-           @see #ToggleImageButton_contentDescriptionOn
-           @see #ToggleImageButton_state_toggled_on
-           @see #ToggleImageButton_toggleOnClick
-         */
-        public static final int[] ToggleImageButton = {
-            0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentDescriptionOff}
-          attribute's value can be found in the {@link #ToggleImageButton} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:contentDescriptionOff
-        */
-        public static final int ToggleImageButton_contentDescriptionOff = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentDescriptionOn}
-          attribute's value can be found in the {@link #ToggleImageButton} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:contentDescriptionOn
-        */
-        public static final int ToggleImageButton_contentDescriptionOn = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#state_toggled_on}
-          attribute's value can be found in the {@link #ToggleImageButton} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:state_toggled_on
-        */
-        public static final int ToggleImageButton_state_toggled_on = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#toggleOnClick}
-          attribute's value can be found in the {@link #ToggleImageButton} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:toggleOnClick
-        */
-        public static final int ToggleImageButton_toggleOnClick = 3;
         /** Attributes that can be used with a Toolbar.
            <p>Includes the following attributes:</p>
            <table>
@@ -9055,29 +8701,29 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.Onboard_diary:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.example.Onboard_diary:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.Onboard_diary:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.Onboard_diary:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.Onboard_diary:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.Onboard_diary:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.example.Onboard_diary:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.example.Onboard_diary:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.Onboard_diary:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.Onboard_diary:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.example.Onboard_diary:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.example.Onboard_diary:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.example.Onboard_diary:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.Onboard_diary:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.Onboard_diary:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.example.Onboard_diary:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.Onboard_diary:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.Onboard_diary:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.Onboard_diary:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.Onboard_diary:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.example.Onboard_diary:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.Onboard_diary:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.example.Onboard_diary:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.diary:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.example.diary:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.diary:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.diary:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.example.diary:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.example.diary:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.example.diary:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.example.diary:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.diary:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.diary:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.example.diary:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.example.diary:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.example.diary:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.diary:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.diary:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.example.diary:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.diary:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.diary:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.example.diary:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.example.diary:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.example.diary:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.diary:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.example.diary:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -9106,13 +8752,13 @@ containing a value of this type.
            @see #Toolbar_titleTextColor
          */
         public static final int[] Toolbar = {
-            0x010100af, 0x01010140, 0x7f010005, 0x7f010009,
-            0x7f01000d, 0x7f010019, 0x7f01001a, 0x7f01001b,
-            0x7f01001c, 0x7f01001e, 0x7f010111, 0x7f010112,
-            0x7f010113, 0x7f010114, 0x7f010115, 0x7f010116,
-            0x7f010117, 0x7f010118, 0x7f010119, 0x7f01011a,
+            0x010100af, 0x01010140, 0x7f010003, 0x7f010006,
+            0x7f01000a, 0x7f010016, 0x7f010017, 0x7f010018,
+            0x7f010019, 0x7f01001b, 0x7f010119, 0x7f01011a,
             0x7f01011b, 0x7f01011c, 0x7f01011d, 0x7f01011e,
-            0x7f01011f
+            0x7f01011f, 0x7f010120, 0x7f010121, 0x7f010122,
+            0x7f010123, 0x7f010124, 0x7f010125, 0x7f010126,
+            0x7f010127
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -9127,7 +8773,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9137,21 +8783,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:collapseContentDescription
+          @attr name com.example.diary:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:collapseIcon
+          @attr name com.example.diary:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9163,11 +8809,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetEnd
+          @attr name com.example.diary:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9179,11 +8825,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetLeft
+          @attr name com.example.diary:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9195,11 +8841,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetRight
+          @attr name com.example.diary:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9211,21 +8857,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:contentInsetStart
+          @attr name com.example.diary:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:logo
+          @attr name com.example.diary:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9235,11 +8881,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:logoDescription
+          @attr name com.example.diary:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9251,11 +8897,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:maxButtonHeight
+          @attr name com.example.diary:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9265,31 +8911,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:navigationContentDescription
+          @attr name com.example.diary:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:navigationIcon
+          @attr name com.example.diary:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:popupTheme
+          @attr name com.example.diary:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9299,21 +8945,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:subtitle
+          @attr name com.example.diary:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:subtitleTextAppearance
+          @attr name com.example.diary:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9324,11 +8970,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:subtitleTextColor
+          @attr name com.example.diary:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#title}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9338,11 +8984,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:title
+          @attr name com.example.diary:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9354,11 +9000,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleMarginBottom
+          @attr name com.example.diary:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9370,11 +9016,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleMarginEnd
+          @attr name com.example.diary:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9386,11 +9032,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleMarginStart
+          @attr name com.example.diary:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9402,11 +9048,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleMarginTop
+          @attr name com.example.diary:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9418,21 +9064,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleMargins
+          @attr name com.example.diary:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:titleTextAppearance
+          @attr name com.example.diary:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9443,7 +9089,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:titleTextColor
+          @attr name com.example.diary:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9454,9 +9100,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.example.Onboard_diary:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.example.Onboard_diary:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.example.Onboard_diary:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.example.diary:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.example.diary:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.example.diary:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9465,8 +9111,8 @@ containing a value of this type.
            @see #View_theme
          */
         public static final int[] View = {
-            0x01010000, 0x010100da, 0x7f010120, 0x7f010121,
-            0x7f010122
+            0x01010000, 0x010100da, 0x7f010128, 0x7f010129,
+            0x7f01012a
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -9481,7 +9127,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9493,11 +9139,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:paddingEnd
+          @attr name com.example.diary:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9509,17 +9155,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:paddingStart
+          @attr name com.example.diary:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.Onboard_diary:theme
+          @attr name com.example.diary:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9529,15 +9175,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.Onboard_diary:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.Onboard_diary:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.diary:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.diary:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
            @see #ViewBackgroundHelper_backgroundTintMode
          */
         public static final int[] ViewBackgroundHelper = {
-            0x010100d4, 0x7f010123, 0x7f010124
+            0x010100d4, 0x7f01012b, 0x7f01012c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -9546,7 +9192,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9557,11 +9203,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.example.Onboard_diary:backgroundTint
+          @attr name com.example.diary:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.example.diary.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9577,7 +9223,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.example.Onboard_diary:backgroundTintMode
+          @attr name com.example.diary:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
@@ -9615,163 +9261,5 @@ containing a value of this type.
           @attr name android:layout
         */
         public static final int ViewStubCompat_android_layout = 1;
-        /** Attributes that can be used with a tw__AspectRatioImageView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_aspect_ratio com.example.Onboard_diary:tw__image_aspect_ratio}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__AspectRatioImageView_tw__image_dimension_to_adjust com.example.Onboard_diary:tw__image_dimension_to_adjust}</code></td><td></td></tr>
-           </table>
-           @see #tw__AspectRatioImageView_tw__image_aspect_ratio
-           @see #tw__AspectRatioImageView_tw__image_dimension_to_adjust
-         */
-        public static final int[] tw__AspectRatioImageView = {
-            0x7f010125, 0x7f010126
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__image_aspect_ratio}
-          attribute's value can be found in the {@link #tw__AspectRatioImageView} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__image_aspect_ratio
-        */
-        public static final int tw__AspectRatioImageView_tw__image_aspect_ratio = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__image_dimension_to_adjust}
-          attribute's value can be found in the {@link #tw__AspectRatioImageView} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>height</code></td><td>0</td><td></td></tr>
-<tr><td><code>width</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.example.Onboard_diary:tw__image_dimension_to_adjust
-        */
-        public static final int tw__AspectRatioImageView_tw__image_dimension_to_adjust = 1;
-        /** Attributes that can be used with a tw__TweetView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__action_color com.example.Onboard_diary:tw__action_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__action_highlight_color com.example.Onboard_diary:tw__action_highlight_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__container_bg_color com.example.Onboard_diary:tw__container_bg_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__primary_text_color com.example.Onboard_diary:tw__primary_text_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__tweet_actions_enabled com.example.Onboard_diary:tw__tweet_actions_enabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #tw__TweetView_tw__tweet_id com.example.Onboard_diary:tw__tweet_id}</code></td><td></td></tr>
-           </table>
-           @see #tw__TweetView_tw__action_color
-           @see #tw__TweetView_tw__action_highlight_color
-           @see #tw__TweetView_tw__container_bg_color
-           @see #tw__TweetView_tw__primary_text_color
-           @see #tw__TweetView_tw__tweet_actions_enabled
-           @see #tw__TweetView_tw__tweet_id
-         */
-        public static final int[] tw__TweetView = {
-            0x7f010127, 0x7f010128, 0x7f010129, 0x7f01012a,
-            0x7f01012b, 0x7f01012c
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__action_color}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__action_color
-        */
-        public static final int tw__TweetView_tw__action_color = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__action_highlight_color}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__action_highlight_color
-        */
-        public static final int tw__TweetView_tw__action_highlight_color = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__container_bg_color}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__container_bg_color
-        */
-        public static final int tw__TweetView_tw__container_bg_color = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__primary_text_color}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__primary_text_color
-        */
-        public static final int tw__TweetView_tw__primary_text_color = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__tweet_actions_enabled}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__tweet_actions_enabled
-        */
-        public static final int tw__TweetView_tw__tweet_actions_enabled = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.example.Onboard_diary.R.attr#tw__tweet_id}
-          attribute's value can be found in the {@link #tw__TweetView} array.
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.Onboard_diary:tw__tweet_id
-        */
-        public static final int tw__TweetView_tw__tweet_id = 0;
     };
 }

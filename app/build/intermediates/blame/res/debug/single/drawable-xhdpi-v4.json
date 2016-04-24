@@ -1,31 +1,23 @@
 [
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__ic_success.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__ic_success.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00049.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00049.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00044.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00044.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__spinner_dark.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__spinner_dark.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_pressed_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00020.png",
@@ -36,28 +28,32 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00028.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00004.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00004.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_add_icon.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_icon.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__spinner_light.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__spinner_light.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo_name.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo_name.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00051.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_secondary_bg.9.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_secondary_bg.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00040.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00040.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00023.png",
@@ -65,219 +61,23 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_left.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_left.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00037.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_focused_holo.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_focused_holo.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00021.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00021.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_left.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_left.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00037.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__spinner_dark.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__spinner_dark.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00059.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00059.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00048.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00048.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00045.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00045.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play_pressed.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00057.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00057.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_app.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_app.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00055.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00055.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_white.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_white.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__ic_success.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__ic_success.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00044.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00044.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00001.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00001.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_longpressed_holo.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_left.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_left.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00051.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00041.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00041.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00017.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00017.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_activated_holo.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_activated_holo.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00032.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00032.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00028.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00028.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00021.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00021.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_white.png",
@@ -289,43 +89,23 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__share_email_header.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-xhdpi\\tw__share_email_header.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_app.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_app.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_default_holo.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_default_holo.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_default.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_play_default.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_gif_badge.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_gif_badge.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00037.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_verified.png",
@@ -333,147 +113,31 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00046.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00046.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00004.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00004.png"
     },
     {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play_pressed.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play_pressed.png"
+    },
+    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_pressed_holo.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_pressed_holo.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_default_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_default_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_white.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_white.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00038.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00038.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00008.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00008.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_focused_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00058.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00058.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00027.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00027.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00031.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00031.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_white.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_logo_white.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_dark.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_dark.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__addressbook_header.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__addressbook_header.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_selector_disabled_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00048.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00048.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00026.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00026.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00013.png",
@@ -484,232 +148,44 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-xhdpi\\tw__share_email_header.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ediitem.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ediitem.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fab_plus_icon.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.github.shell-software\\fab\\1.1.2\\res\\drawable-xhdpi-v4\\fab_plus_icon.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00002.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00002.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00030.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_focused_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause_pressed.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_pause_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00043.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00043.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_activated_holo.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_activated_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_pressed_holo.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_pressed_holo.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_activated_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_activated_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause_pressed.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_pause_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_activated_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_activated_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00024.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00052.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00052.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00015.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_progress_bg.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo_name.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo_name.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_app.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_app.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00051.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_focused_holo.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00053.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00053.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00019.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00019.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00003.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00030.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_default.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-xhdpi\\tw__ic_logo_default.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00044.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00044.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__spinner_light.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__spinner_light.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00020.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00020.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_white.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_white.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_done.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_done.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00042.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00058.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00058.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00041.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00041.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00014.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00014.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00029.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00029.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00030.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00030.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__login_header.png",
@@ -717,43 +193,47 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_focused_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_focused_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo_name.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo_name.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_dark.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_dark.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_default.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\twitter-core\\1.6.5\\res\\drawable-xhdpi\\tw__ic_logo_default.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_app.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.7\\res\\drawable-xhdpi\\ic_ab_app.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00050.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00050.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00005.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_done.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_done.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__addressbook_header.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__addressbook_header.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_inline_share.png",
@@ -761,167 +241,71 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00003.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_pause.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause_pressed.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_pause_pressed.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_light.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_photo_error_light.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00048.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00048.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00026.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00026.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_blue.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_blue.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00024.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00022.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00022.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_progress_bg.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00053.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00053.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay_pressed.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_replay_pressed.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00040.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00040.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00035.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00035.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00014.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00014.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00001.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00001.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00023.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00023.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_focused_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00047.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00047.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_activated_holo.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_activated_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__ic_success.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__ic_success.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00021.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00021.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00056.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00056.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_close.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_close.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_middle.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_middle.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00058.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00058.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_pressed_holo.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_pressed_holo.png"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00027.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00027.png"
     },
     {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00032.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00032.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_pressed.png",
@@ -929,39 +313,31 @@
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_default_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_default_holo_light.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__action_heart_off_default.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__action_heart_off_default.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00029.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00029.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00012.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_focused_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00040.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00040.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_pause.png",
@@ -972,92 +348,84 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00049.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00017.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00017.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_light.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_photo_error_light.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_blue.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_logo_blue.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00036.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00036.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_pressed_holo.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_pressed_holo.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00001.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00001.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00019.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00019.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00039.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00039.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00006.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00006.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00047.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00047.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00012.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_dark.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_dark.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_app.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_app.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00042.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00039.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00039.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00000.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00033.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00033.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_bg.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_bg.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_default.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_play_default.png"
     },
     {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_activated_holo.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_activated_holo.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00033.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00033.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00056.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00056.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00002.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00002.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00036.png",
@@ -1068,484 +436,56 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00059.png"
     },
     {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00024.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00024.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_replay.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_done.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_done.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_progress_bg.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_progress_bg.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_gif_badge.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_gif_badge.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00032.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00032.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_default_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_default_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_default_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_default_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_middle.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_middle.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__action_heart_on_default.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__action_heart_on_default.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_middle.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_middle.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00006.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00006.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00012.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00012.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00018.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00018.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00016.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00016.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00042.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00042.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_middle.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_middle.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00033.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00033.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_light.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_light.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_dark.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_photo_error_dark.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00050.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00050.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00022.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00022.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_play_pressed.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_play_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00010.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00010.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_light.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_photo_error_light.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00019.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00019.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_focused_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00039.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00039.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__login_header.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__login_header.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00005.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00005.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00054.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00054.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_bg.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_bg.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_bg.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_bg.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\drawable-xhdpi\\abc_ab_share_pack_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00006.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00006.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00002.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00002.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_photo_error_dark.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_photo_error_dark.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00047.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00047.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_close.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_close.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_focused_holo.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00025.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00025.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_blue.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_blue.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00010.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00010.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_focused_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_play_pressed.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_play_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00035.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00035.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00055.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00055.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00011.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00011.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_light.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_light.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_right.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_right.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_right.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_right.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00045.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00045.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_default_holo.png",
-        "source": "E:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_default_holo.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_focused_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_focused_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_activated_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_activated_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_tweet_verified.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_tweet_verified.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00026.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00026.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00052.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00052.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00043.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00043.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_inline_share.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_inline_share.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay_pressed.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_replay_pressed.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00015.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00056.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00056.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00022.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00022.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_seekbar_secondary_bg.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_seekbar_secondary_bg.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00016.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00016.png"
     },
     {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_pressed_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_pressed_holo_light.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00031.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00031.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_logo_blue.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_logo_blue.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00007.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00007.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00011.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00011.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00052.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00052.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00008.png",
@@ -1556,124 +496,48 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00054.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__addressbook_header.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__addressbook_header.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_logo_blue.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_logo_blue.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__composer_close.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-composer\\1.0.3\\res\\drawable-xhdpi\\tw__composer_close.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_textfield_activated_holo_light.9.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_textfield_activated_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_default_holo.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_default_holo.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_focused_holo.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00046.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00046.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00057.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00057.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00025.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00025.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__action_heart_off_default.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__action_heart_off_default.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00007.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00007.png"
-    },
-    {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_left.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_left.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00045.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00045.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00031.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00031.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dgts__logo.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.digits.sdk.android\\digits\\1.10.0\\res\\drawable-xhdpi\\dgts__logo.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00010.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00010.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00018.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00018.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00034.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00034.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00043.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00043.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00035.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00035.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00046.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00046.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00055.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00055.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_video_replay.png",
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_video_replay.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00003.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00003.png"
-    },
-    {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_right.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_right.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00015.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00034.png",
@@ -1684,44 +548,36 @@
         "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00000.png"
     },
     {
-        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_fastscroll_thumb_default_holo.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_fastscroll_thumb_default_holo.png"
-    },
-    {
-        "merged": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "E:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00038.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00038.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00057.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00057.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00013.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00013.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00025.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00025.png"
     },
     {
-        "merged": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00009.png",
-        "source": "D:\\Android\\Project\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00009.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00011.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00011.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\diarytheme_text_select_handle_right.png",
-        "source": "D:\\Android\\Onboard diary\\app\\src\\main\\res\\drawable-xhdpi\\diarytheme_text_select_handle_right.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00007.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__heart_animation_detail_60fps_00007.png"
+    },
+    {
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__ic_retweet_light.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.twitter.sdk.android\\tweet-ui\\1.10.0\\res\\drawable-xhdpi\\tw__ic_retweet_light.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_ab_done.png",
-        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.6\\res\\drawable-xhdpi\\ic_ab_done.png"
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.vk\\androidsdk\\1.6.7\\res\\drawable-xhdpi\\ic_ab_done.png"
     },
     {
-        "merged": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "D:\\Android\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "D:\\Android\\Projects\\Onboard diary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00009.png",
