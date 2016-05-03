@@ -22,6 +22,7 @@ public class Db_Main extends SQLiteOpenHelper {
     private static final String COLUMN_ID = "_id";
     private static final String COLUMN_THEME = "name";
     private static final String COLUMN_DESCRIPTION = "description";
+    private static final String COLUMN_PATH = "path";
     private static final String COLUMN_DATE = "date";
 
 
@@ -41,6 +42,7 @@ public class Db_Main extends SQLiteOpenHelper {
                 + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + COLUMN_THEME + " TEXT,"
                 + COLUMN_DESCRIPTION + " TEXT,"
+                + COLUMN_PATH + " TEXT,"
                 + COLUMN_DATE + " LONG" + ")";
         db.execSQL(CREATE_DATA_TABLE);
     }

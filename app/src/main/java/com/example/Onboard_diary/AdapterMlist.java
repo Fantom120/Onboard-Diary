@@ -3,17 +3,11 @@ package com.example.Onboard_diary;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.v4.app.FragmentActivity;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.text.SimpleDateFormat;
@@ -34,7 +28,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
     private Calendar calendar = Calendar.getInstance();
 
     public AdapterMlist(Context context, List<DataItem> itemList) {
-        super(context, R.layout.item);
+        super(context, R.layout.mitem);
 
         //    this.itemList = itemList;
         //   mIconsMap = iconsMap;
@@ -68,7 +62,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
                 .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
             // LayoutInflater inflater = LayoutInflater.from(getContext());
-            convertView = mInflater.inflate(R.layout.item, parent, false);
+            convertView = mInflater.inflate(R.layout.mitem, parent, false);
 
             viewHolder = new ViewHolder();
             viewHolder.personImageView = (ImageView) convertView.findViewById(R.id.imageView);
@@ -79,8 +73,8 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        //  ListViewItem item = getItem(position);
-        //   viewHolder.personImageView.setImageDrawable(item.icon);
+        //  ListViewItem mitem = getItem(position);
+        //   viewHolder.personImageView.setImageDrawable(mitem.icon);
         viewHolder.personImageView.setImageResource(R.mipmap.ic_pen);
         viewHolder.nameTextView.setText(dataItem.getTheme());
         viewHolder.date.setText(FORMATTER.format(dataItem.getDate()));

@@ -2,5 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item
+            android:id="@+id/addAudio"
+            android:icon="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+            android:title="@string/action"
+            app:showAsAction="always"/>
+
 
 </menu>

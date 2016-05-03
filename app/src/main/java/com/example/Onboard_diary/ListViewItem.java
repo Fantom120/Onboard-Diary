@@ -7,9 +7,9 @@ import android.graphics.drawable.Drawable;
  */
 public class ListViewItem {
 
-    public  Drawable icon;       // the drawable for the ListView item ImageView
-    public  String title;        // the text for the ListView item title
-    public  String date;  // the text for the ListView item description
+    public  Drawable icon;       // the drawable for the ListView mitem ImageView
+    public  String title;        // the text for the ListView mitem title
+    public  String date;  // the text for the ListView mitem description
     int position;
 
     public ListViewItem(Drawable icon, String title, String date) {

@@ -28,7 +28,7 @@ public class DatePickerFragment extends DialogFragment  {
     }
 
     private int year, month, day;
-    static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
+    static final SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
     DataItem item;
 
     @NonNull

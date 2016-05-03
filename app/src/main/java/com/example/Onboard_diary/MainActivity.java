@@ -3,6 +3,7 @@ package com.example.Onboard_diary;
 
 
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -34,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(mToolBar);
 
 
-
+        String path = getApplicationInfo().dataDir;
+        System.out.println(path);
+        Log.d("path", Environment.getExternalStorageDirectory() + "/record.3gpp");
 
         mFragmentManager = getSupportFragmentManager();
 

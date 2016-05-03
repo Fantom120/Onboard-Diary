@@ -55,13 +55,11 @@ public class EditDataFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        if (view == null) {
 
-            view = inflater.inflate(R.layout.input, container, false);
-        } else {
+           view = inflater.inflate(R.layout.input, container, false);
+
 
             ((ViewGroup) view.getParent()).removeView(view);
-        }
 
         if (getActivity() != null) {
             activity = (MainActivity) getActivity();

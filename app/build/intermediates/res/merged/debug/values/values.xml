@@ -334,6 +334,7 @@
     <string name="emptyLine"> Заполните пустое поле </string>
     <string name="header">Тема</string>
     <string name="note">Запись</string>
+    <string name="pathSD">Не удалось создать путь к SD</string>
     <string name="publication">Поделится</string>
     <string name="send_to">Поделится мыслями</string>
     <string name="status_bar_notification_info_overflow">999+</string>
