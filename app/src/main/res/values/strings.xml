@@ -15,5 +15,6 @@
     <string name="send_to">Поделится мыслями</string>
     <string name="publication">Поделится</string>
     <string name="pathSD">Не удалось создать путь к SD</string>
+    <string name="isEmpty">Заполните поле</string>
 
 </resources>

@@ -15,6 +15,7 @@ public class DataItem implements Parcelable, Comparable{
     private long _id;
     private String theme;
     private String description;
+    private String audioPath;
     private long date;
 
     public DataItem() {
@@ -63,6 +64,7 @@ public class DataItem implements Parcelable, Comparable{
         date = in.readLong();
     }
 
+
     public long get_id() {
         return _id;
     }
@@ -95,6 +97,13 @@ public class DataItem implements Parcelable, Comparable{
     public long getDate() {
          return date;
 
+    }
+    public String getAudioPath() {
+        return audioPath;
+    }
+
+    public void setAudioPath(String audioPath) {
+        this.audioPath = audioPath;
     }
 
 

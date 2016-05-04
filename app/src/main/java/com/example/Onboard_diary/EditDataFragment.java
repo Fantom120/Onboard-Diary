@@ -5,8 +5,6 @@ import android.os.Bundle;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -16,6 +14,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 import android.app.DatePickerDialog.OnDateSetListener;
+import com.example.Onboard_diary.record_play_audio.AudioPlayFragment;
+import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
 
 
 import java.text.SimpleDateFormat;
@@ -33,6 +33,8 @@ public class EditDataFragment extends Fragment {
     private int day;
     private int month;
     private int year;
+    private boolean newItem;
+    private Button btnRec, btnPlay;
 
     private static final SimpleDateFormat FORMAT_TITLE = new SimpleDateFormat("dd MMMM yyyy", Locale.getDefault());
     private static final SimpleDateFormat FORMAT_SUBTITLE = new SimpleDateFormat("EEEE", Locale.getDefault());
@@ -43,23 +45,16 @@ public class EditDataFragment extends Fragment {
         this.setRetainInstance(true);
     }
 
-    @Override
-    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-
-
-    }
-
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
 
-           view = inflater.inflate(R.layout.input, container, false);
+        view = inflater.inflate(R.layout.input, container, false);
 
 
-            ((ViewGroup) view.getParent()).removeView(view);
+        //   ((ViewGroup) view.getParent()).removeView(view);
 
         if (getActivity() != null) {
             activity = (MainActivity) getActivity();
@@ -67,11 +62,16 @@ public class EditDataFragment extends Fragment {
 
         }
 
+        btnRec = (Button) view.findViewById(R.id.btnRecord);
+        btnRec.setOnClickListener(rec);
+
+        btnPlay = (Button) view.findViewById(R.id.listPlay);
+        btnPlay.setOnClickListener(play);
+
         editTheme = (EditText) view.findViewById(R.id.editTheme);
         editDate = (TextView) view.findViewById(R.id.editDate);
-
         editDiscription = (EditText) view.findViewById(R.id.editDescription);
-        editDiscription.addTextChangedListener(watcher);
+
 
         if (getArguments() != null) {
             item = getArguments().getParcelable("edit");
@@ -85,7 +85,11 @@ public class EditDataFragment extends Fragment {
                 year = calendar.get(Calendar.YEAR);
                 month = calendar.get(Calendar.MONTH);
                 day = calendar.get(Calendar.DAY_OF_MONTH);
+                newItem = false;
             }
+        } else {
+            item = addNewItem();
+            newItem = true;
         }
         setHasOptionsMenu(true);
 
@@ -121,27 +125,30 @@ public class EditDataFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem menu_item) {
         switch (menu_item.getItemId()) {
             case R.id.editNote: {
-                if (activity.isEmpty(editTheme)) {
-                    editTheme.requestFocus();
-                    Toast.makeText(activity, "Заполните поле", Toast.LENGTH_SHORT).show();
-                }
-                if (activity.isEmpty(editDiscription)) {
-                    editDiscription.requestFocus();
-                    Toast.makeText(activity, "Заполните поле", Toast.LENGTH_SHORT).show();
-                } else {
+                if (isEmpty(editTheme) && isEmpty(editDiscription)) break;
+                else {
                     item.setTheme(editTheme.getText().toString());
                     item.setDescription(editDiscription.getText().toString());
                     item.setDate(calendar.getTimeInMillis());
+                    if(newItem) {
+                        new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                db.addItem(item);
+                            }
+                        }).run();
 
-                    new Thread(new Runnable() {
-                        @Override
-                        public void run() {
-                            db.updateItem(item);
-                        }
-                    }).run();
+                        Log.d("log", item.getDescription());
+                    }
+                    else {
+                        new Thread(new Runnable() {
+                            @Override
+                            public void run() {
+                                db.updateItem(item);
+                            }
+                        }).run();
 
-                    Log.d("log", item.getDescription());
-
+                    }
 
                     activity.onItemCreated(new MainListFragment());
                 }
@@ -208,27 +215,49 @@ public class EditDataFragment extends Fragment {
         }
     };
 
-    private TextWatcher watcher = new TextWatcher() {
-        @Override
-        public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+    public void setAudioPath(String path) {
+        if (path != null) {
+            item.setAudioPath(path);
+        }
+    }
+
+
+    private DataItem addNewItem() {
+        DataItem add_item = new DataItem();
+        add_item.setDate(calendar.getTimeInMillis());
+        return add_item;
+    }
+
+    private boolean isEmpty(EditText etText) {
+        if (etText != null && etText.getText().toString().trim().length() == 0) {
+            etText.requestFocus();
+            Toast.makeText(getActivity(), R.string.isEmpty, Toast.LENGTH_SHORT).show();
+            return true;
+        } else {
+            return false;
         }
 
-        @Override
-        public void onTextChanged(CharSequence s, int start, int before, int count) {
-        }
+    }
 
+    View.OnClickListener rec = new View.OnClickListener() {
         @Override
-        public void afterTextChanged(Editable s) {
-
+        public void onClick(View v) {
+            AudioRecordFragment recordFragment = new AudioRecordFragment();
+           recordFragment.show(getActivity().getSupportFragmentManager(), "AudioRec");
         }
     };
 
-    private void setItem() {
-        item.setTheme(editTheme.getText().toString());
-        item.setDescription(editDiscription.getText().toString());
-        item.setDate(calendar.getTimeInMillis());
-
-    }
+    View.OnClickListener play  = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            AudioPlayFragment playFragment = new AudioPlayFragment();
+            Bundle args = new Bundle();
+            args.putString("path", item.getAudioPath());
+            playFragment.setArguments(args);
+            playFragment.show(getActivity().getSupportFragmentManager(), "PlayAudio");
+        }
+    };
 
 
 }

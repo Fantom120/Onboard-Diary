@@ -333,6 +333,7 @@
     <string name="description">Описание</string>
     <string name="emptyLine"> Заполните пустое поле </string>
     <string name="header">Тема</string>
+    <string name="isEmpty">Заполните поле</string>
     <string name="note">Запись</string>
     <string name="pathSD">Не удалось создать путь к SD</string>
     <string name="publication">Поделится</string>

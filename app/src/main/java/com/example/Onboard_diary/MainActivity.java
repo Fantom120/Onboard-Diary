@@ -42,15 +42,11 @@ public class MainActivity extends AppCompatActivity {
         mFragmentManager = getSupportFragmentManager();
 
         EditDataFragment edit_fragment = (EditDataFragment) mFragmentManager.findFragmentByTag(FRAGMENT_EDIT_NAME);
-        AddDataFragment add_fragment = (AddDataFragment) mFragmentManager.findFragmentByTag(FRAGMENT_ADD_NAME);
 
         if (edit_fragment != null) {
             fragmentTransaction = mFragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.frafment_conteiner, edit_fragment).commit();
-        } else if (add_fragment != null) {
-            fragmentTransaction = mFragmentManager.beginTransaction();
-            fragmentTransaction.replace(R.id.frafment_conteiner, add_fragment).commit();
-        } else {
+        }else {
             onItemCreated(new MainListFragment());
         }
     }
@@ -80,18 +76,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onAddItem(AddDataFragment add_fragment) {
-        fragmentTransaction = mFragmentManager.beginTransaction();
-        fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-        fragmentTransaction.replace(R.id.frafment_conteiner, add_fragment, FRAGMENT_ADD_NAME).addToBackStack("myStack").commit();
-
-    }
 
 
 
-    public boolean isEmpty(EditText etText) {
-        return etText.getText().toString().trim().length() == 0;
-    }
 
     @Override
     public void onBackPressed() {
@@ -106,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public Toolbar getmToolBar() {
-
         return mToolBar;
     }
 }

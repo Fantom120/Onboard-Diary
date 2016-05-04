@@ -79,8 +79,8 @@ public class MainListFragment extends ListFragment {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AddDataFragment addDataFragment = new AddDataFragment();
-                activity.onAddItem(addDataFragment);
+                EditDataFragment addDataFragment = new EditDataFragment();
+                activity.onEditItem(addDataFragment);
             }
         });
 
