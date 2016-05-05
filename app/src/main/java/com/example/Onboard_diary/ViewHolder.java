@@ -15,6 +15,4 @@ public  class ViewHolder {
     TextView description;
     ImageView personImageView;
     TextView date;
-
-
 }

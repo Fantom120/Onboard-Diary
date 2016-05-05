@@ -22,9 +22,9 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
     //   LayoutInflater inflater;
     private List<DataItem> itemList;
     private Map<String, Drawable> mIconsMap;
-    DataItem dataItem;
-    Context context;
-    static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
+    private DataItem dataItem;
+    private  Context context;
+    private static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
     private Calendar calendar = Calendar.getInstance();
 
     public AdapterMlist(Context context, List<DataItem> itemList) {
@@ -73,8 +73,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        //  ListViewItem mitem = getItem(position);
-        //   viewHolder.personImageView.setImageDrawable(mitem.icon);
+
         viewHolder.personImageView.setImageResource(R.mipmap.ic_pen);
         viewHolder.nameTextView.setText(dataItem.getTheme());
         viewHolder.date.setText(FORMATTER.format(dataItem.getDate()));

@@ -26,7 +26,7 @@ import java.util.Locale;
 public class EditDataFragment extends Fragment {
 
     private EditText editTheme, editDiscription;
-    private TextView editDate;
+
     private DataItem item;
     private Db_Main db;
     private MainActivity activity;
@@ -65,11 +65,11 @@ public class EditDataFragment extends Fragment {
         btnRec = (Button) view.findViewById(R.id.btnRecord);
         btnRec.setOnClickListener(rec);
 
-        btnPlay = (Button) view.findViewById(R.id.listPlay);
+        btnPlay = (Button) view.findViewById(R.id.btnPlay);
         btnPlay.setOnClickListener(play);
 
         editTheme = (EditText) view.findViewById(R.id.editTheme);
-        editDate = (TextView) view.findViewById(R.id.editDate);
+
         editDiscription = (EditText) view.findViewById(R.id.editDescription);
 
 
@@ -77,9 +77,11 @@ public class EditDataFragment extends Fragment {
             item = getArguments().getParcelable("edit");
             if (item != null) {
 
-                editDate.setText(FORMAT_TITLE.format(item.getDate()));
+
                 editTheme.setText(item.getTheme());
                 editDiscription.setText(item.getDescription());
+
+
 
                 calendar.setTimeInMillis(item.getDate());
                 year = calendar.get(Calendar.YEAR);
@@ -91,15 +93,19 @@ public class EditDataFragment extends Fragment {
             item = addNewItem();
             newItem = true;
         }
+
+        if(item.getAudioPath() != null){
+           btnPlay.setVisibility(View.VISIBLE);
+        }
         setHasOptionsMenu(true);
 
 
-        editDate.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showDatePicker();
-            }
-        });
+//        editDate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                showDatePicker();
+//            }
+//        });
 
         Log.d("log", "onCreateView in EditDataFragment");
         return view;
@@ -205,7 +211,7 @@ public class EditDataFragment extends Fragment {
                               int dayOfMonth) {
 
             calendar.set(newyear, monthOfYear, dayOfMonth, 13, 15);
-            editDate.setText(FORMAT_TITLE.format(calendar.getTime()));
+
 
             Log.d("log", "ondate");
             year = newyear;
