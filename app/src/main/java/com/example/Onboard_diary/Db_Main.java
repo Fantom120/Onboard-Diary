@@ -16,7 +16,7 @@ import javax.crypto.spec.DESedeKeySpec;
 
 public class Db_Main extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String DATABASE_NAME = "diary";
     private static final String TABLE_DATA = "data";
     private static final String COLUMN_ID = "_id";
@@ -42,8 +42,8 @@ public class Db_Main extends SQLiteOpenHelper {
                 + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
                 + COLUMN_THEME + " TEXT,"
                 + COLUMN_DESCRIPTION + " TEXT,"
-                + COLUMN_PATH + " TEXT,"
-                + COLUMN_DATE + " LONG" + ")";
+                + COLUMN_DATE + " LONG,"
+                + COLUMN_PATH + " TEXT" + ")";
         db.execSQL(CREATE_DATA_TABLE);
     }
 
@@ -63,6 +63,7 @@ public class Db_Main extends SQLiteOpenHelper {
         values.put(COLUMN_THEME, item.getTheme());
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
+        values.put(COLUMN_PATH,item.getAudioPath());
 
         db.insert(TABLE_DATA, null, values);
         db.close();
@@ -101,7 +102,7 @@ public class Db_Main extends SQLiteOpenHelper {
         values.put(COLUMN_THEME, item.getTheme());
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
-
+        values.put(COLUMN_PATH, item.getAudioPath());
          db.update(TABLE_DATA, values, COLUMN_ID + " = ?",
                  new String[]{String.valueOf(item.get_id())});
         db.close();
@@ -149,6 +150,7 @@ public class Db_Main extends SQLiteOpenHelper {
                     item.setTheme(cursor.getString(1));
                     item.setDescription(cursor.getString(2));
                     item.setDate(cursor.getLong(3));
+                    item.setAudioPath(cursor.getString(4));
                     itemList.add(item);
                 } while (cursor.moveToNext());
             }

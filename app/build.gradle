@@ -26,6 +26,7 @@ dependencies {
     compile "com.android.support:support-v4:23.3.+"
     compile 'com.android.support:design:23.2.1'
     compile 'com.github.shell-software:fab:1.1.2'
+    compile 'com.google.code.gson:gson:2.5'
    // compile 'com.android.support:multidex:1.0.0'
 
 
