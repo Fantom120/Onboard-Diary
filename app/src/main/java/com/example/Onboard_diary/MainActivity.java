@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Toolbar mToolBar;
     private static final String FRAGMENT_EDIT_NAME = "fragment_edit";
-    private static final String FRAGMENT_ADD_NAME = "fragment_add";
     private static final String FRAGMENT_LIST_NAME = "fragment_main_list";
 
 

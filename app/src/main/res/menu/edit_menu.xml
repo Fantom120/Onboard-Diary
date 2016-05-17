@@ -16,7 +16,7 @@
     <item
         android:id="@+id/share"
         android:title="@string/publication"
-        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:icon="@drawable/ic_add_icon"
         app:showAsAction="always"/>
 
 

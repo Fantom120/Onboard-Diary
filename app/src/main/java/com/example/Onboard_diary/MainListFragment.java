@@ -5,7 +5,10 @@ import android.os.Bundle;
 
 
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -14,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 
 import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
@@ -26,7 +30,7 @@ import java.util.List;
 
 import static java.util.Collections.sort;
 
-public class MainListFragment extends ListFragment {
+public class MainListFragment extends Fragment {
 
 
     String LOG_TAG = "log";
@@ -70,9 +74,16 @@ public class MainListFragment extends ListFragment {
 
         }
 
-        AdapterMlist mAdapter = new AdapterMlist(getActivity(), android.R.id.list, data_itemList);
-        ListView mlistView = (ListView) view.findViewById(android.R.id.list);
-        mlistView.setAdapter(mAdapter);
+//        AdapterMlist mAdapter = new AdapterMlist(getActivity(), android.R.id.list, data_itemList);
+//        ListView mlistView = (ListView) view.findViewById(android.R.id.list);
+//        mlistView.setAdapter(mAdapter);
+        LinearLayoutManager llm = new LinearLayoutManager(getActivity());
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycleView);
+        MlistAdapter adapter = new MlistAdapter(data_itemList);
+        recyclerView.setLayoutManager(llm);
+        recyclerView.setAdapter(adapter);
+
 
 
         ActionButton fab = (ActionButton) view.findViewById(R.id.action_button);
@@ -85,52 +96,52 @@ public class MainListFragment extends ListFragment {
         });
 
         Log.d(LOG_TAG, "Oncreate View");
-        mlistView.setLongClickable(true);
-        mlistView.setFocusable(true);
-        mlistView.setFocusableInTouchMode(true);
+//        mlistView.setLongClickable(true);
+//        mlistView.setFocusable(true);
+//        mlistView.setFocusableInTouchMode(true);
 
-
-        mlistView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
-                final DataItem item = data_itemList.get(position);
-                Snackbar.make(view, "", Snackbar.LENGTH_INDEFINITE)
-                        .setAction("Удалить", new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-
-                                CustomDeleteDialog choise = new CustomDeleteDialog();
-                                Bundle args = new Bundle();
-                                args.putParcelable("delete", item);
-                                choise.setArguments(args);
-                                choise.show(getChildFragmentManager(), "Dialog");
-
-                            }
-                        }).show();
-                return true;
-            }
-        });
+//
+//        mlistView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//            @Override
+//            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
+//                final DataItem item = data_itemList.get(position);
+//                Snackbar.make(view, "", Snackbar.LENGTH_INDEFINITE)
+//                        .setAction("Удалить", new View.OnClickListener() {
+//                            @Override
+//                            public void onClick(View v) {
+//
+//                                CustomDeleteDialog choise = new CustomDeleteDialog();
+//                                Bundle args = new Bundle();
+//                                args.putParcelable("delete", item);
+//                                choise.setArguments(args);
+//                                choise.show(getChildFragmentManager(), "Dialog");
+//
+//                            }
+//                        }).show();
+//                return true;
+//            }
+//        });
 
 
         return view;
     }
 
 
-    @Override
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        // retrieve the mitem
-
-        DataItem item = data_itemList.get(position);
-        EditDataFragment edit = new EditDataFragment();
-        Log.d(LOG_TAG, "onListItemClick");
-        Bundle bundle = new Bundle();
-        bundle.putParcelable("edit", item);
-
-        edit.setArguments(bundle);
-        activity.onEditItem(edit);
-
-
-    }
+//    @Override
+//    public void onListItemClick(ListView l, View v, int position, long id) {
+//        // retrieve the mitem
+//
+//        DataItem item = data_itemList.get(position);
+//        EditDataFragment edit = new EditDataFragment();
+//        Log.d(LOG_TAG, "onListItemClick");
+//        Bundle bundle = new Bundle();
+//        bundle.putParcelable("edit", item);
+//
+//        edit.setArguments(bundle);
+//        activity.onEditItem(edit);
+//
+//
+//    }
 
 
     @Override

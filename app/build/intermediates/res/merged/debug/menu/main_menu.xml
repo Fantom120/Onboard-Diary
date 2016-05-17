@@ -4,7 +4,7 @@
 
     <item
             android:id="@+id/addAudio"
-            android:icon="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+            android:icon="@drawable/ic_add_icon"
             android:title="@string/action"
             app:showAsAction="always"/>
 
