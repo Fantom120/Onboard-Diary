@@ -3,20 +3,20 @@ package com.example.Onboard_diary;
 
 
 import android.os.Bundle;
-import android.os.Environment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.widget.EditText;
+import com.example.Onboard_diary.fragment.EditDataFragment;
+import com.example.Onboard_diary.fragment.MainListFragment;
 
 
 public class MainActivity extends AppCompatActivity {
     String LOG_TAG = "log";
 
-    private FragmentTransaction fragmentTransaction;
-    private FragmentManager mFragmentManager;
+    private static   FragmentTransaction fragmentTransaction;
+    private static FragmentManager mFragmentManager;
 
 
 
@@ -33,13 +33,7 @@ public class MainActivity extends AppCompatActivity {
         mToolBar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         setSupportActionBar(mToolBar);
 
-
-        String path = getApplicationInfo().dataDir;
-        System.out.println(path);
-        Log.d("path", Environment.getExternalStorageDirectory() + "/record.3gpp");
-
         mFragmentManager = getSupportFragmentManager();
-
         EditDataFragment edit_fragment = (EditDataFragment) mFragmentManager.findFragmentByTag(FRAGMENT_EDIT_NAME);
 
         if (edit_fragment != null) {
@@ -57,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onItemCreated(MainListFragment mainListFragment) {
+   public  void onItemCreated(MainListFragment mainListFragment) {
         mToolBar.setTitle(R.string.app_name);
         fragmentTransaction = mFragmentManager.beginTransaction();
         mFragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
@@ -65,10 +59,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onEditItem(EditDataFragment edit) {
+   public static void onEditItem(DataItem item, String request) {
+        EditDataFragment edit = new EditDataFragment();
+        Bundle bundle = new Bundle();
+        bundle.putParcelable(request, item);
+        edit.setArguments(bundle);
 
         fragmentTransaction = mFragmentManager.beginTransaction();
-        //  fragmentTransaction.setCustomAnimations(R.animator.slide_in_left,R.animator.slide_in_right);
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
         fragmentTransaction.replace(R.id.frafment_conteiner, edit, FRAGMENT_EDIT_NAME).addToBackStack("myStack").commit();
 

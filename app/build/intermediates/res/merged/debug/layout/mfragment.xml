@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.Onboard_diary.MainListFragment">
+    tools:context=".fragment.MainListFragment">
 
 
 
@@ -15,15 +15,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/recycleView"
-                android:longClickable="true" android:alpha="0.3"/>
-
-
-    <!--<ListView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:id="@android:id/list">-->
-    <!--</ListView>-->
-
+                android:longClickable="true"
+                android:clickable="true"
+                />
 
 
 

@@ -54,8 +54,6 @@ public class DataItem implements Parcelable, Comparable{
 
     }
 
-    public DataItem( Calendar dt1) {
-    }
 
     protected DataItem(Parcel in) {
         _id = in.readLong();

@@ -1,25 +1,17 @@
-package com.example.Onboard_diary;
+package com.example.Onboard_diary.fragment;
 
 
 import android.os.Bundle;
 
 
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.ListFragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListAdapter;
-import android.widget.ListView;
+import android.view.*;
 
+import com.example.Onboard_diary.*;
+import com.example.Onboard_diary.adapter.MlistAdapter;
 import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
 import com.software.shell.fab.ActionButton;
 
@@ -28,16 +20,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static java.util.Collections.sort;
 
-public class MainListFragment extends Fragment {
+public class MainListFragment extends  Fragment  {
 
 
     String LOG_TAG = "log";
     private List<DataItem> data_itemList;
     private Db_Main db;
-
-    private MainActivity activity;
     private View view;
 
     public MainListFragment() {
@@ -67,16 +56,8 @@ public class MainListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
             view = inflater.inflate(R.layout.mfragment, container, false);
-
-        if (getActivity() != null) {
-            activity = (MainActivity) getActivity();
             setHasOptionsMenu(true);
 
-        }
-
-//        AdapterMlist mAdapter = new AdapterMlist(getActivity(), android.R.id.list, data_itemList);
-//        ListView mlistView = (ListView) view.findViewById(android.R.id.list);
-//        mlistView.setAdapter(mAdapter);
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycleView);
@@ -84,14 +65,16 @@ public class MainListFragment extends Fragment {
         recyclerView.setLayoutManager(llm);
         recyclerView.setAdapter(adapter);
 
+        recyclerView.setHasFixedSize(true);
+
 
 
         ActionButton fab = (ActionButton) view.findViewById(R.id.action_button);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                EditDataFragment addDataFragment = new EditDataFragment();
-                activity.onEditItem(addDataFragment);
+
+              MainActivity.onEditItem(new DataItem(),"add");
             }
         });
 
@@ -110,7 +93,7 @@ public class MainListFragment extends Fragment {
 //                            @Override
 //                            public void onClick(View v) {
 //
-//                                CustomDeleteDialog choise = new CustomDeleteDialog();
+//                                ItemDeleteDialogFragment choise = new ItemDeleteDialogFragment();
 //                                Bundle args = new Bundle();
 //                                args.putParcelable("delete", item);
 //                                choise.setArguments(args);
@@ -125,6 +108,7 @@ public class MainListFragment extends Fragment {
 
         return view;
     }
+
 
 
 //    @Override

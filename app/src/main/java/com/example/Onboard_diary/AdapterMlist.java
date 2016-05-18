@@ -24,7 +24,7 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
     private Map<String, Drawable> mIconsMap;
     private DataItem dataItem;
     private  Context context;
-    private static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
+    private static final SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
     private Calendar calendar = Calendar.getInstance();
 
     public AdapterMlist(Context context, List<DataItem> itemList) {
@@ -81,6 +81,4 @@ public class AdapterMlist extends ArrayAdapter<DataItem> {
         return convertView;
     }
 
-
-    // DataItem getItem_Data(int position) {return (DataItem) getItem(position); }
 }

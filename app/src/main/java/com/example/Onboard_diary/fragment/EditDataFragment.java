@@ -1,16 +1,13 @@
-package com.example.Onboard_diary;
+package com.example.Onboard_diary.fragment;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Build;
 import android.os.Bundle;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.ArraySet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -20,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
 import android.app.DatePickerDialog.OnDateSetListener;
+import com.example.Onboard_diary.*;
 import com.example.Onboard_diary.record_play_audio.AudioPlayFragment;
 import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
 import com.google.gson.Gson;
@@ -29,7 +27,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 
-public class EditDataFragment extends Fragment {
+public class EditDataFragment extends Fragment  {
 
     private EditText editTheme, editDiscription;
     private static final int REQUEST_RECORD = 1;
@@ -68,7 +66,6 @@ public class EditDataFragment extends Fragment {
 
         view = inflater.inflate(R.layout.input, container, false);
 
-
         //   ((ViewGroup) view.getParent()).removeView(view);
 
         if (getActivity() != null) {
@@ -89,10 +86,9 @@ public class EditDataFragment extends Fragment {
 
         editDiscription = (EditText) view.findViewById(R.id.editDescription);
 
+        item = getArguments().getParcelable("edit");
 
-        if (getArguments() != null) {
-            item = getArguments().getParcelable("edit");
-            if (item != null) {
+            if (item != null && item.getTheme() != null) {
 
                 editTheme.setText(item.getTheme());
                 editDiscription.setText(item.getDescription());
@@ -118,7 +114,7 @@ public class EditDataFragment extends Fragment {
                     btnPlay.setVisibility(View.VISIBLE);
                 }
             }
-        } else {
+         else {
             item = addNewItem();
             pathKeysSet = new ArrayList<>();
             newItem = true;
@@ -190,7 +186,7 @@ public class EditDataFragment extends Fragment {
             }
             case R.id.deleteItem: {
                 if (item != null) {
-                    CustomDeleteDialog choise = new CustomDeleteDialog();
+                    ItemDeleteDialogFragment choise = new ItemDeleteDialogFragment();
                     Bundle args = new Bundle();
                     args.putParcelable("delete", item);
                     choise.setArguments(args);
