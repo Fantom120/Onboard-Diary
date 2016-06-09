@@ -14,13 +14,10 @@ import com.example.Onboard_diary.fragment.MainListFragment;
 
 public class MainActivity extends AppCompatActivity {
     String LOG_TAG = "log";
-
+    private Toolbar mToolBar;
     private static   FragmentTransaction fragmentTransaction;
     private static FragmentManager mFragmentManager;
 
-
-
-    private Toolbar mToolBar;
     private static final String FRAGMENT_EDIT_NAME = "fragment_edit";
     private static final String FRAGMENT_LIST_NAME = "fragment_main_list";
 
@@ -40,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction = mFragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.frafment_conteiner, edit_fragment).commit();
         }else {
-            onItemCreated(new MainListFragment());
+            onItemCreated(MainListFragment.getInstance());
         }
     }
 
@@ -60,14 +57,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
    public static void onEditItem(DataItem item, String request) {
-        EditDataFragment edit = new EditDataFragment();
         Bundle bundle = new Bundle();
         bundle.putParcelable(request, item);
-        edit.setArguments(bundle);
 
-        fragmentTransaction = mFragmentManager.beginTransaction();
+       fragmentTransaction = mFragmentManager.beginTransaction();
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-        fragmentTransaction.replace(R.id.frafment_conteiner, edit, FRAGMENT_EDIT_NAME).addToBackStack("myStack").commit();
+        fragmentTransaction.replace(R.id.frafment_conteiner, EditDataFragment.getInstance(bundle), FRAGMENT_EDIT_NAME).addToBackStack("myStack").commit();
 
 
     }
@@ -88,8 +83,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public Toolbar getmToolBar() {
         return mToolBar;
-    }
+}
 }
 

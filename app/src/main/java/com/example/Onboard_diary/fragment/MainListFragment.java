@@ -33,6 +33,10 @@ public class MainListFragment extends  Fragment  {
         this.setRetainInstance(true);
     }
 
+    public static MainListFragment getInstance(){
+        return new MainListFragment();
+    }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -79,53 +83,11 @@ public class MainListFragment extends  Fragment  {
         });
 
         Log.d(LOG_TAG, "Oncreate View");
-//        mlistView.setLongClickable(true);
-//        mlistView.setFocusable(true);
-//        mlistView.setFocusableInTouchMode(true);
-
-//
-//        mlistView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-//            @Override
-//            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
-//                final DataItem item = data_itemList.get(position);
-//                Snackbar.make(view, "", Snackbar.LENGTH_INDEFINITE)
-//                        .setAction("Удалить", new View.OnClickListener() {
-//                            @Override
-//                            public void onClick(View v) {
-//
-//                                ItemDeleteDialogFragment choise = new ItemDeleteDialogFragment();
-//                                Bundle args = new Bundle();
-//                                args.putParcelable("delete", item);
-//                                choise.setArguments(args);
-//                                choise.show(getChildFragmentManager(), "Dialog");
-//
-//                            }
-//                        }).show();
-//                return true;
-//            }
-//        });
-
 
         return view;
     }
 
 
-
-//    @Override
-//    public void onListItemClick(ListView l, View v, int position, long id) {
-//        // retrieve the mitem
-//
-//        DataItem item = data_itemList.get(position);
-//        EditDataFragment edit = new EditDataFragment();
-//        Log.d(LOG_TAG, "onListItemClick");
-//        Bundle bundle = new Bundle();
-//        bundle.putParcelable("edit", item);
-//
-//        edit.setArguments(bundle);
-//        activity.onEditItem(edit);
-//
-//
-//    }
 
 
     @Override

@@ -2624,7 +2624,7 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0d005a;
         public static final int action_mode_close_button=0x7f0d0040;
         public static final int activity_chooser_view_content=0x7f0d0041;
-        public static final int addAudio=0x7f0d009d;
+        public static final int addAudio=0x7f0d009e;
         public static final int alertTitle=0x7f0d004d;
         public static final int always=0x7f0d0037;
         public static final int beginning=0x7f0d0035;
@@ -2723,6 +2723,7 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f0d006b;
         public static final int seekBar=0x7f0d006f;
         public static final int select_dialog_listview=0x7f0d006c;
+        public static final int setDate=0x7f0d009d;
         public static final int share=0x7f0d009c;
         public static final int shortcut=0x7f0d0057;
         public static final int showCustom=0x7f0d0012;
@@ -2869,18 +2870,19 @@ containing a value of this type.
         public static final int appbar_scrolling_view_behavior=0x7f07001a;
         public static final int bottom_sheet_behavior=0x7f07001b;
         public static final int character_counter_pattern=0x7f07001c;
-        public static final int delete_item=0x7f07001d;
-        public static final int description=0x7f07001e;
-        public static final int emptyLine=0x7f07001f;
-        public static final int header=0x7f070020;
-        public static final int icon=0x7f070021;
-        public static final int isEmpty=0x7f070022;
-        public static final int note=0x7f070023;
-        public static final int pathSD=0x7f070024;
-        public static final int publication=0x7f070025;
-        public static final int send_to=0x7f070026;
+        public static final int date=0x7f07001d;
+        public static final int delete_item=0x7f07001e;
+        public static final int description=0x7f07001f;
+        public static final int emptyLine=0x7f070020;
+        public static final int header=0x7f070021;
+        public static final int icon=0x7f070022;
+        public static final int isEmpty=0x7f070023;
+        public static final int note=0x7f070024;
+        public static final int pathSD=0x7f070025;
+        public static final int publication=0x7f070026;
+        public static final int send_to=0x7f070027;
         public static final int status_bar_notification_info_overflow=0x7f070013;
-        public static final int theme=0x7f070027;
+        public static final int theme=0x7f070028;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f0a0088;

@@ -2,6 +2,7 @@ package com.example.Onboard_diary.adapter;
 
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,9 +17,8 @@ import java.util.List;
 import java.util.Locale;
 
 
-
-public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewHolder>  {
-    private  List<DataItem> itemList;
+public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewHolder> {
+    private static List<DataItem> itemList;
     private static DataItem item;
     private View view;
 
@@ -26,7 +26,7 @@ public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewH
     private static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
 
 
-    public MlistAdapter(List<DataItem> data_item){
+    public MlistAdapter(List<DataItem> data_item) {
         this.itemList = data_item;
     }
 
@@ -38,12 +38,19 @@ public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewH
     }
 
     @Override
-    public void onBindViewHolder(onBoardViewHolder holder, int position) {
+    public void onBindViewHolder(onBoardViewHolder holder, final int position) {
         item = itemList.get(position);
+
         holder.personImageView.setImageResource(R.mipmap.ic_pen);
         holder.nameTextView.setText(item.getTheme());
         holder.description.setText(item.getDescription());
         holder.date.setText(FORMATTER.format(item.getDate()));
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                MainActivity.onEditItem(itemList.get(position), "edit");
+            }
+        });
 
     }
 
@@ -52,25 +59,24 @@ public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewH
         return itemList.size();
     }
 
+
+
+
+
     public static class onBoardViewHolder extends RecyclerView.ViewHolder {
         public onBoardViewHolder(final View itemView) {
             super(itemView);
-
-            CardView cardView = (CardView) itemView.findViewById(R.id.cardView);
-            cardView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    MainActivity.onEditItem(item, "edit");
-                }
-            });
-
         }
+        final CardView cardView = (CardView) itemView.findViewById(R.id.cardView);
+        final TextView nameTextView = (TextView) itemView.findViewById(R.id.textTheme);
+        final  TextView description = (TextView) itemView.findViewById(R.id.textDescription);
+        final  ImageView personImageView = (ImageView) itemView.findViewById(R.id.imageView);
+        final TextView date = (TextView) itemView.findViewById(R.id.textDate);
 
-        TextView nameTextView = (TextView) itemView.findViewById(R.id.textTheme);
-        TextView description = (TextView) itemView.findViewById(R.id.textDescription) ;
-        ImageView personImageView = (ImageView) itemView.findViewById(R.id.imageView);
-        TextView date = (TextView) itemView.findViewById(R.id.textDate);
+
 
 
     }
+
+
 }

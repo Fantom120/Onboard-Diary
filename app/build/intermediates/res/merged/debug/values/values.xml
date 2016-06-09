@@ -337,6 +337,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="date">Дата</string>
     <string name="delete_item">Удалить запись?</string>
     <string name="description">Описание</string>
     <string name="emptyLine"> Заполните пустое поле </string>

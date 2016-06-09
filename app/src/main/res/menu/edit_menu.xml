@@ -18,6 +18,12 @@
         android:title="@string/publication"
         android:icon="@drawable/ic_add_icon"
         app:showAsAction="always"/>
+    <item
+    android:id="@+id/setDate"
+    android:title="@string/date"
+    android:icon="@drawable/fab_plus_icon"
+    app:showAsAction="ifRoom"/>
+
 
 
 </menu>

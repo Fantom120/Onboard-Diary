@@ -45,7 +45,7 @@ public class ItemDeleteDialogFragment extends DialogFragment {
                         db.deleteItem(item);
                     }
                 }).run();
-                activity.onItemCreated(new MainListFragment());
+                activity.onItemCreated(MainListFragment.getInstance());
 
 
             }

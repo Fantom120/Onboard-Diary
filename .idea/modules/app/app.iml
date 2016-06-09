@@ -70,19 +70,20 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/bundles" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/dependency-cache" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.github.shell-software/fab/1.1.2/jars" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.github.shell-software/uitools/1.1.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/exploded-aar/com.github.shell-software/viewmover/1.1.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/incremental-classes" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/incremental-runtime-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/incremental-verifier" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/instant-run-support" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/jniLibs" />
@@ -92,6 +93,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/restart-dex" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build/outputs" />
@@ -99,18 +101,18 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="design-23.4.0" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.4.0" level="project" />
     <orderEntry type="library" exported="" name="gson-2.5" level="project" />
-    <orderEntry type="library" exported="" name="design-23.3.0" level="project" />
-    <orderEntry type="library" exported="" name="cardview-v7-23.3.0" level="project" />
-    <orderEntry type="library" exported="" name="recyclerview-v7-23.3.0" level="project" />
+    <orderEntry type="library" exported="" name="cardview-v7-23.4.0" level="project" />
     <orderEntry type="library" exported="" name="slf4j-api-1.7.9" level="project" />
     <orderEntry type="library" exported="" name="uitools-1.1.0" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-23.3.0" level="project" />
+    <orderEntry type="library" exported="" name="animated-vector-drawable-23.4.0" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-23.4.0" level="project" />
+    <orderEntry type="library" exported="" name="recyclerview-v7-23.4.0" level="project" />
     <orderEntry type="library" exported="" name="viewmover-1.1.0" level="project" />
     <orderEntry type="library" exported="" name="fab-1.1.2" level="project" />
-    <orderEntry type="library" exported="" name="support-annotations-23.3.0" level="project" />
-    <orderEntry type="library" exported="" name="support-vector-drawable-23.3.0" level="project" />
-    <orderEntry type="library" exported="" name="animated-vector-drawable-23.3.0" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-23.3.0" level="project" />
+    <orderEntry type="library" exported="" name="support-vector-drawable-23.4.0" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-23.4.0" level="project" />
   </component>
 </module>

@@ -17,5 +17,6 @@
     <string name="pathSD">Не удалось создать путь к SD</string>
     <string name="isEmpty">Заполните поле</string>
     <string name="icon">icon</string>
+    <string name="date">Дата</string>
 
 </resources>
