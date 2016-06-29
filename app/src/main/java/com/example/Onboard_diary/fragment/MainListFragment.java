@@ -52,14 +52,14 @@ public class MainListFragment extends  Fragment  {
 
             }
         }).run();
+
         Collections.sort(data_itemList);
 
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-            view = inflater.inflate(R.layout.mfragment, container, false);
+        view = inflater.inflate(R.layout.mfragment, container, false);
             setHasOptionsMenu(true);
 
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());

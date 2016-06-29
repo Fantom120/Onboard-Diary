@@ -20,14 +20,16 @@ import android.app.DatePickerDialog.OnDateSetListener;
 import com.example.Onboard_diary.*;
 import com.example.Onboard_diary.record_play_audio.AudioPlayFragment;
 import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
+import com.example.Onboard_diary.record_play_audio.Record;
 import com.google.gson.Gson;
+import com.google.gson.internal.LinkedTreeMap;
 
 
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 
-public class EditDataFragment extends Fragment  {
+public class EditDataFragment extends  Fragment  {
 
     private EditText editTheme, editDiscription;
     private static final int REQUEST_RECORD = 1;
@@ -76,7 +78,7 @@ public class EditDataFragment extends Fragment  {
             db = new Db_Main(getActivity());}
 
 
-        pathKeysSet = new ArrayList();
+        pathKeysSet = new ArrayList<>();
         pref =  getActivity().getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
 
         initUI();
@@ -93,12 +95,24 @@ public class EditDataFragment extends Fragment  {
                 day = calendar.get(Calendar.DAY_OF_MONTH);
                 newItem = false;
 
-                if(item.getAudioPath() != null && pref.contains(item.getAudioPath()) ){
+                if(item.getAudioPathKey() != null && pref.contains(item.getAudioPathKey()) ){
 
                     Gson gson = new Gson();
-                    String json = pref.getString(item.getAudioPath(), "");
+                    String json = pref.getString(item.getAudioPathKey(), "");
                     pathKeysSet = gson.fromJson(json, ArrayList.class);
+                    LinkedTreeMap map;
+                    ArrayList<Record> rec = new ArrayList<>();      // pathFile
+                    for (int i = 0; i < pathKeysSet.size() ; i++) { // date
 
+                        map = (LinkedTreeMap) pathKeysSet.get(i);
+
+                          Record record = new Record();
+                          record.setPathFile(map.get("pathFile").toString());
+
+                          record.setDate(map.get("date").toString());
+                        rec.add(record);
+                    }
+                    pathKeysSet = rec;
                     btnPlay.setVisibility(View.VISIBLE);
                 }
             }
@@ -220,8 +234,9 @@ public class EditDataFragment extends Fragment  {
         @Override
         public void onClick(View v) {
             AudioPlayFragment playFragment = new AudioPlayFragment();
+            playFragment.setTargetFragment(EditDataFragment.this, REQUEST_PLAY);
             Bundle args = new Bundle();
-            args.putStringArrayList("path", pathKeysSet);
+            args.putParcelableArrayList("path", pathKeysSet);
             playFragment.setArguments(args);
             playFragment.show(getActivity().getSupportFragmentManager(), "PlayAudio");
         }
@@ -234,22 +249,21 @@ public class EditDataFragment extends Fragment  {
         if(resultCode == Activity.RESULT_OK){
             switch (requestCode){
                 case REQUEST_RECORD:{
-                    if(data.getStringExtra("setPath") != null){
-                    pathKeysSet.add(data.getStringExtra("setPath"));
-                        String key = String.valueOf(calendar.getTimeInMillis());
+                    if(data.getParcelableExtra("setPath") != null){
+                        pathKeysSet.add(data.getParcelableExtra("setPath"));
 
-
-                        editor = pref.edit();
-                        Gson gson = new Gson();
-                        String json = gson.toJson(pathKeysSet);
-                        editor.putString(key, json);
-                        editor.apply();
-
-                        item.setAudioPath(key);
-                        btnPlay.setVisibility(View.VISIBLE);
+                            String key = String.valueOf(calendar.getTimeInMillis());
+                            item.setAudioPathKey(key);
+                            editPrefs(key);
+                            btnPlay.setVisibility(View.VISIBLE);
                     }
                 }break;
-                case REQUEST_PLAY:break;
+                case REQUEST_PLAY: {
+                    if (data.getParcelableArrayListExtra("audiolist") != null) {
+                        pathKeysSet = data.getParcelableArrayListExtra("audiolist");
+                        editPrefs(item.getAudioPathKey());
+                    }
+                }    break;
             }
         }
     }
@@ -276,10 +290,7 @@ public class EditDataFragment extends Fragment  {
         @Override
         public void onDateSet(DatePicker view, int newyear, int monthOfYear,
                               int dayOfMonth) {
-
             calendar.set(newyear, monthOfYear, dayOfMonth, 13, 15);
-
-
             Log.d("log", "ondate");
             year = newyear;
             month = monthOfYear;
@@ -303,5 +314,22 @@ public class EditDataFragment extends Fragment  {
             return false;
         }
 
+    }
+    private void editPrefs(String key){
+        if(key != null) {
+
+            editor = pref.edit();
+            Gson gson = new Gson();
+            String json = gson.toJson(pathKeysSet);
+
+            if(item.getAudioPathKey() == null) {
+                editor.putString(key, json);
+            }
+            else{
+                editor.remove(item.getAudioPathKey());
+                editor.putString(key, json);
+            }
+            editor.apply();
+        }
     }
 }

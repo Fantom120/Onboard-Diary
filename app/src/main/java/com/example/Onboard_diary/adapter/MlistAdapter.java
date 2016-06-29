@@ -20,19 +20,18 @@ import java.util.Locale;
 public class MlistAdapter extends RecyclerView.Adapter<MlistAdapter.onBoardViewHolder> {
     private static List<DataItem> itemList;
     private static DataItem item;
-    private View view;
 
 
-    private static SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
+    private static final SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
 
 
     public MlistAdapter(List<DataItem> data_item) {
-        this.itemList = data_item;
+        itemList = data_item;
     }
 
     @Override
     public onBoardViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        view = LayoutInflater.from(parent.getContext()).inflate(R.layout.mitem, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.mitem, parent, false);
 
         return new onBoardViewHolder(view);
     }

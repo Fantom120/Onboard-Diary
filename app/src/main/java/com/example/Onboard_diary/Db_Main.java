@@ -6,12 +6,9 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.crypto.spec.DESedeKeySpec;
 
 
 public class Db_Main extends SQLiteOpenHelper {
@@ -63,7 +60,7 @@ public class Db_Main extends SQLiteOpenHelper {
         values.put(COLUMN_THEME, item.getTheme());
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
-        values.put(COLUMN_PATH,item.getAudioPath());
+        values.put(COLUMN_PATH,item.getAudioPathKey());
 
         db.insert(TABLE_DATA, null, values);
         db.close();
@@ -102,7 +99,7 @@ public class Db_Main extends SQLiteOpenHelper {
         values.put(COLUMN_THEME, item.getTheme());
         values.put(COLUMN_DESCRIPTION, item.getDescription());
         values.put(COLUMN_DATE, item.getDate());
-        values.put(COLUMN_PATH, item.getAudioPath());
+        values.put(COLUMN_PATH, item.getAudioPathKey());
          db.update(TABLE_DATA, values, COLUMN_ID + " = ?",
                  new String[]{String.valueOf(item.get_id())});
         db.close();
@@ -150,7 +147,7 @@ public class Db_Main extends SQLiteOpenHelper {
                     item.setTheme(cursor.getString(1));
                     item.setDescription(cursor.getString(2));
                     item.setDate(cursor.getLong(3));
-                    item.setAudioPath(cursor.getString(4));
+                    item.setAudioPathKey(cursor.getString(4));
                     itemList.add(item);
                 } while (cursor.moveToNext());
             }

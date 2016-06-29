@@ -1,13 +1,9 @@
 package com.example.Onboard_diary;
 
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
-
-import java.util.Calendar;
 
 
 public class DataItem implements Parcelable, Comparable{
@@ -15,7 +11,7 @@ public class DataItem implements Parcelable, Comparable{
     private long _id;
     private String theme;
     private String description;
-    private String audioPath;
+    private String audioPathKey;
     private long date;
 
     public DataItem() {
@@ -96,12 +92,12 @@ public class DataItem implements Parcelable, Comparable{
          return date;
 
     }
-    public String getAudioPath() {
-        return audioPath;
+    public String getAudioPathKey() {
+        return audioPathKey;
     }
 
-    public void setAudioPath(String audioPath) {
-        this.audioPath = audioPath;
+    public void setAudioPathKey(String audioPathKey) {
+        this.audioPathKey = audioPathKey;
     }
 
 

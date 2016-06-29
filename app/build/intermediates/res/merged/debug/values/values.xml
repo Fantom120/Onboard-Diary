@@ -345,11 +345,11 @@
     <string name="icon">icon</string>
     <string name="isEmpty">Заполните поле</string>
     <string name="note">Запись</string>
-    <string name="pathSD">Не удалось создать путь к SD</string>
     <string name="publication">Поделится</string>
     <string name="send_to">Поделится мыслями</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="theme">Тема</string>
+    <string name="wrongPathSD">Не удалось создать путь к SD</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
