@@ -18,13 +18,14 @@ import android.view.ViewGroup;
 import android.widget.*;
 import android.app.DatePickerDialog.OnDateSetListener;
 import com.example.Onboard_diary.*;
-import com.example.Onboard_diary.record_play_audio.AudioPlayFragment;
-import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
-import com.example.Onboard_diary.record_play_audio.Record;
+import com.example.Onboard_diary.fragment.record_play_audio.AudioPlayFragment;
+import com.example.Onboard_diary.fragment.record_play_audio.AudioRecordFragment;
+import com.example.Onboard_diary.fragment.record_play_audio.Record;
 import com.google.gson.Gson;
 import com.google.gson.internal.LinkedTreeMap;
 
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -95,26 +96,8 @@ public class EditDataFragment extends  Fragment  {
                 day = calendar.get(Calendar.DAY_OF_MONTH);
                 newItem = false;
 
-                if(item.getAudioPathKey() != null && pref.contains(item.getAudioPathKey()) ){
+          getAudioRecord();
 
-                    Gson gson = new Gson();
-                    String json = pref.getString(item.getAudioPathKey(), "");
-                    pathKeysSet = gson.fromJson(json, ArrayList.class);
-                    LinkedTreeMap map;
-                    ArrayList<Record> rec = new ArrayList<>();      // pathFile
-                    for (int i = 0; i < pathKeysSet.size() ; i++) { // date
-
-                        map = (LinkedTreeMap) pathKeysSet.get(i);
-
-                          Record record = new Record();
-                          record.setPathFile(map.get("pathFile").toString());
-
-                          record.setDate(map.get("date").toString());
-                        rec.add(record);
-                    }
-                    pathKeysSet = rec;
-                    btnPlay.setVisibility(View.VISIBLE);
-                }
             }
          else {
             item = addNewItem();
@@ -141,10 +124,7 @@ public class EditDataFragment extends  Fragment  {
     @Override
     public void onResume() {
         super.onResume();
-        if(activity != null) {
-            activity.getmToolBar().setTitle(FORMAT_TITLE.format(item.getDate()));
-            activity.getmToolBar().setSubtitle(FORMAT_SUBTITLE.format(item.getDate()));
-        }
+      setToolbarDate();
     }
 
 
@@ -261,6 +241,7 @@ public class EditDataFragment extends  Fragment  {
                 case REQUEST_PLAY: {
                     if (data.getParcelableArrayListExtra("audiolist") != null) {
                         pathKeysSet = data.getParcelableArrayListExtra("audiolist");
+
                         editPrefs(item.getAudioPathKey());
                     }
                 }    break;
@@ -295,13 +276,24 @@ public class EditDataFragment extends  Fragment  {
             year = newyear;
             month = monthOfYear;
             day = dayOfMonth;
-
+         item.setDate(calendar.getTimeInMillis());
+         setToolbarDate();
         }
     };
+
+    private  void setToolbarDate(){
+        if(activity != null) {
+            activity.getmToolBar().setTitle(FORMAT_TITLE.format(item.getDate()));
+            activity.getmToolBar().setSubtitle(FORMAT_SUBTITLE.format(item.getDate()));
+        }
+    }
 
     private DataItem addNewItem() {
         DataItem add_item = new DataItem();
         add_item.setDate(calendar.getTimeInMillis());
+        year = calendar.get(Calendar.YEAR);
+        month = calendar.get(Calendar.MONTH);
+        day = calendar.get(Calendar.DAY_OF_MONTH);
         return add_item;
     }
 
@@ -315,6 +307,35 @@ public class EditDataFragment extends  Fragment  {
         }
 
     }
+   private  void getAudioRecord(){
+       if(item.getAudioPathKey() != null && pref.contains(item.getAudioPathKey()) ){
+
+           Gson gson = new Gson();
+           String json = pref.getString(item.getAudioPathKey(), "");
+           pathKeysSet = gson.fromJson(json, ArrayList.class);
+           LinkedTreeMap map;
+           File outFile;
+           ArrayList<Record> rec = new ArrayList<>();      // pathFile
+           for (int i = 0; i < pathKeysSet.size() ; i++) { // date
+
+               map = (LinkedTreeMap) pathKeysSet.get(i);
+
+               Record record = new Record();
+               record.setPathFile(map.get("pathFile").toString());
+               record.setDate(map.get("date").toString());
+               outFile = new File(record.getPathFile());
+               if(outFile.exists()) rec.add(record);
+           }
+
+           if(rec.isEmpty())  { btnPlay.setVisibility(View.INVISIBLE);}
+
+           else {
+               pathKeysSet = rec;
+               btnPlay.setVisibility(View.VISIBLE);
+           }
+       }
+   }
+
     private void editPrefs(String key){
         if(key != null) {
 
@@ -322,12 +343,14 @@ public class EditDataFragment extends  Fragment  {
             Gson gson = new Gson();
             String json = gson.toJson(pathKeysSet);
 
-            if(item.getAudioPathKey() == null) {
+            if(!pathKeysSet.isEmpty()) {
                 editor.putString(key, json);
             }
             else{
                 editor.remove(item.getAudioPathKey());
+                item.setAudioPathKey(null);
                 editor.putString(key, json);
+                btnPlay.setVisibility(View.INVISIBLE);
             }
             editor.apply();
         }

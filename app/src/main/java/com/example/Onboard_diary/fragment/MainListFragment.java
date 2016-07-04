@@ -12,7 +12,7 @@ import android.view.*;
 
 import com.example.Onboard_diary.*;
 import com.example.Onboard_diary.adapter.MlistAdapter;
-import com.example.Onboard_diary.record_play_audio.AudioRecordFragment;
+import com.example.Onboard_diary.fragment.record_play_audio.AudioRecordFragment;
 import com.software.shell.fab.ActionButton;
 
 import java.util.ArrayList;
@@ -99,11 +99,6 @@ public class MainListFragment extends  Fragment  {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.addAudio:
-               AudioRecordFragment recordFragment = new AudioRecordFragment();
-                recordFragment.show(getChildFragmentManager(), "Audio");
-        }
 
         return super.onOptionsItemSelected(item);
     }

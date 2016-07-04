@@ -1,21 +1,15 @@
 package com.example.Onboard_diary.fragment;
 
 import android.app.DatePickerDialog;
+import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
-
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.util.Log;
-import android.widget.DatePicker;
-
-import android.app.DatePickerDialog;
-import android.app.DatePickerDialog.OnDateSetListener;
-import com.example.Onboard_diary.DataItem;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 
@@ -29,8 +23,6 @@ public class DatePickerFragment extends DialogFragment  {
     }
 
     private int year, month, day;
-    static final SimpleDateFormat FORMATTER = new SimpleDateFormat("EE, dd MMMM yyyy", Locale.getDefault());
-
 
     @NonNull
     @Override
