@@ -3,9 +3,16 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
 
     <style name="AppDefault" parent="AppTheme">
-        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+       <item name="colorControlNormal">@color/colorDevider</item>
     </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
+    <style name="EditTextAppTheme" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_textshape</item>
+    </style>
+
 
 </resources>

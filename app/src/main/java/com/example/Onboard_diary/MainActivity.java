@@ -2,6 +2,7 @@ package com.example.Onboard_diary;
 
 
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -25,7 +26,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (savedInstanceState != null) super.onSaveInstanceState(savedInstanceState);
         setContentView(R.layout.main);
+
+
 
         mToolBar = (Toolbar) findViewById(R.id.toolbar_actionbar);
         setSupportActionBar(mToolBar);

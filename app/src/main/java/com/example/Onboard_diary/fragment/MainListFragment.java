@@ -74,6 +74,7 @@ public class MainListFragment extends  Fragment  {
 
 
         ActionButton fab = (ActionButton) view.findViewById(R.id.action_button);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

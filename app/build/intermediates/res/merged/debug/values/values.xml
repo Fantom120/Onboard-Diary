@@ -34,9 +34,15 @@
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="colorAccent">#FFC107</color>
     <color name="colorBlack">#191919</color>
-    <color name="colorPrimary">#0097a7</color>
-    <color name="colorPrimaryDark">#00838f</color>
+    <color name="colorDevider">#BDBDBD</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorTextIcons">#FFFFFF</color>
     <color name="colorWhite">#e2e2e2</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -339,14 +345,15 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="date">Дата</string>
     <string name="delete_item">Удалить запись?</string>
-    <string name="description">Описание</string>
+    <string name="description">Все мы разговариваем сами с собой кто то про себя кто то в слух а кто то на бумаге</string>
     <string name="emptyLine"> Заполните пустое поле </string>
     <string name="header">Тема</string>
     <string name="icon">icon</string>
     <string name="isEmpty">Заполните поле</string>
     <string name="note">Запись</string>
+    <string name="play">Play</string>
     <string name="publication">Поделится</string>
-    <string name="send_to">Поделится мыслями</string>
+    <string name="send_to">Поделись мыслями</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="theme">Тема</string>
     <string name="wrongPathSD">Не удалось создать путь к SD</string>
@@ -359,9 +366,9 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppDefault" parent="AppTheme">
-        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+       <item name="colorControlNormal">@color/colorDevider</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
@@ -1336,6 +1343,9 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
     <style name="CardView" parent="Base.CardView">
     </style>
     <style name="CardView.Dark">
@@ -1343,6 +1353,9 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="EditTextAppTheme" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_textshape</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

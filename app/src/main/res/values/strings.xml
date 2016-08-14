@@ -6,17 +6,18 @@
 <string name="Change">Изменить</string>
     <string name="note">Запись</string>
     <string name="theme">Тема</string>
-    <string name="description">Описание</string>
+    <string name="description">Все мы разговариваем сами с собой кто то про себя кто то в слух а кто то на бумаге</string>
     <string name="emptyLine"> Заполните пустое поле </string>
     <string name="delete_item">Удалить запись?</string>
     <string name="Yes"> Да </string>
     <string name="No"> Нет </string>
     <string name="header">Тема</string>
-    <string name="send_to">Поделится мыслями</string>
+    <string name="send_to">Поделись мыслями</string>
     <string name="publication">Поделится</string>
     <string name="wrongPathSD">Не удалось создать путь к SD</string>
     <string name="isEmpty">Заполните поле</string>
     <string name="icon">icon</string>
     <string name="date">Дата</string>
+    <string name="play">Play</string>
 
 </resources>

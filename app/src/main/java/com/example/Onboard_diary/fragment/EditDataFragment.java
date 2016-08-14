@@ -23,6 +23,7 @@ import com.example.Onboard_diary.fragment.record_play_audio.AudioRecordFragment;
 import com.example.Onboard_diary.fragment.record_play_audio.Record;
 import com.google.gson.Gson;
 import com.google.gson.internal.LinkedTreeMap;
+import com.software.shell.fab.ActionButton;
 
 
 import java.io.File;
@@ -49,6 +50,7 @@ public class EditDataFragment extends  Fragment  {
     private int year;
     private boolean newItem;
     private Button btnRec, btnPlay;
+    private ActionButton fab;
 
 
     private static final SimpleDateFormat FORMAT_TITLE = new SimpleDateFormat("dd MMMM yyyy", Locale.getDefault());
@@ -70,10 +72,9 @@ public class EditDataFragment extends  Fragment  {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+ if(view == null) view = inflater.inflate(R.layout.input, container, false);
+ else ((ViewGroup) view.getParent()).removeView(view);
 
-        view = inflater.inflate(R.layout.input, container, false);
-
-        //   ((ViewGroup) view.getParent()).removeView(view);
         if (getActivity() != null) {
             activity = (MainActivity) getActivity();
             db = new Db_Main(getActivity());}
@@ -104,10 +105,42 @@ public class EditDataFragment extends  Fragment  {
                 newItem = true;
         }
         setHasOptionsMenu(true);
-        Log.d("log", "onCreateView in EditDataFragment");
+
+       Log.d("log", "onCreateView in EditDataFragment");
         return view;
 
     }
+
+    View.OnClickListener onEditItem =  new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (!isEmpty(editTheme)) {
+                item.setTheme(editTheme.getText().toString());
+                item.setDescription(editDiscription.getText().toString());
+                item.setDate(calendar.getTimeInMillis());
+                if (newItem) {
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            db.addItem(item);
+                        }
+                    }).run();
+
+                    Log.d("log", item.getDescription());
+                } else {
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            db.updateItem(item);
+                        }
+                    }).run();
+
+                }
+
+                activity.onItemCreated(MainListFragment.getInstance());
+            }
+        }
+    };
 
    private void initUI(){
         btnRec = (Button) view.findViewById(R.id.btnRecord);
@@ -117,9 +150,13 @@ public class EditDataFragment extends  Fragment  {
         btnPlay.setOnClickListener(play);
 
         editTheme = (EditText) view.findViewById(R.id.editTheme);
-
         editDiscription = (EditText) view.findViewById(R.id.editDescription);
-    }
+       editDiscription.requestFocus();
+
+       fab = (ActionButton) view.findViewById(R.id.action_edit);
+       fab.setOnClickListener(onEditItem);
+
+   }
 
     @Override
     public void onResume() {
@@ -138,36 +175,7 @@ public class EditDataFragment extends  Fragment  {
     @Override
     public boolean onOptionsItemSelected(MenuItem menu_item) {
         switch (menu_item.getItemId()) {
-            case R.id.editNote: {
-                if (isEmpty(editTheme) && isEmpty(editDiscription)) break;
-                else {
-                    item.setTheme(editTheme.getText().toString());
-                    item.setDescription(editDiscription.getText().toString());
-                    item.setDate(calendar.getTimeInMillis());
-                    if(newItem) {
-                        new Thread(new Runnable() {
-                            @Override
-                            public void run() {
-                                db.addItem(item);
-                            }
-                        }).run();
 
-                        Log.d("log", item.getDescription());
-                    }
-                    else {
-                        new Thread(new Runnable() {
-                            @Override
-                            public void run() {
-                                db.updateItem(item);
-                            }
-                        }).run();
-
-                    }
-
-                    activity.onItemCreated(MainListFragment.getInstance());
-                }
-                break;
-            }
             case R.id.deleteItem: {
                 if (item != null) {
                     ItemDeleteDialogFragment choise = new ItemDeleteDialogFragment();
@@ -355,4 +363,11 @@ public class EditDataFragment extends  Fragment  {
             editor.apply();
         }
     }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        activity.getmToolBar().setSubtitle("");
+    }
+
 }

@@ -3,26 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <item
-        android:id="@+id/editNote"
-        android:icon="@android:drawable/ic_menu_edit"
-        android:title="@string/action"
-        app:showAsAction="always"/>
-    <item
-        android:id="@+id/deleteItem"
-        android:icon="@android:drawable/ic_menu_delete"
-        android:title="@string/delete_item"
-        app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/share"
         android:title="@string/publication"
-        android:icon="@drawable/ic_add_icon"
+        android:icon="@drawable/ic_share_black_24dp"
         app:showAsAction="always"/>
     <item
     android:id="@+id/setDate"
     android:title="@string/date"
     android:icon="@drawable/fab_plus_icon"
     app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/deleteItem"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/delete_item"
+        app:showAsAction="ifRoom"/>
+
+
 
 
 
