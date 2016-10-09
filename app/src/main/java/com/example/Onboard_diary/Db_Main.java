@@ -80,6 +80,7 @@ public class Db_Main extends SQLiteOpenHelper {
     }
 
     public synchronized void deleteItem(DataItem item) {
+
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_DATA, COLUMN_ID + " = ?", new String[]{String.valueOf(item.get_id())});
         db.close();
